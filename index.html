@@ -31,7 +31,7 @@ function timedate() {
 	var date = Date.today().toString('ddd MMM d, yyyy');
 	var now = new Date();
 	var hh = now.getHours();
-	var xm  = (hh > 12) ? "PM" : "AM";
+	var xm  = (hh >= 12) ? "PM" : "AM";
 	var mm = now.getMinutes();
 	if(hh > 12) { hh -= 12; }
 	if(hh == 0) { hh = 12; }
