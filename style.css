@@ -8,13 +8,12 @@ a.navbar {
 	color: #000;
 	text-decoration: none;
 }
-a.navbar:hover {
+a:hover {
 	color: #bb0000;
 	text-decoration: underline;
 }
-a.external:hover {
-	color: #bb0000;
-	text-decoration: underline;
+a.tooltip2 {
+	text-decoration: none;
 }
 li {  	
 	text-align: left; 
@@ -157,11 +156,11 @@ ul {
 }
 hr { border-style: solid; color: #de7008; margin-top: 10px; }
 .code { font-family: courier, monospace; }
-a { text-decoration: none ; }
-.link a:link { color: #de7008; font-weight: bold; text-decoration: none; border-bottom: 1px dotted;  }
+/*a { text-decoration: none ; }*/
+/*.link a:link { color: #de7008; font-weight: bold; text-decoration: none; border-bottom: 1px dotted;  }
 .link a:visited { color: #de7008; font-weight: bold; text-decoration: none; border-bottom: 1px dotted; }
 .link a:hover { color: #335500; font-weight: bold; text-decoration: none; }
-.link a:active { color: green; font-weight: bold; text-decoration: none; border-bottom: 1px dotted;  }
+.link a:active { color: green; font-weight: bold; text-decoration: none; border-bottom: 1px dotted;  }*/
 
 
 .gradient {
