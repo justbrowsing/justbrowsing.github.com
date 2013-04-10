@@ -65,18 +65,6 @@ body>div#middlewrap {
 	margin-top: -12px;
 	margin-left:0;
 }
-div#middle {
-	width:100%;
-	margin:0 auto;
-}
-div#sidebar {
-	width:180px;
-	float:left;
-}
-div#content {
-	padding:0 10px;
-	margin-left:180px;
-}
 /* no positioning for IE5/Win - the whole page scrolls */
 div#footerwrap {
 	width:100%;
@@ -125,13 +113,6 @@ div#header {
 	background:#de7009;
 	color:#eeeeee;
 }
-div#middle,
-div#sidebar {
-	background:#eeeeef;
-}
-div#content {
-	background:#fffffe;
-}
 div #footer p {
 	margin:0;
 	padding:0;
@@ -156,11 +137,6 @@ ul {
 }
 hr { border-style: solid; color: #de7008; margin-top: 10px; }
 .code { font-family: courier, monospace; }
-/*a { text-decoration: none ; }*/
-/*.link a:link { color: #de7008; font-weight: bold; text-decoration: none; border-bottom: 1px dotted;  }
-.link a:visited { color: #de7008; font-weight: bold; text-decoration: none; border-bottom: 1px dotted; }
-.link a:hover { color: #335500; font-weight: bold; text-decoration: none; }
-.link a:active { color: green; font-weight: bold; text-decoration: none; border-bottom: 1px dotted;  }*/
 
 
 .gradient {
@@ -199,7 +175,7 @@ hr { border-style: solid; color: #de7008; margin-top: 10px; }
 }
 
 /* http://www.webdesignerdepot.com/2012/11/how-to-create-a-simple-css3-tooltip/ */
-.tooltip1, .tooltip2 {
+.tooltip1, .tooltip2, .tooltip3 {
 	display: inline;
 	position: relative;
 }
@@ -210,7 +186,7 @@ hr { border-style: solid; color: #de7008; margin-top: 10px; }
 	border-radius: 5px;
 	bottom: 26px;
 	color: #fff;
-	content: attr(title);
+	content: attr(alt);
 	left: 20%;
 	min-width: 125px;
 	padding: 5px 15px;
@@ -224,7 +200,7 @@ hr { border-style: solid; color: #de7008; margin-top: 10px; }
 	border-radius: 5px;
 	bottom: 26px;
 	color: #fff;
-	content: attr(title);
+	content: attr(alt);
 	right: 20%;
 	padding: 5px 15px;
 	position: absolute;
@@ -342,4 +318,63 @@ hr { border-style: solid; color: #de7008; margin-top: 10px; }
 	float: left;
 	position: relative;
 	overflow: hidden;
+}
+
+/* http://www.electrictoolbox.com/css3-rounded-corner-input/ */
+.addressbar {
+	background: #fff;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	outline: 0;
+	-webkit-appearance: none;
+}
+
+.addressbar:hover {
+	border-color: #5A94DB;
+}
+
+
+
+.qr {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+	background: rgba(0,0,0,0.5);
+	-webkit-animation-duration: 1s;
+	-webkit-animation-name: fade;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+}
+.qr a {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+
+}
+
+.qr img {
+	padding: 10px 10px 10px 10px;
+	background: #ffffff;
+	-webkit-box-shadow: 0px 0px 15px #444;
+	-moz-box-shadow: 0px 0px 15px #444;
+	-webkit-animation-duration: 0.50s;
+	-webkit-animation-name: grow;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-timing-function: ease-in;
+}
+
+.qr:target {
+
+	display: table;
+	height:100%
 }
