@@ -49,6 +49,15 @@ function timedate() {
 </head>
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div id="menubar">
 <a name="home"></a>
 <table width="100%"><tr>
@@ -103,9 +112,11 @@ Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u
 <td><blockquote class="twitter-tweet" data-link-color="#cc0000" data-theme="dark"><p>JustBrowsing LiveCD. <br>Get it here: <a href="http://t.co/qAVkYMwTr8" title="http://justbrowsing.info/#tweet">justbrowsing.info/#tweet</a><br>Web browsing made simple. Mozilla Firefox or Google Chrome and that's it. <a href="https://twitter.com/search/%23linux">#linux</a></p>&mdash; Just Browsing (@JustBrowsingCD) <a href="https://twitter.com/JustBrowsingCD/status/321895114706386945">April 10, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></td>
 
-<td><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://justbrowsing.info/#twitter" data-text="JustBrowsing" data-via="JustBrowsingCD" data-size="large" data-dnt="true">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></td>
-</tr></table>
+<td><h2>Share</h2>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://justbrowsing.info/#twitter" data-text="JustBrowsing" data-via="JustBrowsingCD" data-size="large" data-dnt="true">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div class="fb-like" data-href="http://justbrowsing.info/#fb" data-send="true" data-layout="box_count" data-width="450" data-show-faces="true"></div>
+</td></tr></table>
 
 <div style="padding:50px;">
 <div id="disqus_thread"></div>
@@ -218,6 +229,7 @@ scJsHost+
 <script type="text/javascript">
 timedate();
 </script>
+
 
 <script type="text/javascript">
 var disqus_shortname = 'livecd';
