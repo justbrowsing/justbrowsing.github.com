@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JustBrowsing LiveCD</title>
+<link href="data:image/x-icon;base64,
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAABcSAAAXEgFnn9JSAAAAB3RJTUUH3QITETEGaMJlgAAAA3VJREFUOMtNwUtsVFUcB+Df/5xz
+X/Ni2jL0kU5rwWKsrcWo2EIrUYNKTFQSi49oYjSyUhNdsDBx484FogkLTYzxscAQE1YSkkpAQrCF
+UAOktqZqoa+ZcUo70zt37vOc49bvI/zPpwDauh527t3dP961d2Aiu7NrUKQtW2lZqU7NX1i/ef1U
+OLex+szd6xIAJkd3gfTZF4Bux7h4Yl6UfmyMFfsHj/cdOTDU+mgRZsoBtIIOYzQrNaxMXkPgV0/4
+jaXPx85eXQIA4U/9KZIwfsOe80e3FzomMm2t27zVq9oyVoj1DEHLBDKMIeu+5iJN+QH6IB01npjO
+DB177PStSVp4NuPwFLsibXNPorPwPUtD16jrgaNw8jlQHMCvR6iveXBXtrTodqnvfRu3z8xttD/V
+NsLfHLXMdJZ9Ihuxo1SoYTQRa0l8vYLESMAGR8G664g6F6B6mxQ7VZ3bqZDO81Tu/hQTxc7UxNY/
+bkvoap0ARGmCmU3DGhnGpfwYLu05jOFtJp6zTyO/fAyi1CBD9iDV1wMVbu4XADsSuhqSGGnOQKYB
+555OnGQv4yf7ILaXJM7P1DAZHsS348/D0l8j8hiQCaDK5QdZUFctiWZgtoCnCKU7Hn5IXsG5rSIa
+FR935kPUbtXx8/klTK29CKE0jNY0SDd1WGoyEZSDbKIIpsVRW21CNANUQgs3/t6BdGoDQ7lVLKoC
+kk0XlU0ASQDt1QFbwRA+xPqKf1nZxqBgDF0FIKOBt2vHcbjtDISKUAhrOMVewnfW49jrXEBctaE8
+F3IjgF8OwA+aIOXjNWFznW23yM5wuP96qM6WUa3G+PjmIUz743h3QuLpu+8hpgwSL0aw0qD6pp7l
+bYpKBalfbfq6xckZmrI25XbYWH1oGLOPvIP8QDtymV+xv/QR+nMcEXI6WquhuaGovNz/JX3RzSnx
+9OtmjO87ijZ6d1s6lRfkWBpVFuH3IEEqkXiylaAE16LFROJHpPJWWew7MMLPbWn0WvSXSZSJXDkS
+NyWZHJoLRmnNcB8jFBlHFDJwQQSuSabodphWb+2auDHDAWAm1HFk8CkSYNlQ7ovqCclAwSAF0rGG
+kkRcIuZAeV0s/vYHO3ro5NYvAMALFqEpgeVIBYsKV+YTXOy2yDFIdcSBtFWimEvw1zmfXfDxzVfT
+0YefXcvPAC4A4D+mw6lc0pHKywAAAABJRU5ErkJggg==
+" rel="icon" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" alt="Just Browsing Changelog" href="feed.xml">
+<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="more.css">
+<script src="date.js"></script>
+
+<script type="text/javascript">
+function timedate() {
+	var date = Date.today().toString('ddd MMM d, yyyy');
+	var now = new Date();
+	var hh = now.getHours();
+	var xm  = (hh >= 12) ? "PM" : "AM";
+	var mm = now.getMinutes();
+	if(hh > 12) { hh -= 12; }
+	if(hh == 0) { hh = 12; }
+	if(hh < 10) { hh = "0" + hh; }
+	if(mm < 10) { mm = "0" + mm; }
+	var clock = hh + ":" + mm + " " + xm;
+
+	document.getElementById('date').innerHTML = date;
+	document.getElementById('clock').innerHTML = clock;
+	setTimeout('timedate()',500);
+}
+</script>
+
+</head>
+<body>
+
+<div id="menubar">
+<a name="home"></a>
+<table width="100%"><tr>
+<td width="50%" style="background: #e6e5e4">
+<font style="font-family:Arial;">
+&nbsp;&nbsp;&nbsp;&nbsp;<u>F</u>ile&nbsp;&nbsp;&nbsp;&nbsp;<u>E</u>dit&nbsp;&nbsp;&nbsp;&nbsp;<u>V</u>iew&nbsp;&nbsp;&nbsp;&nbsp;
+Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u>T</u>ools&nbsp;&nbsp;&nbsp;&nbsp;<u>H</u>elp
+</font></td>
+<td width="50%" class="chrome-bar" align="right">
+<img style="align:right" src="chrome-actions.png">
+</td></tr></table>
+</div>
+
+<div id="navtoolbar">
+<table width="100%" style="border-collapse:collapse; background:#f1f1f0;"><tr>
+<td><a href="index.html#home"><img src="nav-home.png"></a></td>
+<td width="99%" style="padding-top:5px;">
+	<table width="99%" class="addressbar"><tr>
+	<td align="left" width="25px">&nbsp;<a href="http://justbrowsing.info/log.html"><img src="globe.png" /></a></td>
+	<td align="left"><font style="font-family:Sans;font-size:small">http://justbrowsing.info/log.html</font></td>
+	<td align="right"><font style="font-family:Sans;font-size:small">Updated: 2013-04-07</a>
+	&nbsp;<a href="#qrcode"><img src="star.png" /></a>&nbsp;</td>
+	</tr></table>
+<td><img src="menu.png"></td>
+<td>&nbsp;&nbsp;</td>
+</td></tr></table>
+
+<table width="100%" style="border-collapse:collapse;border-bottom: #AFACA9 solid 1px">
+<tr style="text-align:center;background: #f1f1f0;font-family:Arial;font-weight:bold">
+<td style="padding-top:10px;"><img src="quickstart.png" style="vertical-align:top" />
+	<a href="index.html#quickstart" class="navbar">Quick Start</a></td>
+<td style="padding-top:10px;"><img src="screenshots.png" style="vertical-align:top" />
+	<a href="index.html#screenshots" class="navbar">Screenshots</a></td>
+<td style="padding-top:10px;"><img src="downloads.png" style="vertical-align:top" />
+	<a href="https://sourceforge.net/projects/justbrowsing/files/" class="navbar">Download</a></td>
+<td style="padding-top:10px;"><img src="code.png" style="vertical-align:top" />
+	<a href="https://github.com/justbrowsing/justbrowsing" class="navbar">Source Code</a></td>
+<td style="padding-top:10px;"><a href="feed.xml" class="navbar"><img src="rss.png" style="vertical-align:top" /></a>
+	<a href="log.html" class="navbar">Changelog</a></td>
+<td style="padding-top:10px;"><img src="about.png" style="vertical-align:top" />
+	<a href="index.html#about" class="navbar">About</a></td>
+<td style="padding-top:10px;"><img src="social.png" style="vertical-align:top" />
+	<a href="social.html" class="navbar">Social</a></td>
+<td style="padding-top:10px;">&nbsp;&nbsp;</td>
+</tr></table>
+</div>
+
+<div id="mainarea">
+
+<div align="center">
+<br><br>
+<a href="feed.xml"><img src="rss128.png" /></a>
+</div>
+
+<div align="left" style="padding:50px;">
+<a name="0.3-4"><b><u>0.3-4</u></b></a><br>
+2013-04-11<br><br>
+
+Changelog:<br>
+* Updated to latest packages<br><br>
+* Added More in Content UI addon<br><br>
+* Removed Offline QR generator addon<br><br>
+* Added vmware drivers<br><br>
+
+Known bugs:<br>
+* Max resolution 1024x768 in QEMU
+* Setting -vga to vmware results in black screen
+<hr>
+
+
+<a name="0.3-3"><b><u>0.3-3</u></b></a><br>
+2013-04-07<br><br>
+
+Changelog:<br>
+* Revised homepage again<br>
+* Added social networking<br>
+<hr>
+
+
+<a name="0.3-2"><b><u>0.3-2</u></b></a><br>
+2013-03-31<br><br>
+
+Changelog:<br>
+* Revamped the github homepage<br>
+* Wrote a SourceForge scraper to more accurately monitor downloads<br>
+* Updated to latest packages<br><br>
+
+Feature To-do:<br>
+* Replace buggy "Offline QR generator" addon with qr-send script<br><br>
+<hr>
+
+
+<a name="0.3-1"><b><u>0.3-1</u></b></a><br>
+2013-03-29<br><br>
+
+Changelog:<br>
+* Added "More In Content UI" Firefox addon<br>
+* Froze linux kernel to 3.7.10 until 3.8+ screen resolution bug fixed upstream<br>
+* Updated to latest packages (wayland pulled in)<br><br>
+
+Feature To-do:<br>
+* Replace buggy "Offline QR generator" addon with qr-send script<br>
+* Personas?<br>
+* Add bookmarks: jolicloud, rollapp, pixlr, draftin ?<br>
+* Test more addons<br>
+* Try to get radiotray working<br><br>
+<hr>
+
+
+<a name="0.3-0"><b><u>0.3-0</u></b></a><br>
+2013-02-21<br><br>
+
+Changelog:<br>
+* First public release<br>
+* Uploaded ISO to SourceForge<br>
+* A lot more added to github repos<br>
+* Updated to latest<br><br>
+<hr>
+
+
+<a name="0.2-7"><b><u>0.2-7</u></b></a><br>
+2013-02-19<br><br>
+
+Changelog:<br>
+* Fixed ethernet bug<br>
+* Released source to github<br><br>
+
+Feature to-do:<br>
+* Release more to github<br>
+* Upload ISO to sourceforge<br><br>
+<hr>
+
+
+<a name="0.2-6"><b><u>0.2-6</u></b></a><br>
+2013-02-17<br><br>
+
+Changelog:<br>
+* Upgrade to kernel 3.7.9<br>
+* Set ui.allow_platform_file_picker to false in Firefox<br>
+* Added bookmark: http://www.google.com/insidesearch/tipstricks/basics.html<br>
+* Added firefox bookmark: chrome://browser/content/places/places.xul<br>
+* Added chrome bookmarks: chrome://history, chrome://bookmarks<br>
+* Fixed lockscreen<br>
+* Fixed Google Drive icon<br><br>
+
+Known bugs:<br>
+* Ethernet doesn't connect by default!<br><br>
+<hr>
+
+
+<a name="0.2-5"><b><u>0.2-5</u></b></a><br>
+2013-02-13<br><br>
+
+Changelog:<br>
+* Created new 24px icons<br>
+* Created new 16px icons<br>
+* Decreased panel from 48px to 24px<br>
+* Revamped wageclock layout<br>
+* Added features to wageclock<br>
+* Fixed buttons in timers<br>
+* Added keybindings to calculator<br>
+* Removed Aardvark from bookmarks toolbar<br>
+* Added [Search] Tips bookmark<br>
+* Added Places bookmark<br>
+* Added /usr/bin/firefox as file handler<br>
+* Added Offline QR generator to Firefox<br><br>
+
+Known bugs:<br>
+* Calculator clear bug with keyboard<br><br>
+
+Feature To-do:<br>
+* Set ui.allow_platform_file_picker to false in Firefox<br>
+* Add bookmark: http://www.google.com/insidesearch/tipstricks/basics.html<br>
+* Add bookmark: chrome://browser/content/places/places.xul<br>
+* Fix drive icon by clicking "learn more"<br>
+* Fix patched lockscreen<br><br>
+<hr>
+
+
+<a name="0.2-4"><b><u>0.2-4</u></b></a><br>
+2013-01-21<br><br>
+
+Changelog:<br>
+* Added vga=791 to fix glitching caused by quiet<br>
+* Re-added VT lockout<br>
+* Fixed calculator error message<br>
+* Renamed "Most Visited" to "Recent"<br>
+* Added playlist.com to bookmarks<br>
+* Added www.playlist.com to Chrome whitelist<br>
+* Implemented autosize backgrounds script<br><br>
+
+Known bugs:<br>
+* x86_64 drivers not working<br>
+* Bootsplash distorted with Nouveau<br><br>
+
+Feature To-do:<br>
+* Create x86_64 /usr/lib/modules squashfs<br>
+* Fix webapp icons<br>
+* Modify wageclock<br><br>
+<hr>
+
+
+<a name="0.2-3"><b><u>0.2-3</u></b></a><br>
+2013-01-20<br><br>
+
+Changelog:<br>
+* Generated x86_64 initrd<br>
+* Appended quiet splash to boot menu<br>
+* Boot splash now working<br>
+* Added 3 second timeout<br>
+* Fixed bootsplash logo<br><br>
+
+Known bugs:<br>
+* x86_64 drivers not working<br>
+* Distorted boot pre-splash<br>
+* Calculator max digits length error incorrect<br><br>
+
+Feature To-do:<br>
+* Create x86_64 /usr/lib/modules squashfs<br>
+* Implement new backgrounds<br>
+* Add playlist.com to bookmarks<br>
+* Fix webapp icons<br>
+* Modify wageclock<br><br>
+<hr>
+
+
+<a name="0.2-2"><b><u>0.2-2</u></b></a><br>
+2013-01-19<br><br>
+
+Changelog:<br>
+* Updated to latest packages<br>
+* Updated live tools to ARCH_201301<br>
+* Added x86_64 kernel<br>
+* Disabled VT lockout temporarily<br>
+* Added bootsplash<br>
+* Added dx to bookmarks<br>
+* Fixed duckduckgo icon in Firefox<br>
+* Added www.youtube.com to Chrome flash whitelist<br>
+* Enabled flashblock in Firefox via Toolbar Buttons extension<br>
+* Removed quickjava extension<br>
+* Created wallpapers and lockscreen for alternate resolutions<br>
+* Added package list to livecd<br><br>
+
+Known bugs:<br>
+* Boot menu overlaps logo<br>
+* x86_64 kernel does not boot properly<br><br>
+
+Feature To-do:<br>
+* Custom lock dialog<br>
+* Implement new backgrounds<br>
+* Debug kernel panics<br>
+* Fix webapp icons<br>
+* Modify wageclock<br><br>
+<hr>
+
+
+<a name="0.2-1"><b><u>0.2-1</u></b></a><br>
+2013-01-18<br><br>
+
+Changelog:<br>
+* Fixed wifi key dialog (installed: network-manager-applet-gtk2, gnome-keyring, gcr, libcap-ng)<br>
+* Fixed touchpad configuration (/etc/X11/xorg.d/10-synaptics.conf)<br>
+* Added gmail video chat plugin<br>
+* Increased panel from 32px icons to 48px<br>
+* Added i3 "secret" hotkeys<br>
+* Fixed i3lock hotkey<br>
+* Fixed calculator daisy-chain operations<br>
+* Fixed calculator long numbers<br>
+* Expanded calculator from 9 to 11 digit display<br>
+* Added calculator buttons: plus/minus, square root, exponent, pi constant, e constant<br>
+* Added finer grain timer intervals<br>
+* Fixed eggtimer logic<br>
+* Created stopwatch and egg background images for timers<br>
+* Fixed character 1 width in DS-Digital font with fontforge<br><br>
+
+Known bugs:<br>
+* Kernel panic on plug in usb wifi card<br>
+* File-handlers default to Firefox<br>
+* Wallpaper stretched horizontally<br>
+* Lockscreen cut-off vertically<br>
+* Filesystem not hidden from user/browser (need to try sandfox again)<br>
+* Livecd: Boot messages are displayed<br>
+* Livecd: Splash screen not working<br>
+* Livecd: Slow bootup as filesystem uncompressed<br>
+* Livecd: Syslinux bootscreen is ugly<br><br>
+
+Feature To-do:<br>
+* Custom lock dialog<br>
+* Alter wallpaper dimensions<br>
+* Debug kernel panics<br>
+* Fix webapp icons<br>
+* Modify wageclock<br>
+* Add www.youtube.com to chrome whitelist<br>
+* Fix firefox/chrome bookmark icons<br>
+* Add dealextreme to shopping bookmarks<br><br>
+<hr>
+
+
+<a name="0.2-0"><b><u>0.2-0</u></b></a><br>
+2013-01-15<br><br>
+
+Changelog:<br>
+* Updated to latest. Firefox 18/Chrome 24<br>
+* Added webapps: notes, calculator, timer, email, wageclock<br>
+* Added bookmarks to Chrome<br>
+* Modded lockscreen: height, mouse and other<br>
+* Added wbar to lockscreen<br>
+* Cleanup<br><br>
+
+Known bugs:<br>
+* Inherits existing bugs<br>
+* Kernel panic on plug in usb wifi card<br>
+* Calculator needs substring(0,9) for small numbers<br>
+* Calulator needs equals() between operations<br>
+* Eggtimer bugs<br>
+* File-handlers default to Firefox<br><br>
+
+Feature To-do:<br>
+* Gmail video chat plugin: google-talkplugin<br>
+* Touchpad changes: xf86-input-synaptics libsynaptics /etc/X11/xorg.conf.d/10-synaptics.conf<br>
+* "Skin" timer "app"<br>
+* Custom lock dialog<br>
+* Alter wallpaper dimensions<br>
+* Debug wireless issues<br>
+* Enable i3 WM mode toggle<br>
+* Fix webapp icons<br><br>
+<hr>
+
+
+<a name="0.1-7"><b><u>0.1-7</u></b></a><br>
+2013-01-03<br><br>
+
+Changelog:<br>
+* First actually working livecd<br>
+* Fixed chainload issue by deleting fstab<br>
+* Fixed firefox close button via Toolbar Buttons extension<br>
+* Removed ctrl+f = fullscreen keybinding in i3 config<br>
+* Fixed keyboard volume bindings with pulseaudio_ctl<br><br>
+
+Known bugs:<br>
+* Wallpaper stretched horizontally<br>
+* Lockscreen cut-off vertically<br>
+* Touchpad clickpad enabled<br>
+* Touchpad two-finger scrolling enabled (prefer scroll on right)<br>
+* Possible Chrome browser forkbomb issue<br>
+* Clicking wireless network won't connect (because the WPA key dialog doesn't popup)<br>
+* Filesystem not hidden from user/browser (need to try sandfox again)<br>
+* Boot messages are displayed in livecd<br>
+* Splash screen not working in livecd<br>
+* Slow bootup as filesystem uncompressed<br>
+* Syslinux bootscreen is ugly<br><br>
+
+Tested with:<br>
+* ATI Radeon Express 200 (radeon driver)<br>
+* Intel 945GMS (intel driver)<br>
+* Nvidia Geforce 7600 Go (nouveau driver)<br>
+* I-ODD livecd (55 seconds from isolinux->firefox)<br>
+* CD-R livecd (2 minutes 15 seconds from isolinux->firefox)<br><br>
+
+Untested:<br>
+* USB boot<br>
+* webcam<br>
+* microphone<br><br>
+<hr>
+
+
+<a name="0.1-6"><b><u>0.1-6</u></b></a><br>
+2013-01-02<br><br>
+
+Changelog:<br>
+* First conversion from dev install to livecd<br>
+* Configuration of Firefox modified<br>
+* Configuration of Chrome modified<br>
+* Configuration of i3 tweaked<br><br>
+
+Known bugs:<br>
+* "Working" 0.1-6 is just chainloading to hdd<br>
+* Upper-right close button doesn't close firefox, just the tab<br>
+* CTRL+F = fullscreen instead of find<br>
+* Keyboard vol+/- don't work<br>
+* Fallback initramfs doesn't work<br>
+* Possible Chrome browser forkbomb issue<br>
+* Clicking wireless network won't connect because the WPA key dialog doesn't popup.<br>
+* Filesystem not hidden from user/browser (need to try sandfox again)<br>
+* Boot messages aren't hidden<br>
+* Splash screen not working<br>
+* Slow bootup as filesystem uncompressed<br>
+* Syslinux bootscreen is ugly<br><br>
+<hr>
+
+
+<a name="0.1-5"><b><u>0.1-5</u></b></a><br>
+2013-01-01<br><br>
+
+Changelog:<br>
+* Added i3 lockscreen<br>
+* Browser profiles stored in RAM<br>
+* Disabled VTs<br>
+* Disabled SSH<br>
+* Disabled panel preferences<br><br>
+
+Feature To-do:<br>
+* Sandbox browsers (sandfox not working)<br>
+* Shutdown in lockscreen (physical power button sends graceful shutdown though)<br><br>
+<hr>
+
+
+<a name="0.1-4"><b><u>0.1-4</u></b></a><br>
+2012-12-31<br><br>
+
+Changelog:<br>
+* Added i3 WM<br>
+* Added Mozilla Firefox<br>
+* Added Google Chrome<br>
+* Added adeskbar<br><br>
+
+Feature To-do:<br>
+* Add lockscreen<br><br>
+<hr>
+
+
+<a name="0.1-0"><b><u>0.1-0</u></b></a><br>
+2012-12-30<br><br>
+
+Changelog:<br>
+* Tested various light-weight WMs<br>
+* Tested various browser addons<br>
+* Tested various panel docks<br>
+* Tested various lockscreens
+<br><br><br><br>
+</div>
+
+
+<div align="center">
+<br><br><br>
+<script type="text/javascript">
+var sc_project=8731705;
+var sc_invisible=0;
+var sc_security="238c831f";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter">
+<a alt="web analytics" href="http://statcounter.com/" target="_blank">
+<img class="statcounter" src="http://c.statcounter.com/8731705/0/238c831f/0/" alt="web analytics"></a></div>
+</noscript>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-40026407-1', 'justbrowsing.info');
+  ga('send', 'pageview');
+</script>
+
+</div>
+<br><br><br><br>
+
+<!-- http://www.wickham43.net/headerfooterfix.php -->
+<div id="footerwrap">
+<div id="footer" class="gradient">
+<table width="100%"><tr>
+
+<td class="adeskbar" align="left" style="width:20%">
+<a href="https://github.com/justbrowsing/justbrowsing-chrome-profile" alt="Google Chrome web-browser" class="tooltip1">
+<img src="chrome24.png" /></a>
+<a href="https://github.com/justbrowsing/justbrowsing-firefox-profile" alt="Mozilla Firefox web-browser" class="tooltip1">
+<img src="firefox24.png" /></a>
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/justbrowsing/justbrowsing-adeskbar" alt="adeskbar panel" class="tooltip1">
+<img src="adeskbar.png" /></a>
+<a href="https://github.com/justbrowsing/justbrowsing-config-files" alt="i3 Window Manager" class="tooltip1">
+<img src="i3.png" /></a>
+</td>
+
+<td class="adeskbar" align="center" style="width:35%">
+<a href="http://justbrowsing.github.com/justbrowsing-notes/" alt="Notes web-app" class="tooltip1">
+<img src="notes24.png" /></a>&nbsp;
+<a href="http://justbrowsing.github.com/justbrowsing-calculator/" alt="Calculator web-app" class="tooltip1">
+<img src="calc24.png" /></a>&nbsp;
+<a href="http://justbrowsing.github.com/justbrowsing-timers/" alt="Timers web-app" class="tooltip1">
+<img src="timer24.png" /></a>&nbsp;
+<a href="https://github.com/justbrowsing/justbrowsing-email" alt="Email web-app" class="tooltip1">
+<img src="email24.png" /></a>&nbsp;
+<a href="http://justbrowsing.github.com/justbrowsing-wageclock/" alt="Wageclock web-app" class="tooltip1">
+<img src="wageclock24.png" /></a>&nbsp;
+<a href="http://justbrowsing.github.com/justbrowsing-qrclipboard/" alt="QR clipboard" class="tooltip1">
+<img src="qr24.png" /></a>&nbsp;
+</td>
+
+<td class="adeskbar" align="right" style="width:45%">
+<a href="https://aur.archlinux.org/packages/pnmixer/" alt="pnmixer volume applet" class="tooltip2">
+<img src="pnmixer24.png" /></a>&nbsp;
+<a href="https://aur.archlinux.org/packages/network-manager-applet-gtk2/" alt="networkmanager networking applet" class="tooltip2">
+<img src="nmapplet24.png" /></a>&nbsp;
+&nbsp;&nbsp;
+<a href="index.html#history" alt="Date" class="tooltip2">
+<font id="date">Sun Apr 7, 2013</font></a>
+
+<a href="" alt="Time" class="tooltip2">
+<font id="clock" class="panel">09:31 PM</font></a>
+&nbsp;&nbsp;
+
+<a href="#lockscreen" alt="Lock screen" class="tooltip2">
+<img src="lock24.png" /></a>&nbsp;
+<a href="index.html" alt="Reboot" class="tooltip2">
+<img src="reboot24.png" /></a>&nbsp;
+<a href="index.html#home" alt="Shutdown" class="tooltip2">
+<img src="shutdown24.png" /></a>&nbsp;
+</td>
+
+</tr></table>
+</div>
+</div>
+
+<div class="qr" id="qrcode"><a href=""><img src="qr64.png" /></a></div>
+
+<div class="lb" id="lockscreen"><a href="">
+<div id="wbar" align="left" class="wbar"><img src="wbar-animate.gif"></div>
+<div id="i3lock"><img src="lockscreen.png" /></div>
+</a></div>
+
+<div class="lb" id="history"><ul>
+<li><a href="index.html"><h1>Site Version 3.0</h1> 2013-04-07</a></li>
+<li><a href="rev2.html"><h1>Site Version 2.0</h1> 2013-03-31</a></li>
+<li><a href="rev1.html"><h1>Site Version 1.0</h1> 2013-02-19</a></li>
+</ul></div>
+
+<script type="text/javascript">
+timedate();
+</script>
+</body></html>
