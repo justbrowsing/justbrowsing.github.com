@@ -378,3 +378,17 @@ hr { border-style: solid; color: #de7008; margin-top: 10px; }
 	display: table;
 	height:100%
 }
+
+#news {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background: #5595A7;
+	color: #ffffff;
+	width: 275px;
+	padding: 15px;
+} 
+
+#news a {
+	color: #ffffff;
+}

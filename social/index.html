@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>JustBrowsing LiveCD</title>
+<title>JustBrowsing LiveCD/LiveUSB</title>
 <link href="data:image/x-icon;base64,
 iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
 WXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QQcBy8cjmmZEQAAA4BJREFUOMul0ltsU3UAx/Hf6Tld
@@ -25,27 +25,6 @@ TkiSNMNx3IjL5boCAKlUCh6PB//bv84tmyWEXFadAAAAAElFTkSuQmCC
 <link rel="alternate" type="application/rss+xml" alt="Just Browsing Changelog" href="../feed.xml">
 <link rel="stylesheet" type="text/css" media="screen" href="../style.css">
 <link rel="stylesheet" type="text/css" media="screen" href="../more.css">
-<script src="../date.js"></script>
-
-<script type="text/javascript">
-function timedate() {
-	var date = Date.today().toString('ddd MMM d, yyyy');
-	var now = new Date();
-	var hh = now.getHours();
-	var xm  = (hh >= 12) ? "PM" : "AM";
-	var mm = now.getMinutes();
-	if(hh > 12) { hh -= 12; }
-	if(hh == 0) { hh = 12; }
-	if(hh < 10) { hh = "0" + hh; }
-	if(mm < 10) { mm = "0" + mm; }
-	var clock = hh + ":" + mm + " " + xm;
-
-	document.getElementById('date').innerHTML = date;
-	document.getElementById('clock').innerHTML = clock;
-	setTimeout('timedate()',500);
-}
-</script>
-
 </head>
 <body>
 
@@ -78,7 +57,7 @@ Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u
 	<table width="99%" class="addressbar"><tr>
 	<td align="left" width="25px">&nbsp;<a href="http://justbrowsing.info/social.html"><img src="../globe.png" /></a></td>
 	<td align="left"><font style="font-family:Sans;font-size:small">http://justbrowsing.info/social</font></td>
-	<td align="right"><font style="font-family:Sans;font-size:small">New release: 2013-04-29</a>
+	<td align="right"><font style="font-family:Sans;font-size:small">New release: 2013-06-11</a>
 	&nbsp;<a href="#qrcode"><img src="../star.png" /></a>&nbsp;</td>
 	</tr></table>
 <td><img src="../menu.png"></td>
@@ -87,8 +66,6 @@ Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u
 
 <table width="100%" style="border-collapse:collapse;border-bottom: #AFACA9 solid 1px">
 <tr style="text-align:center;background: #f1f1f0;font-family:Arial;font-weight:bold">
-<td style="padding-top:10px;"><img src="../about.png" style="vertical-align:top" />
-	<a href="../#about" class="navbar">About</a></td>
 <td style="padding-top:10px;"><img src="../quickstart.png" style="vertical-align:top" />
 	<a href="../#quickstart" class="navbar">Quick Start</a></td>
 <td style="padding-top:10px;"><img src="../screenshots.png" style="vertical-align:top" />
@@ -96,36 +73,50 @@ Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u
 <td style="padding-top:10px;"><img src="../downloads.png" style="vertical-align:top" />
 	<a href="https://sourceforge.net/projects/justbrowsing/files/" class="navbar">Download</a></td>
 <td style="padding-top:10px;"><img src="../code.png" style="vertical-align:top" />
-	<a href="https://github.com/justbrowsing/justbrowsing" class="navbar">Source Code</a></td>
+	<a href="https://github.com/justbrowsing/justbrowsing" class="navbar">Source</a></td>
+<td style="padding-top:10px;"><img src="../bugs.png" style="vertical-align:top" />
+	<a href="https://github.com/justbrowsing/justbrowsing/issues" class="navbar">Issues</a></td>
 <td style="padding-top:10px;"><a href="../feed.xml" class="navbar"><img src="../rss.png" style="vertical-align:top" /></a>
 	<a href="../log/" class="navbar">Changelog</a></td>
 <td style="padding-top:10px;"><img src="../blog.png" style="vertical-align:top" />
 	<a href="http://justbrowsingcd.tumblr.com" class="navbar">Blog</a></td>
 <td style="padding-top:10px;"><img src="../social.png" style="vertical-align:top" />
 	<a href="../social/" class="navbar">Social</a></td>
+<td style="padding-top:10px;"><img src="../about.png" style="vertical-align:top" />
+	<a href="../#about" class="navbar">About</a></td>
 <td style="padding-top:10px;">&nbsp;&nbsp;</td>
 </tr></table>
 </div>
 
-<div id="mainarea" align="center">
-<br><br><br>
+<div id="mainarea" align="center"><br>
+<font style="font-size:xx-large">Social Networking</font><br>
 
 <table style="width:100%; padding:50px;"><tr>
-<td><blockquote class="twitter-tweet" data-link-color="#cc0000" data-theme="dark"><p>JustBrowsing LiveCD. <br>Get it here: <a href="http://t.co/qAVkYMwTr8" title="http://justbrowsing.info/#tweet">justbrowsing.info/#tweet</a><br>Web browsing made simple. Mozilla Firefox or Google Chrome and that's it. <a href="https://twitter.com/search/%23linux">#linux</a></p>&mdash; Just Browsing (@JustBrowsingCD) <a href="https://twitter.com/JustBrowsingCD/status/321895114706386945">April 10, 2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></td>
+<td><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/JustBrowsingCD"  data-widget-id="321868536232415232">Tweets by @JustBrowsingCD</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td>
 
-<td><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://justbrowsing.info/#twitter" data-text="JustBrowsing" data-via="JustBrowsingCD" data-size="large" data-dnt="true">Tweet</a>
+<td>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://justbrowsing.info/#twitter" data-text="JustBrowsing" data-via="JustBrowsingCD" data-size="large" data-dnt="true">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<br><br>
-<div class="fb-like" data-href="http://justbrowsing.info/#fb" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
-<br><br>
-<div class="g-plusone" data-size="bubble"></div>
+<br>
+<div class="fb-like" data-href="https://www.facebook.com/pages/Just-Browsing/360966850676500" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial"></div>
+<br>
+<iframe src="http://ghbtns.com/github-btn.html?user=justbrowsing&type=follow&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe>
+<br>
+<a data-pin-do="buttonFollow" href="http://pinterest.com/justbrowsingcd/pins/">JustBrowsingCD</a>
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+<br>
+<iframe class="btn" border="0" allowtransparency="true" src="http://platform.tumblr.com/v1/follow_button.html?button_type=1&tumblelog=justbrowsingcd&color_scheme=dark" frameborder="0" height="25" scrolling="no" width="184"></iframe>
+<br>
+<a href="//www.youtube.com/subscription_center?add_user_id=6OaJATX79gEzwjmBRkCoDw&feature=creators_cornier-//s.ytimg.com/yt/img/creators_corner/Subscribe_to_my_videos/YT_Subscribe_123x19_red.png"><img src="//s.ytimg.com/yt/img/creators_corner/Subscribe_to_my_videos/YT_Subscribe_123x19_red.png" alt="Subscribe to me on YouTube"/></a><img src="//www.youtube-nocookie.com/gen_204?feature=creators_cornier-//s.ytimg.com/yt/img/creators_corner/Subscribe_to_my_videos/YT_Subscribe_123x19_red.png" style="display: none"/>
+<br>
+<div class="g-plus" data-href="//plus.google.com/116839020975727867575" data-rel="publisher"></div>
 <script type="text/javascript">
-(function() {
-  var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-  po.src = 'https://apis.google.com/js/plusone.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-})();
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
 </script>
 </td></tr></table>
 
@@ -246,6 +237,25 @@ scJsHost+
 <li><a href="rev1.html"><h1>Site Version 1.0</h1> 2013-02-19</a></li>
 </ul></div>
 
+<script src="../date.js"></script>
+<script type="text/javascript">
+function timedate() {
+	var date = Date.today().toString('ddd MMM d, yyyy');
+	var now = new Date();
+	var hh = now.getHours();
+	var xm  = (hh >= 12) ? "PM" : "AM";
+	var mm = now.getMinutes();
+	if(hh > 12) { hh -= 12; }
+	if(hh == 0) { hh = 12; }
+	if(hh < 10) { hh = "0" + hh; }
+	if(mm < 10) { mm = "0" + mm; }
+	var clock = hh + ":" + mm + " " + xm;
+
+	document.getElementById('date').innerHTML = date;
+	document.getElementById('clock').innerHTML = clock;
+	setTimeout('timedate()',500);
+}
+</script>
 <script type="text/javascript">
 timedate();
 </script>

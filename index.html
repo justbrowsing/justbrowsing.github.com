@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>JustBrowsing LiveCD</title>
+<title>JustBrowsing LiveCD/LiveUSB</title>
 <link href="data:image/x-icon;base64,
 iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
 WXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QQcBy8cjmmZEQAAA4BJREFUOMul0ltsU3UAx/Hf6Tld
@@ -25,27 +25,6 @@ TkiSNMNx3IjL5boCAKlUCh6PB//bv84tmyWEXFadAAAAAElFTkSuQmCC
 <link rel="alternate" type="application/rss+xml" alt="Just Browsing Changelog" href="feed.xml">
 <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 <link rel="stylesheet" type="text/css" media="screen" href="more.css">
-<script src="date.js"></script>
-
-<script type="text/javascript">
-function timedate() {
-	var date = Date.today().toString('ddd MMM d, yyyy');
-	var now = new Date();
-	var hh = now.getHours();
-	var xm  = (hh >= 12) ? "PM" : "AM";
-	var mm = now.getMinutes();
-	if(hh > 12) { hh -= 12; }
-	if(hh == 0) { hh = 12; }
-	if(hh < 10) { hh = "0" + hh; }
-	if(mm < 10) { mm = "0" + mm; }
-	var clock = hh + ":" + mm + " " + xm;
-
-	document.getElementById('date').innerHTML = date;
-	document.getElementById('clock').innerHTML = clock;
-	setTimeout('timedate()',500);
-}
-</script>
-
 </head>
 <body>
 
@@ -69,7 +48,7 @@ Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u
 	<table width="99%" class="addressbar"><tr>
 	<td align="left" width="25px">&nbsp;<a href="http://justbrowsing.info"><img src="globe.png" /></a></td>
 	<td align="left"><font style="font-family:Sans;font-size:small">http://justbrowsing.info</font></td>
-	<td align="right"><font style="font-family:Sans;font-size:small">New release: 2013-04-29</a>
+	<td align="right"><font style="font-family:Sans;font-size:small">New release: 2013-06-11</a>
 	&nbsp;<a href="#qrcode"><img src="star.png" /></a>&nbsp;</td>
 	</tr></table>
 <td><img src="menu.png"></td>
@@ -77,9 +56,7 @@ Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u
 </td></tr></table>
 
 <table width="100%" style="border-collapse:collapse;border-bottom: #AFACA9 solid 1px">
-<tr style="text-align:center;background: #f1f1f0;font-family:Arial;font-weight:bold">
-<td style="padding-top:10px;"><img src="about.png" style="vertical-align:top" />
-	<a href="#about" class="navbar">About</a></td>
+<tr style="text-align:center; background:#f1f1f0; font-family:Arial; font-weight:bold">
 <td style="padding-top:10px;"><img src="quickstart.png" style="vertical-align:top" />
 	<a href="#quickstart" class="navbar">Quick Start</a></td>
 <td style="padding-top:10px;"><img src="screenshots.png" style="vertical-align:top" />
@@ -87,13 +64,17 @@ Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u
 <td style="padding-top:10px;"><img src="downloads.png" style="vertical-align:top" />
 	<a href="https://sourceforge.net/projects/justbrowsing/files/" class="navbar">Download</a></td>
 <td style="padding-top:10px;"><img src="code.png" style="vertical-align:top" />
-	<a href="https://github.com/justbrowsing/justbrowsing" class="navbar">Source Code</a></td>
+	<a href="https://github.com/justbrowsing/justbrowsing" class="navbar">Source</a></td>
+<td style="padding-top:10px;"><img src="bugs.png" style="vertical-align:top" />
+	<a href="https://github.com/justbrowsing/justbrowsing/issues" class="navbar">Issues</a></td>
 <td style="padding-top:10px;"><a href="feed.xml" class="navbar"><img src="rss.png" style="vertical-align:top" /></a>
 	<a href="log/" class="navbar">Changelog</a></td>
 <td style="padding-top:10px;"><img src="blog.png" style="vertical-align:top" />
 	<a href="http://justbrowsingcd.tumblr.com" class="navbar">Blog</a></td>
 <td style="padding-top:10px;"><img src="social.png" style="vertical-align:top" />
 	<a href="social/" class="navbar">Social</a></td>
+<td style="padding-top:10px;"><img src="about.png" style="vertical-align:top" />
+	<a href="#about" class="navbar">About</a></td>
 <td style="padding-top:10px;">&nbsp;&nbsp;</td>
 </tr></table>
 </div>
@@ -103,7 +84,12 @@ Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u
 <h1>Welcome.</h1>
 <img src="justbrowsing-text.png" alt="(chrome logo) just browsing (firefox logo)"/><br>
 <h1>It's that simple.</h1>
-<br><br><br><br><br><br>
+<br><br><br>
+<div id="news">Announcing the 
+<a href="https://sourceforge.net/projects/justbrowsing/files/DevEdition/">DevEdition</a><br>
+(for debugging purposes only)
+</div>
+<br><br><br>
 
 <div align="center">
 <a name="quickstart"></a>
@@ -111,7 +97,11 @@ Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u
 <div align="center" style="width:70%;line-height:30px;">
 Just Browsing is a "live CD" that does not make any changes to the existing operating system on the computer. Enjoying a simple computing experience with only a web browser (your choice of Mozilla Firefox or Google Chrome) is just a few steps away.
 </div>
-<br><br><br>
+<br>
+<div id="news">Did you know?<br>
+This ISO can also be cloned to a USB thumbdrive
+</div>
+<br><br>
 <table><tr>
 	<td><b>1.) Download ISO image</b> (note: rather large, may take awhile to download)<b>:</b></td>
 </tr></table><br>
@@ -342,6 +332,25 @@ scJsHost+
 <li><a href="rev1.html"><h1>Site Version 1.0</h1> 2013-02-19</a></li>
 </ul></div>
 
+<script src="date.js"></script>
+<script type="text/javascript">
+function timedate() {
+	var date = Date.today().toString('ddd MMM d, yyyy');
+	var now = new Date();
+	var hh = now.getHours();
+	var xm  = (hh >= 12) ? "PM" : "AM";
+	var mm = now.getMinutes();
+	if(hh > 12) { hh -= 12; }
+	if(hh == 0) { hh = 12; }
+	if(hh < 10) { hh = "0" + hh; }
+	if(mm < 10) { mm = "0" + mm; }
+	var clock = hh + ":" + mm + " " + xm;
+
+	document.getElementById('date').innerHTML = date;
+	document.getElementById('clock').innerHTML = clock;
+	setTimeout('timedate()',500);
+}
+</script>
 <script type="text/javascript">
 timedate();
 </script>

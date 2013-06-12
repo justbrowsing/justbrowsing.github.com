@@ -5,8 +5,40 @@
 <title>Just Browsing Changelog</title>
 <link>http://justbrowsing.info</link>
 <description>Changelog for the JustBrowsing LiveCD project</description>
-<lastBuildDate>Mon, 29 Apr 2013 23:05:40 GMT</lastBuildDate>
+<lastBuildDate>Wed, 11 Jun 2013 22:00:00 GMT</lastBuildDate>
 <language>en-us</language>
+<item>
+<title>2013-06-11 (0.3-6)</title>
+<link>http://justbrowsing.info/log#03-6</link>
+<guid>http://justbrowsing.info/log#03-6</guid>
+<pubDate>Wed, 11 Jun 2013 22:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* New: kernel parameter hooks: default=chrome, vga=vmware, vmware=1366x768&lt;br&gt;
+* New: experimental xf86-video-qxl SPICE support&lt;br&gt;
+* New: loopback.cfg config file&lt;br&gt;
+* Rewrite: syslinux boot menu options&lt;br&gt;
+* Rewrite: browser toggle logic&lt;br&gt;
+* Rewrite: i3lock-sentry&lt;br&gt;
+* Fixed: UVC vertical flip for webcams installed upside-down&lt;br&gt;
+* Fixed: DuckDuckGo as default search engine in Firefox&lt;br&gt;
+* Fixed: lockscreen bruteforce logs failed attempts&lt;br&gt;
+* Fixed: use -vga vmware for resolutions above 1024x768 in QEMU&lt;br&gt;
+* Fixed: upstream fixed -vga=vmware black screen bug&lt;br&gt;
+* Packaged: updated i3lock-spy&lt;br&gt;&lt;br&gt;
+Status:&lt;br&gt;
+* Manual intervention for ArchLinux /bin, /sbin, /usr/sbin merge to /usr/bin&lt;br&gt;
+* Updated browsers to Firefox 21.0 and Google Chrome 29.0.1521.3 dev&lt;br&gt;
+* Updated to Linux kernel 3.9.5&lt;br&gt;
+* IgnorePkg = python-xlib google-chrome-dev profile-sync-daemon&lt;br&gt;&lt;br&gt;
+Dev Edition:&lt;br&gt;
+* First public release&lt;br&gt;
+* Added: xterm, openssh&lt;br&gt;
+* Enabled: VTs, ssh server&lt;br&gt;&lt;br&gt;
+Known bugs:&lt;br&gt;
+* Blinking cursors in QEMU and Virtualbox with std driver&lt;br&gt;
+* Segmentation fault in QEMU with SPICE qxl driver
+</description>
+</item>
 <item>
 <title>2013-04-29 (0.3-5)</title>
 <link>http://justbrowsing.info/log#03-5</link>
@@ -30,7 +62,6 @@ Known bugs:&lt;br&gt;
 * Setting -vga to vmware results in black screen&lt;br&gt;
 </description>
 </item>
-
 <item>
 <title>2013-04-11 (0.3-4)</title>
 <link>http://justbrowsing.info/log#03-4</link>
@@ -47,7 +78,6 @@ Known bugs:&lt;br&gt;
 * Setting -vga to vmware results in black screen&lt;br&gt;
 </description>
 </item>
-
 <item>
 <title>2013-04-07 (0.3-3)</title>
 <link>http://justbrowsing.info/log#03-3</link>
@@ -58,7 +88,6 @@ Known bugs:&lt;br&gt;
 * Added social networking&lt;br&gt;
 </description>
 </item>
-
 <item>
 <title>2013-03-31 (0.3-2)</title>
 <link>http://justbrowsing.info/log#03-2</link>
@@ -131,7 +160,6 @@ Feature to-do:&lt;br&gt;
 Known bugs:&lt;br&gt;
 * Ethernet doesn't connect by default!</description>
 </item>
-
 <item>
 <title>2013-02-13 (0.2-5)</title>
 <link>http://justbrowsing.info/log#02-5</link>
