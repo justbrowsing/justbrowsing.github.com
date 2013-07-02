@@ -416,23 +416,6 @@ a.buttontext:hover {
   text-decoration: underline;
 }
 
-.choose {
-  width: 192px;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  text-align: center;
-  color: #000;
-}
-
-td.choose:hover {
-  background: #CCC;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  opacity: 0.7;
-}
-
 #date {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -761,6 +744,23 @@ div.START {
 
 a.choice, a.choice:hover {
   text-decoration: none;
+}
+
+.choose {
+  width: 192px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+  color: #000;
+}
+
+td.choose:hover {
+  background: #CCC;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  opacity: 0.7;
 }
 
 #STARTcd {
