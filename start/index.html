@@ -33,6 +33,7 @@ TkiSNMNx3IjL5boCAKlUCh6PB//bv84tmyWEXFadAAAAAElFTkSuQmCC
   </style>
 <![endif]-->
 
+
 <meta name="google-translate-customization" content="481c92effddb4830-698984b4311b9c69-g1f387e881da85961-11" />
 <meta name="google-site-verification" content="TBwgbqHrSet7rP89LR7HMhrKKbEMenIu9lDdYV_F160" />
 <meta name="wot-verification" content="257c57118fb324031aef"/>         
@@ -46,7 +47,7 @@ TkiSNMNx3IjL5boCAKlUCh6PB//bv84tmyWEXFadAAAAAElFTkSuQmCC
 <table class="titlebar" width="100%"><tr>
 
 <td align="left">
-<table class="titlebar"><tr><td><img src="/bar/cd.png" alt="CD-R" title="CD-R" /></td><td><img src="/bar/usb.png" alt="USB" title="USB" /></td><td><img src="/bar/grub.png" alt="GRUB2" title="GRUB2" /></td><td><img src="/bar/iodd.png" alt="I-ODD" title="I-ODD" /><img src="/bar/vm.png" alt="Virtual Machine" title="Virtual Machine" /></td>
+<table class="titlebar"><tr><td><img src="/bar/cd.png" alt="cd-R" title="cd-R" /></td><td><img src="/bar/usb.png" alt="USB" title="USB" /></td><td><img src="/bar/grub.png" alt="GRUB2" title="GRUB2" /></td><td><img src="/bar/iodd.png" alt="I-ODD" title="I-ODD" /><img src="/bar/vm.png" alt="Virtual Machine" title="Virtual Machine" /></td>
 </tr></table></td>
 
 <td align="center">
@@ -54,7 +55,7 @@ TkiSNMNx3IjL5boCAKlUCh6PB//bv84tmyWEXFadAAAAAElFTkSuQmCC
 </tr></table></td>
 
 <td align="right">
-<a href="http://justbrowsingcd.tumblr.com"><img class="social" src="/tabs/tumblr.png" /></a><a href="https://github.com/justbrowsing"><img class="social" src="/tabs/github.png" /></a><a href="https://twitter.com/justbrowsingcd"><img class="social" src="/tabs/twitter.png" /></a><a href="https://plus.google.com/b/116839020975727867575/116839020975727867575/"><img class="social" src="/tabs/gplus.png" /></a><a href="https://www.facebook.com/justbrowsingcd"><img class="social" src="/tabs/facebook.png" /></a><a href="http://pinterest.com/justbrowsingcd/pins/"><img class="social" src="/tabs/pinterest.png" /></a><a href="http://www.stumbleupon.com/stumbler/JustBrowsingCD"><img class="social" src="/tabs/stumbleupon.png" /></a>&nbsp;</td>
+<a href="http://justbrowsingcd.tumblr.com"><img class="social" src="/tabs/tumblr.png" /></a><a href="https://github.com/justbrowsing"><img class="social" src="/tabs/github.png" /></a><a href="https://twitter.com/justbrowsingcd"><img class="social" src="/tabs/twitter.png" /></a><a href="https://plus.google.com/b/116839020975727867575/116839020975727867575/"><img class="social" src="/tabs/gplus.png" /></a><a href="https://www.facebook.com/justbrowsingcd"><img class="social" src="/tabs/facebook.png" /></a><a href="http://pinterest.com/justbrowsingcd/pins/"><img class="social" src="/tabs/pinterest.png" /></a><a href="http://www.stumbleupon.com/stumbler/JustBrowsingcd"><img class="social" src="/tabs/stumbleupon.png" /></a>&nbsp;</td>
 
 </tr></table>
 
@@ -127,117 +128,215 @@ function googleTranslateElementInit() {
 }</script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<br><h1><a class="anchor" name="select">Choose a boot method</a></h1>
-<table align="center" style="width:80%"><tr>
-<td class="choose"><a class="choose" href="#cdrom"><img src="/images/cdr192.png" /><br>CD-ROM</td>
-<td></td>
-<td class="choose"><a class="choose" href="#usb"><img src="/images/usb192.png" /><br>USB</td>
-<td></td>
-<td class="choose"><a class="choose" href="#grub"><img src="/images/grub192.png" /><br>GRUB2</td>
-</tr><tr>
-<td class="choose"><a class="choose" href="#iodd"><img src="/images/iodd192.png" /><br>I-ODD</td>
-<td></td>
-<td class="choose"><a class="choose" href="#vm"><img src="/images/vm192.png" /><br>Virtual Machine</td>
-</tr></table>
-<br><br><br><br>
-</div>
+<br><h1><a class="anchor" name="8">Choose a boot method</a></h1>
 
-<div class="start" style="background:#4DC3E2;">
-<br><h1><a class="anchor" name="cdrom">CD-R</a></h1>
-<table class="centered" align="center"><tr>
-  <td width="340px"><img src="/images/cdr_large.png" /></td>
-  <td><table align="left">
-    <tr><td><img src="num1.png" /></td><td><h3>Burn to CD-R (or DVD&#177R)</h3><br>Brasero<br>Linux</td></tr>
-    <tr><td><img src="num2.png" /></td><td><h3>Reboot/Restart the computer</h3></td></tr>
-    <tr><td><img src="num3.png" /></td><td><h3>Boot from CD-ROM</h3><br>Brasero<br>Linux</td></tr>
-  </table></td>
-</tr></table>
-<br><br>
-</div>
+<!-- Choose -->
+<a id="chooseCD" class="choice" href="#cd"><img src="/images/cdr192.png" alt="cd"/><br>CD-R</a>
+<a id="chooseUSB" class="choice" href="#usb"><img src="/images/usb192.png" alt="USB"/><br>USB</a>
+<a id="chooseGRUB" class="choice" href="#grub"><img src="/images/grub192.png" alt="GRUB"/><br>GRUB2</a>
+<br>
+<a id="chooseIODD" class="choice" href="#iodd"><img src="/images/iodd192.png" alt="IODD"/><br>I-ODD</a>
+<a id="chooseVM" class="choice" href="#vm"><img src="/images/vm192.png" alt="VM"/><br>Virtual Machine</a>
 
-<div class="start" style="background:#9AFF55;">
-<br><h1><a class="anchor" name="usb">USB</a></h1>
-<table class="centered" align="center"><tr>
-  <td width="340px"><img src="/images/usb_large.png" /></td>
-  <td><table align="left">
-    <tr><td><img src="num1.png" /></td><td><h3>Clone to USB thumbdrive</h3><br>Brasero<br>Linux</td></tr>
-    <tr><td><img src="num2.png" /></td><td><h3>Reboot/Restart the computer</h3></td></tr>
-    <tr><td><img src="num3.png" /></td><td><h3>Boot from CD-ROM</h3><br>Brasero<br>Linux</td></tr>
-  </table></td>
-</tr></table>
-<br><br>
-</div>
+<!-- CDROM -->
+  <a name="cd"></a>
+  <div id="STARTcd" class="START step2">
+  <font style="font-size:x-large">Choose OS</font>
+  <a id="chooseCD_WIN6" class="choice" href="#cd_win6">
+	<img src="panel-2000.png" /><br>
+	<img src="panel-xp.png" /><br>
+	<img src="panel-vista.png" /><br>
+	Windows 2000, XP, Vista</a>
+  <a id="chooseCD_WIN7" class="choice" href="#cd_win7">
+	<img src="panel-win7.png" /><br>
+	<img src="panel-win8.png" /><br>
+	Windows 7, 8</a>
+  <a id="chooseCD_GNOME" class="choice" href="#cd_gnome">
+	<img src="panel-gnome2.png" /><br>
+	<img src="panel-gnome3.png" /><br>
+	Linux (Gnome 2, 3)</a>
+  <a id="chooseCD_KDE" class="choice" href="#cd_kde">
+	<img src="panel-kde.png" /><br>
+	Linux (KDE)</a>
+  <a id="chooseCD_OSX" class="choice" href="#cd_osx">
+	<img src="panel-osx.png" /><br>
+	Mac OSX</a>
 
-<div class="start" style="background:#A495FF;">
-<br><h1><a class="anchor" name="grub">GRUB2</a></h1>
-<img src="/images/grub_large.png" />
-<br><br>
-</div>
+    <a name="cd_win6"></a>
+    <div id="STARTcd_win6" class="START step2">
+    WINDOWS 6 cd INSTRUCTIONS
+    </div>
 
-<div class="start" style="background:#BF3030;"><!--#FBFBFB-->
-  <br><h1><a class="anchor" name="iodd">I-ODD</a></h1>
-  <table class="centered" align="center"><tr>
-    <td width="340px">
-      <img src="/images/iodd_large.png" />
-      <br><br>
+    <a name="cd_win7"></a>
+    <div id="STARTcd_win7" class="START step2">
+    WINDOWS 7/8 cd INSTRUCTIONS
+    </div>
+
+    <a name="cd_gnome"></a>
+    <div id="STARTcd_gnome" class="START step2">
+    GNOME cd INSTRUCTIONS
+    </div>
+
+    <a name="cd_kde"></a>
+    <div id="STARTcd_kde" class="START step2">
+    KDE cd INSTRUCTIONS
+    </div>
+
+    <a name="cd_osx"></a>
+    <div id="STARTcd_osx" class="START step2">
+    MAC OSX cd INSTRUCTIONS
+    </div>
+  </div>
+
+  <!-- USB -->
+  <a name="usb"></a>
+  <div id="STARTusb" class="START step2">
+  <font style="font-size:x-large">Choose OS</font>
+  <a id="chooseUSB_WIN" class="choice" href="#usb_win">
+	<img src="panel-2000.png" />
+	<img src="panel-xp.png" /><br>
+	<img src="panel-vista.png" />
+	<img src="panel-win7.png" /><br>
+	<img src="panel-win8.png" /><br>
+	Windows 2000, XP, Vista, 7, 8</a>
+
+  <a id="chooseUSB_LINUX" class="choice" href="#usb_linux">
+	<img src="panel-gnome2.png" /><br>
+	<img src="panel-gnome3.png" /><br>
+	<img src="panel-kde.png" /><br>
+	Linux (GUI)</a>
+  <a id="chooseUSB_CLI" class="choice" href="#usb_cli"><img src="panel-cli.png" /><br>Linux (CLI)</a>
+  <a id="chooseUSB_OSX" class="choice" href="#usb_osx"><img src="panel-osx.png" /><br>Mac OSX</a>
+
+    <a name="usb_win"></a>
+    <div id="STARTusb_win" class="START step2">
+    WINDOWS usb INSTRUCTIONS
+    </div>
+
+    <a name="usb_linux"></a>
+    <div id="STARTusb_linux" class="START step2">
+    LINUX usb GUI INSTRUCTIONS
+    </div>
+
+    <a name="usb_cli"></a>
+    <div id="STARTusb_cli" class="START step2">
+    LINUX usb CLI INSTRUCTIONS
+    </div>
+
+    <a name="usb_osx"></a>
+    <div id="STARTusb_osx" class="START step2">
+    OSX usb INSTRUCTIONS
+    </div>
+  </div>
+
+  <!-- Grub2 -->
+  <a name="grub"></a>
+  <div id="STARTgrub" class="START step2">
+  Choose OS
+  <a id="chooseGRUB_JB" class="choice" href="#grub_jb">JB installer</a>
+  <a id="chooseGRUB_EXISTING" class="choice" href="#grub_existing">Existing install</a>
+
+    <a name="grub_jb"></a>
+    <div id="STARTgrub_jb" class="START step2">
+    Just browsing installer...
+    <br><br><br><br>
+    </div>
+
+    <a name="grub_existing"></a>
+    <div id="STARTgrub_existing" class="START step2">
+    Existing install...
+    <br><br><br><br>
+    </div>
+  </div>
+
+
+  <!-- I-ODD -->
+  <a name="iodd"></a>
+  <div id="STARTiodd" class="START step2">
+  Choose Details
+  <a id="chooseIODD_SIMPLE" class="choice" href="#iodd_simple">I-ODD Quick Start</a>
+  <a id="chooseIODD_README" class="choice" href="#iodd_readme">Readme</a>
+
+    <a name="iodd_simple"></a>
+    <div id="STARTiodd_simple" class="START step2">
+      <h2>I-ODD Quick Start</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td>Plug in device in HDD mode
+        <br><b>Copy .iso to _ISO folder</b></td>
+      </tr>
+      <tr><td><img src="num2.png" /></td>
+        <td>Safely remove device
+        <br><b>Reboot/Restart the computer</b></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td>Plug in device in ISO/ODD mode
+        <br><b>Select justbrowsing_YYYYMMDD.iso from the list</b></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="iodd_readme"></a>
+    <div id="STARTiodd_readme" class="START step2" style="background:#FFF;">
+      <h2>I-ODD README</h2>
       <table align="center" class="readmore"><tr>
       <td><a href="http://sourceforge.net/projects/jbdocs/files/IODD.pdf/download" class="readmore">Download README</a></td>
       </tr></table>
-    </td>
-    <td>
 
-    <table>
-    <tr><td><img src="num1.png" /></td>
-      <td>Plug in device in HDD mode
-      <br><b>Copy .iso to _ISO folder</b>
-      <br>Safely remove device</td>
-    </tr>
-    <tr><td><img src="num2.png" /></td>
-      <td><b>Reboot/Restart the computer</b></td>
-    </tr>
-    <tr><td><img src="num3.png" /></td>
-      <td>Plug in device in ISO/ODD mode
-      <br><b>Select justbrowsing_YYYYMMDD.iso from the list</b></td>
-    </tr>
-    </table>
-    <br><br>
+      <h3>This readme covers the following Virtual Disk Enclosures:</h3>
+      <ul><li>I-ODD 2501</li>
+      <li>Zalman VE-200</li>
+      <li>Zalman VE-300</li></ul>
 
-    <div style="background:#FFF; border:1px solid #000; width:80%; padding:5px;">
-    <h3>This readme covers the following Virtual Disk Enclosures:</h3>
-    <ul><li>I-ODD 2501</li>
-    <li>Zalman VE-200</li>
-    <li>Zalman VE-300</li></ul>
+      <h3>NOTES:</h3>
+      <ul><li>Special functionality only for first partition.</li>
+      <li>Partition must be NTFS (or FAT32 or exFAT with alternative firmware)</li>
+      <li>Images must be placed in the folder _ISO</li>
+      <li>A maximum of 30 images per directory.</li></ul>
 
-    <h3>NOTES:</h3>
-    <ul><li>Special functionality only for first partition.</li>
-    <li>Partition must be NTFS (or FAT32 or exFAT with alternative firmware)</li>
-    <li>Images must be placed in the folder _ISO</li>
-    <li>A maximum of 30 images per directory.</li></ul>
+      <h3>SUPPORTED FILE-TYPES:</h3>
+      <ul><li>.iso -- CD/DVD/Blu-Ray optical disc image</li>
+      <li>.dsk -- Hard disk image</li>
+      <li>.ima -- Floppy disk image</li>
+      <li>.rmd -- Removable Disk image</li></ul>
 
-    <h3>SUPPORTED FILE-TYPES:</h3>
-    <ul><li>.iso -- CD/DVD/Blu-Ray optical disc image</li>
-    <li>.dsk -- Hard disk image</li>
-    <li>.ima -- Floppy disk image</li>
-    <li>.rmd -- Removable Disk image</li></ul>
+      <h3>ADDITIONAL NOTES:</h3>
+      <ul><li>Folders may be nested with a maximum of 30 files and folders per directory.</li>
+      <li>.img files in the Linux world are dd continguous hard disk images (rename to .dsk)</li>
+      <li>.img files in the Windows world are either .ISO or a similar format such as Nero (convert to standard ISO)</li>
+      <li>Hold jog wheel center button (dual mode) and plug usb into computer to unmount usb image.</li>
+      <li>Hold jog wheel up button and plug usb to enter ISO/ODD only mode</li>
+      <li>Hold jog wheel down button and plug usb to enter HDD only mode</li></ul>
+    </div>
+  </div>
 
-    <h3>ADDITIONAL NOTES:</h3>
-    <ul><li>Folders may be nested with a maximum of 30 files and folders per directory.</li>
-    <li>.img files in the Linux world are dd continguous hard disk images (rename to .dsk)</li>
-    <li>.img files in the Windows world are either .ISO or a similar format such as Nero (convert to standard ISO)</li>
-    <li>Hold jog wheel center button (dual mode) and plug usb into computer to unmount usb image.</li>
-    <li>Hold jog wheel up button and plug usb to enter ISO/ODD only mode</li>
-    <li>Hold jog wheel down button and plug usb to enter HDD only mode</li></ul>
-    </td>
-  </tr></table>
-  <br><br>
+
+  <!-- VM -->
+  <a name="vm"></a>
+  <div id="STARTvm" class="START step2">
+  Choose Emulator
+  <a id="chooseVM_QEMU" class="choice" href="#vm_qemu"><img src="panel-qemu.png" /><br>QEMU</a>
+  <a id="chooseVM_VIRTUALBOX" class="choice" href="#vm_virtualbox"><img src="panel-virtualbox.png" /><br>Virtualbox</a>
+  <a id="chooseVM_VMWARE" class="choice" href="#vm_vmware"><img src="panel-vmware.png" /><br>VMware</a>
+
+    <a name="vm_qemu"></a>
+    <div id="STARTvm_qemu" class="START step2">
+    QEMU installer...
+    </div>
+
+    <a name="vm_virtualbox"></a>
+    <div id="STARTvm_virtualbox" class="START step2">
+    Virtualbox install...
+    </div>
+
+    <a name="vm_vmware"></a>
+    <div id="STARTvm_vmware" class="START step2">
+    VMware install...
+    </div>
+  </div>
+
 </div>
-
-<div class="start" style="background:#61BA96;">
-<br><h1><a class="anchor" name="vm">Virtual Machine</a></h1>
-<img src="/images/vm_large.png" />
 <br><br>
-</div>
-
 
 <div align="center">
 <script type="text/javascript">
@@ -321,7 +420,9 @@ scJsHost+
 <!-- end footer -->
 
 <!-- begin scripts -->
-<script type="text/javascript" src="/includes/date.js"></script>
+<script type="text/javascript" src="/includes/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="/includes/tom-switch.js"></script>
+<script type="text/javascript" src="/includes/date-en-US.min.js"></script>
 <script type="text/javascript" src="/includes/clockapplet.js"></script>
 <script type="text/javascript">timedate();</script>
 <!-- end scripts -->

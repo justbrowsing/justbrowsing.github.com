@@ -274,6 +274,67 @@ a.readmore:hover, a.readmore:active {
   text-decoration: underline;
 }
 
+.folders {
+  font-weight: bold;
+  width: 100px;
+}
+
+td.bookmarks {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border: 1px solid #AFACA9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #EDECEB;
+}
+
+a.bookmarks {
+  color: #000;
+}
+
+td.bookmarks:hover, td.bookmarks:active {
+  background: #C00000;
+  border-color: #EDECEB;
+}
+
+a.bookmarks:hover, a.bookmarks:active {
+  color: #FFF;
+}
+
+.addons {
+  
+}
+
+.category {
+  font-weight: bold;
+  width: 100px;
+}
+
+td.extensions {
+  width: 100px;
+  text-align: center;
+  border: 1px solid #AFACA9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #EDECEB;
+}
+
+a.extensions {
+  color: #000;
+}
+
+td.extensions:hover, td.extensions:active {
+  background: #C00000;
+  border-color: #EDECEB;
+}
+
+a.extensions:hover, a.extensions:active {
+  color: #FFF;
+}
+
 .menu { 
   border: 1px solid transparent;
   background-clip: padding-box;
@@ -408,6 +469,18 @@ td.choose:hover {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 0.9em;
+}
+
+.START {
+  text-align: left;
+}
+
+.advanced {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 
@@ -661,6 +734,53 @@ div#adeskbar {
 .galleria-fscr:hover {
   cursor: pointer;
   background: url('/gallery/minimize.png');
+}
+
+/* http://strikefile.com */
+div.START {
+  padding: 2em;
+  margin: 0 0 0 0;
+  box-shadow: inset 0 0 1em 0 #000;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.choice {
+  display: inline-block;
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 1em;
+}
+
+.choice:hover {
+  background-color: #999;
+}
+
+.choice.current {
+  background-color: #99C;
+}
+
+a.choice, a.choice:hover {
+  text-decoration: none;
+}
+
+#STARTcd {
+  background-color: #4DC3E2;
+}
+
+#STARTusb {
+  background-color: #99CC55;
+}
+
+#STARTgrub {
+  background-color: #A495FF;
+}
+
+#STARTiodd {
+  background-color: #BF3030;
+}
+
+#STARTvm {
+  background-color: #61BA96;
 }
 
 /* END */
