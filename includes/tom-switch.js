@@ -54,16 +54,16 @@ $(document).ready(function(){
     switchTo($('#STARTcd_win7'));
   }
   else if (detectOS == "Linux i686" || detectOS == "Linux x86_64") {
-    $('#chooseCD_LINUXG').addClass('current');
-    switchTo($('#STARTcd_linuxg'));
+    $('#chooseCD_GNOME').addClass('current');
+    switchTo($('#STARTcd_gnome'));
   }
   else if (detectOS == "MacIntel") {
     $('#chooseCD_OSX').addClass('current');
     switchTo($('#STARTcd_osx'));
   }
   else {
-    $('#chooseCD_LINUXK').addClass('current');
-    switchTo($('#STARTcd_linuxk'));
+    $('#chooseCD_KDE').addClass('current');
+    switchTo($('#STARTcd_kde'));
   }
 });
 
