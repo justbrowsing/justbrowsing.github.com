@@ -47,6 +47,13 @@ $(document).ready(function(){
     });
   }
 
+  function hashTo()
+  {
+    $('.step2').hide();
+    hash = document.location.href.substr(document.location.href.indexOf('#'));
+    doSection($('a[href=' +hash +']'));
+  }
+
   function autoDetect()
   {
     $('#chooseCD').addClass('current');
@@ -77,9 +84,7 @@ $(document).ready(function(){
   $('.step2').hide();
 
   if (document.location.href.indexOf('#') > 0) {
-    $('.step2').hide();
-    hash = document.location.href.substr(document.location.href.indexOf('#'));
-    doSection($('a[href=' +hash +']'));
+    hashTo();
   }
   else {
     autoDetect();
@@ -87,9 +92,7 @@ $(document).ready(function(){
 
   $(window).bind('hashchange', function() {
     if (document.location.href.indexOf('#') > 0) {
-      $('.step2').hide();
-      hash = document.location.href.substr(document.location.href.indexOf('#'));
-      doSection($('a[href=' +hash +']'));
+      hashTo();
     }
   });
 
