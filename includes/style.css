@@ -783,4 +783,26 @@ td.choose:hover {
   background-color: #61BA96;
 }
 
+p.codeblock {
+    font-size: 90%;
+    line-height: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    white-space: pre; 
+    white-space: pre-wrap; 
+    white-space: -moz-pre-wrap; 
+    white-space: -o-pre-wrap; 
+
+    height:1%;
+    width: auto;
+    display: block;
+    clear: both;
+    color: #555555;
+    padding: 1em 1em;
+    margin: auto 40px auto 40px;
+    background: #f4f4f4;
+    border: solid 1px #e1e1e1
+} 
+
+
 /* END */

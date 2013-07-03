@@ -23,6 +23,9 @@ OGRC4PV60d/fj1AotMQwzFmWZT/z+XzF1NISKHeGRdQ6BxPVDQCI3rrZY1CpX1JpNGEAbYQQpVqt
 TkiSNMNx3IjL5boCAKlUCh6PB//bv84tmyWEXFadAAAAAElFTkSuQmCC
 " rel="icon" type="image/x-icon" />
 
+<script type="text/javascript" src="/includes/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="/includes/jquery.ba-hashchange.min.js"></script>
+<script type="text/javascript" src="/includes/tom-switch2.js"></script>
 <link rel="stylesheet" type="text/css" media="screen" href="/includes/style.css" />
 
 <!--[if gte IE 9]>
@@ -128,7 +131,7 @@ function googleTranslateElementInit() {
 }</script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<br><h1><a class="anchor" name="8">Choose a boot method</a></h1>
+<br><h1><a class="anchor" name="boot">Choose a boot method</a></h1>
 
 <!-- Choose -->
 <a id="chooseCD" class="choice choose" href="#cd"><img src="/images/cdr192.png" alt="cd"/><br>CD-ROM</a>
@@ -321,7 +324,20 @@ function googleTranslateElementInit() {
 
     <a name="vm_qemu"></a>
     <div id="STARTvm_qemu" class="START step2">
-    QEMU installer...
+      <h2>QEMU</h2>
+      <p class="codeblock">QEMU_AUDIO_DRV=alsa qemu-system-x86_64 -enable-kvm -m 2000 -machine type=pc,accel=kvm -cpu host -vga vmware -soundhw ac97 -cdrom justbrowsing_YYYYMMDD.iso</p>
+      <br>
+      <table style="padding-right:40px; border:1px solid #000">
+      <tr><td>QEMU_AUDIO_DRV=alsa</td><td>environmental variable to enable audio</td></tr>
+      <tr><td>qemu-system-x86_64</td><td>QEMU executable</td></tr>
+      <tr><td>-enable-kvm</td><td>enable KVM</td></tr>
+      <tr><td>-m 2000</td><td>set RAM to 2GB</td></tr>
+      <tr><td>-machine type=pc,accel=kvm</td><td>force KVM</td></tr>
+      <tr><td>-cpu host</td><td>match emulated CPU to host system</td></tr>
+      <tr><td>-vga vmware</td><td>set GPU hardware to vmware</td></tr>
+      <tr><td>-soundhw ac97</td><td>set audio hardware to AC97</td></tr>
+      <tr><td>-cdrom justbrowsing_YYYYMMDD.iso</td><td>set ISO to boot</td></tr>
+      </table>
     </div>
 
     <a name="vm_virtualbox"></a>
@@ -420,8 +436,6 @@ scJsHost+
 <!-- end footer -->
 
 <!-- begin scripts -->
-<script type="text/javascript" src="/includes/jquery-2.0.2.min.js"></script>
-<script type="text/javascript" src="/includes/tom-switch.js"></script>
 <script type="text/javascript" src="/includes/date-en-US.min.js"></script>
 <script type="text/javascript" src="/includes/clockapplet.js"></script>
 <script type="text/javascript">timedate();</script>

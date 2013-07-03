@@ -1,52 +1,29 @@
 $(document).ready(function(){
 
-
-
-
-  $('a.choice').click(function(e){
-    e.preventDefault();
-
-    doSection(this);
-  });
-
   function doSection(link)
   {
+    href = $(link).attr('href');
+
+    do {
+      href = href.substr(0, href.indexOf('_'));
+      $('a[href=' + href + ']').addClass('current');
+    } while (href.indexOf('_') > 0)
+
+    $(link).addClass('current');
     $(link).siblings('.choice.current').removeClass('current');
     START = $(link).attr('href').substr(1);
 
-    if($(link).siblings('div.START.current').size())
-    {
+    if ($(link).siblings('div.START.current').size()) {
       switchFrom($(link).siblings('div.START.current'), START);
     }
-    else
-    {
+    else {
       switchTo($('#START' + START));
     }
 
     history.pushState(null, null, $(link).attr('href'));
   }
-///////////////////////////////////
-/* 
-  $('a.choice').click(function(e){
 
-    $(this).siblings('.choice.current').removeClass('current');
-    $(this).addClass('current');
-
-    START = $(this).attr('href').substr(1);
-
-    if($(this).siblings('div.START.current').size())
-    {
-      switchFrom($(this).siblings('div.START.current'), START);
-    }
-    else
-    {
-      switchTo($('#START' + START));
-    }
-
-    history.pushState(null, null, $(this).attr('href'));
-  });
-*/
-  function switchFrom(START, toSTART)
+  function switchFrom(START, toSection)
   {
     $(START).slideUp(600,function(){
       $(this).removeClass('current');
@@ -55,14 +32,19 @@ $(document).ready(function(){
         $(this).hide();
       });
 
-      switchTo($('#START' + toSTART));
+      switchTo($('#START' + toSection));
     });
   }
 
   function switchTo(START)
   {
     $(START).addClass('current');
-    $(START).slideDown(600);
+    $(START).slideDown(600, function(){
+      $(START).parentsUntil('.start').each(function(){
+        switchTo($(this));
+      });
+      $(document).scrollTop($(START).offset().top);
+    });
   }
 
   function autoDetect()
@@ -94,15 +76,27 @@ $(document).ready(function(){
 
   $('.step2').hide();
 
-  if(document.location.href.indexOf('#') > 0)
-  {
+  if (document.location.href.indexOf('#') > 0) {
+    $('.step2').hide();
     hash = document.location.href.substr(document.location.href.indexOf('#'));
     doSection($('a[href=' +hash +']'));
   }
-
-  /*if(!window.location.hash) {
+  else {
     autoDetect();
-  }*/
+  }
+
+  $(window).bind('hashchange', function() {
+    if (document.location.href.indexOf('#') > 0) {
+      $('.step2').hide();
+      hash = document.location.href.substr(document.location.href.indexOf('#'));
+      doSection($('a[href=' +hash +']'));
+    }
+  });
+
+  $('a.choice').click(function(e){
+    e.preventDefault();
+    doSection(this);
+  });
 
 });
 
