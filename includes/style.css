@@ -8,7 +8,6 @@ body {
   border-collapse: collapse;
   border-left: 10px solid black;
   border-right: 10px solid black;
-  background: #000;
 }
 
 .tile {
@@ -65,6 +64,12 @@ img {
   font-weight: 300;
   font-size: 2em;
   color: #FFF;
+}
+
+.warning {
+  background: #00A8B8;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 img.logo {
@@ -248,6 +253,23 @@ img.branding {
   margin-bottom:5px;
 }
 
+a.poll {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #5F5A5D;
+  background: #EFEFEF;
+  text-align: center;
+  padding: 0.1em 0.6em;
+  border: 1px solid #ccc;
+  -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
 table.readmore, div.readmore {
   border: 2px solid black;
   -webkit-border-radius: 5px;
@@ -292,6 +314,8 @@ td.bookmarks {
 
 a.bookmarks {
   color: #000;
+  font-weight: 600;
+  text-shadow: 0px 2px 3px #555;
 }
 
 td.bookmarks:hover, td.bookmarks:active {
@@ -324,6 +348,8 @@ td.extensions {
 
 a.extensions {
   color: #000;
+  font-weight: 600;
+  text-shadow: 0px 2px 3px #555;
 }
 
 td.extensions:hover, td.extensions:active {
@@ -376,22 +402,6 @@ a.extensions:hover, a.extensions:active {
   border-radius: 5px;
 }
 
-.download {
-  background: #00B2E3;
-}
-
-.download:hover {
-  background: #0088AD;
-}
-
-.quickstart {
-  background: #FE9455;
-}
-
-.quickstart:hover {
-  background: #F36612;
-}
-
 .buttonbottom {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
@@ -406,6 +416,22 @@ a.extensions:hover, a.extensions:active {
   -webkit-border-radius: 0 0 5px 5px;
   -moz-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
+}
+
+.download {
+  background: #00B2E3;
+}
+
+.download:hover {
+  background: #0088AD;
+}
+
+.quickstart {
+  background: #FE9455;
+}
+
+.quickstart:hover {
+  background: #F36612;
 }
 
 a.buttontext {
@@ -439,7 +465,6 @@ a.buttontext:hover {
   color: #FFF;
   padding-left: 22px;
   padding-right: 22px;
-  padding-bottom: 22px;
   margin-top:-22px;  
 }
 
@@ -462,8 +487,25 @@ a.buttontext:hover {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 0.9em;
-  padding-left: 22px;
-  padding-right: 22px;
+  line-height: 1.5em;
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+.changelog {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  padding: 22px;  
+}
+
+.changelog:nth-child(odd) {
+  background:#FFAB19;
+}
+
+.changelog:nth-child(even) {
+  background: #FFF;  
 }
 
 
@@ -735,11 +777,11 @@ div.START {
 }
 
 .choice:hover {
-  background-color: #999;
+  background-color: #18466B;
 }
 
 .choice.current {
-  background-color: #99C;
+  background-color: #99C6CC;
 }
 
 a.choice, a.choice:hover {
@@ -783,26 +825,72 @@ td.choose:hover {
   background-color: #61BA96;
 }
 
-p.codeblock {
-    font-size: 90%;
-    line-height: 1.2em;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    white-space: pre; 
-    white-space: pre-wrap; 
-    white-space: -moz-pre-wrap; 
-    white-space: -o-pre-wrap; 
+/* http://stackoverflow.com */
 
-    height:1%;
-    width: auto;
-    display: block;
-    clear: both;
-    color: #555555;
-    padding: 1em 1em;
-    margin: auto 40px auto 40px;
-    background: #f4f4f4;
-    border: solid 1px #e1e1e1
+.codeblock {
+  font-size: 90%;
+  line-height: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+
+  width: auto;
+  display: block;
+  clear: both;
+  color: #555555;
+  padding: 1em 1em;
+  margin: auto 40px auto 40px;
+  background: #f4f4f4;
+  border: solid 1px #e1e1e1
 } 
+
+font.kbd {
+  padding: 0.1em 0.6em;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  background-color: #f7f7f7;
+  color: #333;
+  -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 0.1em;
+  text-shadow: 0 1px 0 #fff;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+font.codeinline {
+  padding: 0.1em 0.6em;
+  border: 1px solid #444;
+  font-size: 11px;
+  background-color: #000;
+  color: #00FF1A;
+  -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #000 inset;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #000 inset;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #000 inset;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 0.1em;
+  text-shadow: 0 1px 0 #000;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.comment {
+  font-weight: 600;
+  text-shadow: 0px 2px 3px #555;
+  color: #444;
+  background-color:rgba(251,251,251,0.4);
+  border: rgba(0,0,0,0.9);
+  border-radius: 10px;
+  padding: 2px 8px 2px 8px;
+
+}
 
 
 /* END */

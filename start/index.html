@@ -41,7 +41,7 @@ TkiSNMNx3IjL5boCAKlUCh6PB//bv84tmyWEXFadAAAAAElFTkSuQmCC
 <meta name="google-site-verification" content="TBwgbqHrSet7rP89LR7HMhrKKbEMenIu9lDdYV_F160" />
 <meta name="wot-verification" content="257c57118fb324031aef"/>         
 </head>
-<body>
+<body style="background:#FBFBFB">
 
 <!-- begin header -->
 <div id="menubar">
@@ -131,7 +131,9 @@ function googleTranslateElementInit() {
 }</script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<br><h1><a class="anchor" name="boot">Choose a boot method</a></h1>
+<br>
+<div class="warning"><a class="readmore" href="https://sourceforge.net/projects/justbrowsing/files/latest/download">Note: Please download the ISO first</a></div>
+<h1><a class="anchor" name="boot">Choose a boot method</a></h1>
 
 <!-- Choose -->
 <a id="chooseCD" class="choice choose" href="#cd"><img src="/images/cdr192.png" alt="cd"/><br>CD-ROM</a>
@@ -145,6 +147,7 @@ function googleTranslateElementInit() {
   <a name="cd"></a>
   <div id="STARTcd" class="START step2">
   <font style="font-size:x-large">Choose OS</font>
+  <br>
   <a id="chooseCD_WIN6" class="choice" href="#cd_win6">
 	<img src="panel-2000.png" /><br>
 	<img src="panel-xp.png" /><br>
@@ -173,21 +176,30 @@ function googleTranslateElementInit() {
     <a name="cd_win7"></a>
     <div id="STARTcd_win7" class="START step2">
     WINDOWS 7/8 cd INSTRUCTIONS
+    <br>
+    <img src="winburn-menu.png" />
+    <img src="winburn-dialog.png" />
     </div>
 
     <a name="cd_gnome"></a>
     <div id="STARTcd_gnome" class="START step2">
     GNOME cd INSTRUCTIONS
+    <br>
+    <img src="nautilus-menu.png" />
+    <img src="brasero-dialog.png" />
     </div>
 
     <a name="cd_kde"></a>
     <div id="STARTcd_kde" class="START step2">
     KDE cd INSTRUCTIONS
+    <br>
+    <img src="k3b-dialog.png" />
     </div>
 
     <a name="cd_osx"></a>
     <div id="STARTcd_osx" class="START step2">
-    MAC OSX cd INSTRUCTIONS
+    Mac OSX CD burning instructions coming soon...
+    <br>hold <font class="kbd notranslate">option</font> during boot
     </div>
   </div>
 
@@ -195,6 +207,7 @@ function googleTranslateElementInit() {
   <a name="usb"></a>
   <div id="STARTusb" class="START step2">
   <font style="font-size:x-large">Choose OS</font>
+  <br>
   <a id="chooseUSB_WIN" class="choice" href="#usb_win">
 	<img src="panel-2000.png" />
 	<img src="panel-xp.png" /><br>
@@ -223,19 +236,30 @@ function googleTranslateElementInit() {
 
     <a name="usb_cli"></a>
     <div id="STARTusb_cli" class="START step2">
-    LINUX usb CLI INSTRUCTIONS
+    LINUX usb CLI INSTRUCTIONS<br>
+    <table class="codeblock notranslate"><tr><td class="term_user">$</td><td>./drivedetect</td></tr></table>
+    <table class="codeblock notranslate">
+    <tr><td>Device</td><td>Drive Brand</td><td>Drive Model</td><td>Size</td></tr>
+    <tr><td>======</td><td>===========</td><td>===========</td><td>====</td></tr>
+    <tr><td>/dev/sda</td><td>Hitachi</td><td>HDS101</td><td>931.51 GB</td></tr>
+    <tr><td>/dev/sdb</td><td>Toshiba</td><td>DT888</td><td>298.09 GB</td></tr>
+    <tr><td>/dev/sdc</td><td>Corsair</td><td>Voyager</td><td>15.12 GB</td></tr>
+    <tr><td>/dev/sdd</td><td>Kingston</td><td>USB FlashDisk</td><td>3.71 GB</td></tr>
+    <tr><td>/dev/sde</td><td>Generic</td><td>USB DISK 20X</td><td>119.00 MB</td></tr>
+    </table></p>
     </div>
 
     <a name="usb_osx"></a>
     <div id="STARTusb_osx" class="START step2">
-    OSX usb INSTRUCTIONS
+    Mac OSX USB instructions coming soon...
     </div>
   </div>
 
   <!-- Grub2 -->
   <a name="grub"></a>
   <div id="STARTgrub" class="START step2">
-  Choose Option
+  <font style="font-size:x-large">Choose Option</font>
+  <br>
   <a id="chooseGRUB_JB" class="choice" href="#grub_jb"><img src="panel-new.png" alt="New Install" /></a>
   <a id="chooseGRUB_EXISTING" class="choice" href="#grub_existing"><img src="panel-existing.png" alt="Existing Install" /></a>
 
@@ -256,9 +280,10 @@ function googleTranslateElementInit() {
   <!-- I-ODD -->
   <a name="iodd"></a>
   <div id="STARTiodd" class="START step2">
-  Choose Details
-  <a id="chooseIODD_SIMPLE" class="choice" href="#iodd_simple"><img src="panel-simple.png" alt="SIMPLE" /></a>
-  <a id="chooseIODD_README" class="choice" href="#iodd_readme"><img src="panel-readme.png" alt="README" /></a>
+  <font style="font-size:x-large">Choose Details</font>
+  <br>
+  <a id="chooseIODD_SIMPLE" class="choice" href="#iodd_simple"><img src="panel-simple.png" alt="SIMPLE" /><br>Simple</a>
+  <a id="chooseIODD_README" class="choice" href="#iodd_readme"><img src="panel-readme.png" alt="README" /><br>README</a>
 
     <a name="iodd_simple"></a>
     <div id="STARTiodd_simple" class="START step2">
@@ -317,7 +342,8 @@ function googleTranslateElementInit() {
   <!-- VM -->
   <a name="vm"></a>
   <div id="STARTvm" class="START step2">
-  Choose Emulator
+  <font style="font-size:x-large">Choose Emulator</font>
+  <br>
   <a id="chooseVM_QEMU" class="choice" href="#vm_qemu"><img src="panel-qemu.png" /><br>QEMU</a>
   <a id="chooseVM_VIRTUALBOX" class="choice" href="#vm_virtualbox"><img src="panel-virtualbox.png" /><br>Virtualbox</a>
   <a id="chooseVM_VMWARE" class="choice" href="#vm_vmware"><img src="panel-vmware.png" /><br>VMware</a>

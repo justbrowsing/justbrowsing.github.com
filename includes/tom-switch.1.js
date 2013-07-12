@@ -56,34 +56,22 @@ $(document).ready(function(){
 
   function autoDetect()
   {
+    $('#chooseCD').addClass('current');
+    switchTo($('#STARTcd'));
     var detectOS = navigator.platform;
     if (detectOS == "Win32") {
-      $('#chooseCD').addClass('current');
-      switchTo($('#STARTcd'));
       $('#chooseCD_WIN6').addClass('current');
       switchTo($('#STARTcd_win6'));
     }
     else if (detectOS == "Win64") {
-      $('#chooseCD').addClass('current');
-      switchTo($('#STARTcd'));
       $('#chooseCD_WIN7').addClass('current');
       switchTo($('#STARTcd_win7'));
     }
-    else if (detectOS == "Linux i686") {
-      $('#chooseCD').addClass('current');
-      switchTo($('#STARTcd'));
+    else if (detectOS == "Linux i686" || detectOS == "Linux x86_64") {
       $('#chooseCD_GNOME').addClass('current');
       switchTo($('#STARTcd_gnome'));
     }
-    else if (detectOS == "Linux x86_64") {
-      $('#chooseCD').addClass('current');
-      switchTo($('#STARTcd'));
-      $('#chooseCD_KDE').addClass('current');
-      switchTo($('#STARTcd_kde'));
-    }
     else if (detectOS == "MacIntel") {
-      $('#chooseCD').addClass('current');
-      switchTo($('#STARTcd'));
       $('#chooseCD_OSX').addClass('current');
       switchTo($('#STARTcd_osx'));
     }

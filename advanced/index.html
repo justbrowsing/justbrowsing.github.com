@@ -127,6 +127,8 @@ function googleTranslateElementInit() {
 <!-- begin content -->
 <div class="advanced" style="background:#61BA96;">
 <br><h1><a class="anchor" name="de">Desktop Environment</a></h1>
+<div align="center"><img src="/advanced/adeskbar.png" /><br>
+<font class="comment">Panel at a glance</font></div>
 <p>JustBrowsing uses the lightweight window manager, i3, and keeps the experience uncluttered. A bottom panel, adeskbar, displays the time and date, and has all the settings visible, no hunting around.</p>
 <br><br>
 </div>
@@ -257,19 +259,46 @@ function googleTranslateElementInit() {
 
 <div class="advanced" style="background:#BF3030;"><!--#FBFBFB-->
 <br><h1><a class="anchor" name="sentry">Lock Sentry</a></h1>
-<p>JustBrowsing includes a lockscreen</p>
+<div align="center"><img src="/images/i3lock.gif" /><br>
+<font class="comment">JustBrowsing includes a lockscreen</font>
+</div>
+<p>Sentry</p>
 <br><br>
 </div>
 
-<div class="advanced" style="background:#61BA96;">
+<div class="advanced" style="background:#F5F729;">
 <br><h1><a class="anchor" name="dev">Developer Edition</a></h1>
-<p>JustBrowsing Dev Edition is for developers and it is intended for debugging purposes only.</p>
-
+<div align="center"><img src="/images/devedition.png" /><br>
+<font class="comment">JustBrowsing Dev Edition is for developers and it is intended for debugging purposes only.</font></div>
+<br>
 <p>The OpenSSH server is installed, configured and started at boot in this edition. This is a security vulernability if left unchecked. The ssh package is not configured nor even installed in the regular version. The password is the ISO's build date in the format YYYYMMDD.</p>
 
-<p>Virtual Terminals (VTs) are also enabled. In QEMU they can be accessed by pressing CTRL+ALT+2, typing in: sendkey ctrl-alt-f2 [ENTER] the press CTRL+ALT+1 to access TTY2</p>
+<p>Virtual Terminals (VTs) are also enabled. In QEMU they can be accessed by pressing <font class="kbd">CTRL</font>+<font class="kbd">ALT</font>+<font class="kbd">2</font>, typing in: <font class="codeinline">sendkey ctrl-alt-f2</font> <font class="kbd">ENTER</font> then press <font class="kbd">CTRL</font>+<font class="kbd">ALT</font>+<font class="kbd">1</font> to access TTY2</p>
 
-<p>The final change is xterm is installed. It can be launched from i3 with: Super+Enter (Win+Return) Other useful key combinations include toggling the WM tile mode with Super+Shift+W (tabs), Super+Shift+E (tile), Super+Shift+S (stack)</p>
+<p>The final change is xterm is installed. It can be launched from i3 with: <font class="kbd">Super</font>+<font class="kbd">Enter</font> (<font class="kbd">Win</font>+<font class="kbd">Return</font>). Other useful key combinations include toggling the WM tile mode with <font class="kbd">Super</font>+<font class="kbd">Shift</font>+<font class="kbd">W</font> (tabs), <font class="kbd">Super</font>+<font class="kbd">Shift</font>+<font class="kbd">E</font> (tile), <font class="kbd">Super</font>+<font class="kbd">Shift</font>+<font class="kbd">S</font> (stack)</p>
+<br><br>
+</div>
+
+<div class="advanced" style="background:#5AA01D;">
+<br><h1><a class="anchor" name="remaster">Remastering</a></h1>
+<div align="center"><img src="/images/communityedition.png" /><br>
+<font class="comment">Customized ISOs is the community edition</font></div>
+<br>
+<p><a href="http://justbrowsingcd.tumblr.com/post/49067539614/open-source-transparency">Open Source transparency</a> is an important aspect of the development of JustBrowsing. I have <a href="https://github.com/justbrowsing/justbrowsing-remaster">provided some scripts</a> to make it easy to customize the LiveCD. Not happy with the provided Firefox or Chrome browser profile? Subsitute your own. Need to make other changes? You can. <a href="http://justbrowsingcd.tumblr.com/post/54983116942/thanks-for-this-ive-tried-a-ton-of-livecds-and-this">Step-by-step instructions</a>.</p>
+<br>
+<div align="center">
+<h3>Quick video tutorial</h3><iframe id="shelr_record_51db9bd99660807d7600003d" scrolling="no" src="http://shelr.tv/records/51db9bd99660807d7600003d/embed" width="600" height="420" style="border:0"></iframe></div>
+<div style="align:center; width:100%">
+<table style="width:100%"><tr><td style="width:25%"></td>
+<td>Build Dependencies:<br><ul>
+<li>justbrowsing ISO</li>
+<li>justbrowsing-remaster repo</li>
+<li>cdrtools package</li>
+<li>squashfs-tools package</li>
+<li>syslinux package</li></ul></td>
+<td><img src="/images/livecd-layers.png" /></td>
+<td style="width:25%"></td></table></div>
+
 <br><br>
 </div>
 
