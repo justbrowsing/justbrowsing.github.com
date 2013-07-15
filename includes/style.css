@@ -444,18 +444,20 @@ a.buttontext:hover {
 
 #date {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 0.9em;
   color: #B5B5B5;
   vertical-align:text-top;
+  padding-left: 10px;
 }
 
 #clock {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 0.9em;
   color: #FFF;
   vertical-align:text-top;
+  padding-left: 10px;
 }
 
 .support {
