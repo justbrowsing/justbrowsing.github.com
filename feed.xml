@@ -34,7 +34,7 @@ Known bugs:&lt;br&gt;
 <title>2013-06-11 (0.3-6)</title>
 <link>http://justbrowsing.info/new/#03-6</link>
 <guid>http://justbrowsing.info/new/#03-6</guid>
-<pubDate>Wed, 11 Jun 2013 22:00:00 GMT</pubDate>
+<pubDate>Tue, 11 Jun 2013 22:00:00 GMT</pubDate>
 <description>Changelog:&lt;br&gt;
 * New: kernel parameter hooks: default=chrome, vga=vmware, vmware=1366x768&lt;br&gt;
 * New: experimental xf86-video-qxl SPICE support&lt;br&gt;
