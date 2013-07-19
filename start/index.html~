@@ -154,7 +154,7 @@ function googleTranslateElementInit() {
       <tr><td><img src="num3.png" /></td>
         <td>Insert blank CD&plusmn;R, DVD&plusmn;R, or DVD-RW
         <br><b>Press Burn</b></td>
-        <td><img src="freeisoburner.png" /></td>
+        <td><img src="/start/freeisoburner.png" /></td>
       </tr>
       <tr><td><img src="num4.png" /></td>
         <td>Reboot/Restart the computer</td>
@@ -191,11 +191,11 @@ function googleTranslateElementInit() {
         <td>SYSLINUX boot menu
         <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
         and <font class="kbd notranslate">Enter</font></td>
-        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+        <td><a href="/start/syslinux.png"><img class="resize" src="/start/syslinux.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num8.png" /></td>
         <td>Splash screen</td>
-        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+        <td><a href="/start/splash.png"><img class="resize" src="/start/splash.resized.png" /></a></td>
       </tr>
       </table>
     </div>
@@ -254,11 +254,11 @@ function googleTranslateElementInit() {
         <td>SYSLINUX boot menu
         <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
         and <font class="kbd notranslate">Enter</font></td>
-        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+        <td><a href="/start/syslinux.png"><img class="resize" src="/start/syslinux.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num8.png" /></td>
         <td>Splash screen</td>
-        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+        <td><a href="/start/splash.png"><img class="resize" src="/start/splash.resized.png" /></a></td>
       </tr>
       </table>
     </div>
@@ -273,12 +273,12 @@ function googleTranslateElementInit() {
       <tr><td><img src="num2.png" /></td>
         <td>Right-click on justbrowsing_YYYYMMDD.iso file
         <br><b>Select Write to Disc...</b></td>
-        <td><img src="nautilus-menu.png" /></td>
+        <td><img src="/start/nautilus-menu.png" /></td>
       </tr>
       <tr><td><img src="num3.png" /></td>
         <td>Insert blank CD&plusmn;R, DVD&plusmn;R, or DVD-RW
         <br><b>Press Burn</b></td>
-        <td><img src="brasero-dialog.png" /></td>
+        <td><img src="/start/brasero-dialog.png" /></td>
       </tr>
       <tr><td><img src="num4.png" /></td>
         <td>Reboot/Restart the computer</td>
@@ -315,11 +315,11 @@ function googleTranslateElementInit() {
         <td>SYSLINUX boot menu
         <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
         and <font class="kbd notranslate">Enter</font></td>
-        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+        <td><a href="/start/syslinux.png"><img class="resize" src="/start/syslinux.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num8.png" /></td>
         <td>Splash screen</td>
-        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+        <td><a href="/start/splash.png"><img class="resize" src="/start/splash.resized.png" /></a></td>
       </tr>
       </table>
     </div>
@@ -375,11 +375,11 @@ function googleTranslateElementInit() {
         <td>SYSLINUX boot menu
         <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
         and <font class="kbd notranslate">Enter</font></td>
-        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+        <td><a href="/start/syslinux.png"><img class="resize" src="/start/syslinux.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num8.png" /></td>
         <td>Splash screen</td>
-        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+        <td><a href="/start/splash.png"><img class="resize" src="/start/splash.resized.png" /></a></td>
       </tr>
       </table>
     </div>
@@ -401,11 +401,11 @@ function googleTranslateElementInit() {
         <td>SYSLINUX boot menu
         <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
         and <font class="kbd notranslate">Enter</font></td>
-        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+        <td><a href="/start/syslinux.png"><img class="resize" src="/start/syslinux.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num8.png" /></td>
         <td>Splash screen</td>
-        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+        <td><a href="/start/splash.png"><img class="resize" src="/start/splash.resized.png" /></a></td>
       </tr>
       </table>
     </div>
@@ -440,7 +440,7 @@ function googleTranslateElementInit() {
         <td><a href="http://sourceforge.net/projects/win32diskimager/files/latest/download">Download Win32 Disk Imager</a>
         <br><b>Right-click win32diskimager.zip, Extract All</b>
         <br>Open extracted folder, double-click Win32DiskImager.exe</td>
-        <td><img src="win-extract.png" /></td>
+        <td><img src="/start/win-extract.png" /></td>
       </tr></table>
         
       <h2>Clone ISO to USB drive</h2>
@@ -448,7 +448,7 @@ function googleTranslateElementInit() {
         <td><b><br>Browse for justbrowsing_YYYYMMDD.iso</b>
         <br>Select USB Device
         <br><b>Press Write</b></td>
-        <td><img src="win32diskimager.png" /></td>
+        <td><img src="/start/win32diskimager.png" /></td>
       </tr>
       <tr><td><img src="num3.png" /></td>
         <td>Reboot/Restart the computer</td>
@@ -485,11 +485,11 @@ function googleTranslateElementInit() {
         <td>SYSLINUX boot menu
         <br><b>Select entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
         <b>and</b> <font class="kbd notranslate">Enter</font></td>
-        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+        <td><a href="/start/syslinux.png"><img class="resize" src="/start/syslinux.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num7.png" /></td>
         <td>Splash screen</td>
-        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+        <td><a href="/start/splash.png"><img class="resize" src="/start/splash.resized.png" /></a></td>
       </tr>
       </table>
     </div>
@@ -524,7 +524,7 @@ function googleTranslateElementInit() {
         <br>Browse for justbrowsing_YYYYMMDD.iso
         <br><b>Select Drive</b>
         <br>Press OK</td>
-        <td><img src="unetbootin.png" /></td>
+        <td><img src="/start/unetbootin.png" /></td>
       </tr>
       <tr><td><img src="num3.png" /></td>
         <td>Reboot/Restart the computer</td>
@@ -561,11 +561,11 @@ function googleTranslateElementInit() {
         <td>SYSLINUX boot menu
         <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
         and <font class="kbd notranslate">Enter</font></td>
-        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+        <td><a href="/start/syslinux.png"><img class="resize" src="/start/syslinux.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num7.png" /></td>
         <td>Splash screen</td>
-        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+        <td><a href="/start/splash.png"><img class="resize" src="/start/splash.resized.png" /></a></td>
       </tr>
       </table>
     </div>
@@ -638,11 +638,11 @@ function googleTranslateElementInit() {
         <td>SYSLINUX boot menu
         <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
         and <font class="kbd notranslate">Enter</font></td>
-        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+        <td><a href="/start/syslinux.png"><img class="resize" src="/start/syslinux.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num7.png" /></td>
         <td>Splash screen</td>
-        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+        <td><a href="/start/splash.png"><img class="resize" src="/start/splash.resized.png" /></a></td>
       </tr>
       </table>
     </div>
@@ -761,11 +761,11 @@ function googleTranslateElementInit() {
       <tr><td><img src="num2.png" /></td>
         <td>Choose Boot JustBrowsing (VMware)
         <br><b>Select entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font> <b>and</b> <font class="kbd notranslate">Enter</font></td>
-        <td><a href="vmware-driver.png"><img class="resize" src="vmware-driver.resized.png" /></a></td>
+        <td><a href="/start/vmware-driver.png"><img class="resize" src="/start/vmware-driver.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num3.png" /></td>
         <td>Splash screen</td>
-        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+        <td><a href="/start/splash.png"><img class="resize" src="/start/splash.resized.png" /></a></td>
       </tr>
       </table>
 
@@ -798,14 +798,14 @@ function googleTranslateElementInit() {
         <td><u>Note</u>: may need to run <font class="codeinline">modprobe vboxdrv</font>
         <br><b>Open VirtualBox</b>
         <br>Press New</td>
-        <td><img src="vbox-new.png" /></td>
+        <td><img src="/start/vbox-new.png" /></td>
       </tr>
       <tr><td><img src="num2.png" /></td>
         <td><b>Set name (Just Browsing), type (Linux), version (Arch Linux)</b>
         <br>Set RAM to allocate (not more than half host system's RAM)
         <br><b>Select Do not add a virtual hard drive</b>
         <br>Press Continue on the warning</td>
-        <td><img src="virtualbox.gif" /></td>
+        <td><img src="/start/virtualbox.gif" /></td>
       </tr>
       <tr><td><img src="num3.png" /></td>
         <td><b>Press Settings</b>
@@ -813,16 +813,16 @@ function googleTranslateElementInit() {
         <br><b>Empty CD/DVD drive</b>
         <br>Browse for justbrowsing_YYYYMMDD.iso
         <br><b>Check the Live CD/DVD box</b></td>
-        <td><a href="vbox-settings.png"><img class="resize" src="vbox-settings.resized.png" /></a>
+        <td><a href="/start/vbox-settings.png"><img class="resize" src="/start/vbox-settings.resized.png" /></a>
       </tr>
       <tr><td><img src="num4.png" /></td>
         <td>Choose Boot JustBrowsing (VMware)
         <br><b>Select entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font> <b>and</b> <font class="kbd notranslate">Enter</font></td>
-        <td><a href="vmware-driver.png"><img class="resize" src="vmware-driver.resized.png" /></a></td>
+        <td><a href="/start/vmware-driver.png"><img class="resize" src="/start/vmware-driver.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num5.png" /></td>
         <td>Splash screen</td>
-        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+        <td><a href="/start/splash.png"><img class="resize" src="/start/splash.resized.png" /></a></td>
       </tr>
       </table>
     </div>

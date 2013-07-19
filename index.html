@@ -1,204 +1,179 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>JustBrowsing LiveCD/LiveUSB</title>
-<link href="data:image/x-icon;base64,
-iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
-WXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QQcBy8cjmmZEQAAA4BJREFUOMul0ltsU3UAx/Hf6Tld
-25Xem9J22rVdmTUO2Gq1lE0IydyGd2MWJVuixvigJiYSoz6gITwAMUQDSDAkSqIPOCRmSmTYDCc6
-N2bGqgM6R9t12VYc6/16eq5/n0h89/P8ffxS+I9SrUpJnOAEkd+UCXlaluV2SZJonueTHMdd5PnG
-Fx0d2/6+12s2G0ABwFsA3hv5WqXb/fggYZgzhBCNTAhEUYQgCOA4HoJQA6Fv19A0dzBZOHrq2YfB
-AgD9ncqhaAt4/bpM+ghJrxxqJJNK0WwBpWkGz/PgOB6iVEaVm8f1P39oGrs60Xd5rFmd/MsQBcp1
-ekfIGeyRVLMGQgL0Whr03CzYyauo+v0QNZsgigWU8lM4dXoU85kdeOGNzyFrAjtJLdFrZFenaO2B
-jvOh6xV3/YFuLPQNQteZg/2hCeTLKUymbFheWUBuZhyPxKexy6NFrvVB3NJ24cX2NUe7McMzNbPy
-0QvPWCG6XsViRYGgYx8+DJwDHZsnF05+25BIQwpycW2fiaXmc1n8fO0OxpNFdG/NgqvVn2dknvxz
-I6xzmddiWM9qoLcnAI5CMS/krkRGTwMoubzN+4sMnHdVDVAL0zAmeVjui6LA51mFsqz6imYpsC0j
-2B0ew3OtJ7Fx14aisCcF4KMv1ytnDC3bx6fyamzlF2C7cQlPNU3Asr4MpsR8Q48eHm1ks/nXio0s
-PMwSeug8phIhxLK7FAMDvWVp8aZLstlfvlOQzMpMAb3uKgKb60hbw1Bvf/IYtZxMWUSxtLFaHFeo
-VRFkjAS/Lw7CGuNASxxkAAzDQG+2QMnWIGdWobY7sCX4WNlmv39Asej15ETl9MWWLbNI0BmcmPHg
-kqcXbNBPNlnNMJvMaHW54Pe1QWkyw9C5E4E9T8BkNPzUqOZX6KPv9FGCNrYcpcV9R37Z23Tt7XPQ
-SyU4t7VTPp0RjmYdoKAQiURw4vhxmI16dHV21hmGOeT1ev+g7n3dnZ38oEp1HXB+f1YbP/gxCMPA
-7XaDUSqRTqdRqVQwNDSE4eFhzqDXH+YbjU89Pl+F2p97F59YjgEAXhc23g9X2Vc0v0X9v/44htvx
-OGRC4PV60d/fj1AotMQwzFmWZT/z+XzF1NISKHeGRdQ6BxPVDQCI3rrZY1CpX1JpNGEAbYQQpVqt
-TkiSNMNx3IjL5boCAKlUCh6PB//bv84tmyWEXFadAAAAAElFTkSuQmCC
-" rel="icon" type="image/x-icon" />
-<link rel="alternate" type="application/rss+xml" alt="Just Browsing Changelog" href="feed.xml">
-<link rel="stylesheet" type="text/css" media="screen" href="style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="more.css">
-<meta name="google-site-verification" content="TBwgbqHrSet7rP89LR7HMhrKKbEMenIu9lDdYV_F160" />
-<meta name="wot-verification" content="257c57118fb324031aef"/> 
-</head>
-<body>
+<title>JustBrowsing LiveCD</title>
+<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/style.css" />
 
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .borderspacer, .bordertab, .activetab, .inactivetab, .contentspacer, .panel {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+<meta name="google-translate-customization" content="481c92effddb4830-698984b4311b9c69-g1f387e881da85961-11" />
+<meta name="google-site-verification" content="TBwgbqHrSet7rP89LR7HMhrKKbEMenIu9lDdYV_F160" />
+<meta name="wot-verification" content="257c57118fb324031aef"/>         
+</head>
+<body class="tile">
+
+<!-- begin header -->
 <div id="menubar">
 <a name="home"></a>
-<table width="100%"><tr>
-<td width="50%" style="background: #e6e5e4">
-<font style="font-family:Arial;">
-&nbsp;&nbsp;&nbsp;&nbsp;<u>F</u>ile&nbsp;&nbsp;&nbsp;&nbsp;<u>E</u>dit&nbsp;&nbsp;&nbsp;&nbsp;<u>V</u>iew&nbsp;&nbsp;&nbsp;&nbsp;
-Hi<u>s</u>tory&nbsp;&nbsp;&nbsp;&nbsp;<u>B</u>ookmarks&nbsp;&nbsp;&nbsp;&nbsp;<u>T</u>ools&nbsp;&nbsp;&nbsp;&nbsp;<u>H</u>elp
-</font></td>
-<td width="50%" class="chrome-bar" align="right">
-<img style="align:right" src="chrome-actions.png">
-</td></tr></table>
-</div>
 
-<div id="navtoolbar">
-<table width="100%" style="border-collapse:collapse; background:#f1f1f0;"><tr>
-<td><a href="#home"><img src="nav-home.png"></a></td>
-<td width="99%" style="padding-top:5px;">
-	<table width="99%" class="addressbar"><tr>
-	<td align="left" width="25px">&nbsp;<a href="http://justbrowsing.info"><img src="globe.png" /></a></td>
-	<td align="left"><font style="font-family:Sans;font-size:small">http://justbrowsing.info</font></td>
-	<td align="right"><font style="font-family:Sans;font-size:small">New release: 2013-06-11</a>
-	&nbsp;<a href="#qrcode"><img src="star.png" /></a>&nbsp;</td>
-	</tr></table>
-<td><img src="menu.png"></td>
-<td>&nbsp;&nbsp;</td>
-</td></tr></table>
+<table class="titlebar" width="100%"><tr>
 
-<table width="100%" style="border-collapse:collapse;border-bottom: #AFACA9 solid 1px">
-<tr style="text-align:center; background:#f1f1f0; font-family:Arial; font-weight:bold">
-<td style="padding-top:10px;"><img src="quickstart.png" style="vertical-align:top" />
-	<a href="#quickstart" class="navbar">Quick Start</a></td>
-<td style="padding-top:10px;"><img src="screenshots.png" style="vertical-align:top" />
-	<a href="#screenshots" class="navbar">Screenshots</a></td>
-<td style="padding-top:10px;"><img src="downloads.png" style="vertical-align:top" />
-	<a href="https://sourceforge.net/projects/justbrowsing/files/" class="navbar">Download</a></td>
-<td style="padding-top:10px;"><img src="code.png" style="vertical-align:top" />
-	<a href="https://github.com/justbrowsing/justbrowsing" class="navbar">Source</a></td>
-<td style="padding-top:10px;"><img src="bugs.png" style="vertical-align:top" />
-	<a href="https://github.com/justbrowsing/justbrowsing/issues" class="navbar">Issues</a></td>
-<td style="padding-top:10px;"><a href="feed.xml" class="navbar"><img src="rss.png" style="vertical-align:top" /></a>
-	<a href="log/" class="navbar">Changelog</a></td>
-<td style="padding-top:10px;"><img src="blog.png" style="vertical-align:top" />
-	<a href="http://justbrowsingcd.tumblr.com" class="navbar">Blog</a></td>
-<td style="padding-top:10px;"><img src="social.png" style="vertical-align:top" />
-	<a href="social/" class="navbar">Social</a></td>
-<td style="padding-top:10px;"><img src="about.png" style="vertical-align:top" />
-	<a href="#about" class="navbar">About</a></td>
-<td style="padding-top:10px;">&nbsp;&nbsp;</td>
+<td align="left">
+<table class="titlebar"><tr><td><img src="/bar/cd.png" alt="CD-R" title="CD-R" /></td><td><img src="/bar/usb.png" alt="USB" title="USB" /></td><td><img src="/bar/grub.png" alt="GRUB2" title="GRUB2" /></td><td><img src="/bar/iodd.png" alt="I-ODD" title="I-ODD" /><img src="/bar/vm.png" alt="Virtual Machine" title="Virtual Machine" /></td>
+</tr></table></td>
+
+<td align="center">
+<table class="titlebar"><tr class="titlebar"><td class="titlebar"><font id="header1">just</font>&nbsp;<font id="header2">browsing</font></td><td class="titlebar"></td><td class="titlebar"></td><td class="titlebar"><font id="header3">Home</font></td>
+</tr></table></td>
+
+<td align="right">
+<a href="http://justbrowsingcd.tumblr.com"><img class="social" src="/tabs/tumblr.png" /></a><a href="https://github.com/justbrowsing"><img class="social" src="/tabs/github.png" /></a><a href="https://twitter.com/justbrowsingcd"><img class="social" src="/tabs/twitter.png" /></a><a href="https://plus.google.com/b/116839020975727867575/116839020975727867575/"><img class="social" src="/tabs/gplus.png" /></a><a href="https://www.facebook.com/justbrowsingcd"><img class="social" src="/tabs/facebook.png" /></a><a href="http://pinterest.com/justbrowsingcd/pins/"><img class="social" src="/tabs/pinterest.png" /></a><a href="http://www.stumbleupon.com/stumbler/JustBrowsingCD"><img class="social" src="/tabs/stumbleupon.png" /></a>&nbsp;</td>
+
 </tr></table>
+
+<table class="tabbar bordertab" width="100%">
+<tr class="alltabs bordertab gradient">
+<td class="activetab"><img src="/tabs/atab-left.png" /></td>
+<td class="activetab">&nbsp;&nbsp;<img src="/tabs/favicon.png" />&nbsp;&nbsp;
+  <a class="activetab" href="http://justbrowsing.info">Home</a></td>
+<td class="activetab"><img src="/tabs/atab-right.png" align="right" /></td>
+<td class="inactivetab">&nbsp;&nbsp;<img src="/tabs/quickstart.png" />&nbsp;&nbsp;
+  <a class="inactivetab" href="http://justbrowsing.info/start/">Start Guide</a></td>
+<td class="inactivetab"><img src="/tabs/itab-left.png" /></td>
+<td class="inactivetab">&nbsp;&nbsp;<img src="/tabs/screenshots.png" />&nbsp;&nbsp;
+  <a class="inactivetab" href="http://justbrowsing.info/gallery/">Gallery</a></td>
+<td class="inactivetab"><img src="/tabs/itab-left.png" /></td>
+<td class="inactivetab">&nbsp;&nbsp;<a href="http://justbrowsing.info/feed.xml"><img src="/tabs/rss.png" /></a>&nbsp;&nbsp;
+  <a class="inactivetab" href="http://justbrowsing.info/new/">What's New</a></td>
+<td class="inactivetab"><img src="/tabs/itab-left.png" /></td>
+<td class="inactivetab">&nbsp;&nbsp;<img src="/tabs/code.png" />&nbsp;&nbsp;
+  <a class="inactivetab" href="http://justbrowsing.info/advanced/">Advanced</a></td>
+<td class="inactivetab"><img src="/tabs/itab-left.png" /></td>
+<td class="inactivetab">&nbsp;&nbsp;<img src="/tabs/support.png" />&nbsp;&nbsp;
+  <a class="inactivetab" href="http://justbrowsing.info/support/">Support</a></td>
+<td class="tabbar bordertab"><img src="/tabs/itab-right.png" /></td>
+<td class="tabbar bordertab" width="10%"><img src="/tabs/newtab.png" /></td>
+</tr>
+</table>
+<table class="tabbar bordertab" width="100%">
+<tr class="alltabs bordertab gradient">
+<td><img src="/tabs/arrow1.png"></td>
+<td><a href="http://justbrowsing.info/start/#forward"><img class="menu" src="/tabs/arrow4.png"></a></td>
+<td><a href="http://justbrowsing.info/#home"><img class="menu" src="/tabs/home.png"></a></td>
+<td width="99%" style="padding-top:0px;">
+	<table width="99%" class="addressbar"><tr>
+	<td align="left" width="25px">&nbsp;<a href="http://justbrowsing.info"><img src="/tabs/globe.png" /></a></td>
+	<td align="left">http://justbrowsing.info</td>
+	<td align="right">New release: 2013-07-18</a></td><td align="right">
+	&nbsp;<img src="/tabs/star.png" />&nbsp;</td>
+	</tr></table>
+<td><label for="togglemenu"><img class="menu" src="/tabs/menubutton.png"></label></td>
+<td>&nbsp;&nbsp;</td>
+</td></tr>
+</table>
+
+<div class="tabbar contentspacer" width="100%"></div>
 </div>
 
-<div id="mainarea" align="center">
+<div id="google_translate_element" align="right" style="margin-right:10px"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, gaTrack: true, gaId: 'UA-40026407-1'}, 'google_translate_element');
+}</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- end header -->
 
-<h1>Welcome.</h1>
-<img src="justbrowsing-text.png" alt="(chrome logo) just browsing (firefox logo)"/><br>
-<h1>It's that simple.</h1>
-<br><br><br>
-<div id="news">Announcing the 
-<a href="https://sourceforge.net/projects/justbrowsing/files/DevEdition/">DevEdition</a><br>
-(for debugging purposes only)
+<!-- begin content -->
+<div class="tagline" width="100%" align="center">
+  <div style="float:left"><img class="logo" src="/images/logo192.png" /></div>
+  <div><font id="logo1">just</font>&nbsp;<font id="logo2">browsing</font></div>
+  <font id="tagline">Web browsing made simple.<br>Mozilla Firefox or Google Chrome and that's it.</font>
 </div>
-<br><br><br>
+
+<br>
+<table class="pushbuttons" width="100%"><tr>
+<td width="15%"></td>
+<td>
+  <div class="buttontop"><a class="buttontext" href="http://sourceforge.net/projects/justbrowsing/files/">click to begin</a></div>
+  <div class="buttonbig download"><a class="buttontext" href="http://sourceforge.net/projects/justbrowsing/files/">DOWNLOAD</a></div>
+  <div class="buttonbottom"><a class="buttontext" href="http://sourceforge.net/projects/justbrowsing/files/">~700MB .iso</a></div>
+</td>
+<td width="15%"></td>
+<td width="15%"><div id="wpg_51c8ca842c210">Loading <a href="http://www.webpollgenerator.com">web poll</a>...</div><script language="JavaScript">(function(){wpgscript_51c8ca842c210=document.createElement('script');wpgscript_51c8ca842c210.type="text/javascript";wpgscript_51c8ca842c210.src="http://www.webpollgenerator.com/GetPoll2.php?p=51c8ca842c210" + "&s=" + escape(window.location);setTimeout("document.getElementById('wpg_51c8ca842c210').appendChild(wpgscript_51c8ca842c210)",1);})();</script><noscript><div><a href="http://www.webpollgenerator.com/How-do-you-feel-about-JustBrowsing-LiveCD-51c8ca842c210" title="generator html polls">Generate HTML Polls</a>&nbsp;<br/>-&nbsp;<a href="http://www.webpollgenerator.com" title="html poll creator">HTML Poll Creator</a></div></noscript><a class="poll" href="http://www.webpollgenerator.com/ViewResults.php?p=51c8ca842c210">View Results</a></td>
+<td width="15%"></td>
+<td>
+  <div class="buttontop"><a class="buttontext" href="http://justbrowsing.info/start/">click to begin</a></div>
+  <div class="buttonbig quickstart"><a class="buttontext" href="http://justbrowsing.info/start/">START GUIDE</a></div>
+  <div class="buttonbottom"><a class="buttontext" href="http://justbrowsing.info/start/">Instructions</a></div>
+</td>
+<td width="15%"></td>
+
+</tr></table>
+
+<div class="features" width="100%" align="center">
+  <p class="section1">JustBrowsing is a bootable Linux "Live CD" that  does not make any changes to the existing operating system on the computer. Enjoy a simple computing experience with only a web browser (your choice of <a href="http://www.mozilla.org/firefox/new/">Mozilla Firefox</a> or <a href="https://www.google.com/chrome/">Google Chrome</a>). Bundled webapps include a <a href="http://justbrowsing.github.com/justbrowsing-calculator/">calculator</a>, <a href="http://justbrowsing.github.com/justbrowsing-notes/">text editor</a>, <a href="http://justbrowsing.github.com/justbrowsing-timers/">timer</a> and <a href="http://justbrowsing.github.com/justbrowsing-wageclock/">more</a> that are always one click away. Try JustBrowsing, it's safe, secure and no install needed.</p>
+  
+  <table width="100%"><tr>
+  <td width="15%"></td>
+  <td align="left">
+    <table><tr>
+    <td class="featureL"><img style="float:left" class="featureL" src="/images/feature1.png" /></td>
+    <td class="featureL descriptionR">Just the right<br>amount of<br>bookmarks<br>included</td>
+    </tr></table>
+  </td>
+  <td width="15%"></td>
+  <td align="right">
+    <table><tr>
+    <td class="featureL"><img style="float:left" class="featureL" src="/images/feature2.png" /></td>
+    <td class="featureL descriptionR">Handy addons<br>are already<br>installed</td>
+    </tr></table>
+  </td>
+  <td width="15%"></td>
+  </tr></table>
+  
+  <p class="section2">Designed with old machines in mind. Don't throw out your old computer, put <a href="https://sourceforge.net/projects/justbrowsing/files/#oldmachine">JustBrowsing</a> on it! No logins, no malware, no sluggish boot. Perfect for guests. Boot from <a href="http://justbrowsing.info/start/#cdrom">CD-ROM</a>, <a href="http://justbrowsing.info/start/#usb">USB</a>, <a href="http://justbrowsing.info/start/#grub">hard drive</a>, <a href="http://justbrowsing.info/start/#iodd">I-ODD</a>, or <a href="http://justbrowsing.info/start/#vm">Virtual Machine</a>. Releases are built with the latest version of Firefox (stable) and Chrome (dev). Both are loaded up with useful <a href="http://justbrowsing.info/advanced/#bookmarks">bookmarks</a> and sensible <a href="http://justbrowsing.info/advanced/#extensions">extensions</a> "out of the box" with the freedom to add your own and even to sync your profile with <a href="http://justbrowsing.info/advanced/#sync">Firefox Sync</a> or <a href="http://justbrowsing.info/advanced/#signin">Chrome Sign-in</a>.</p>
+  
+  <table width="100%"><tr>
+  <td width="15%"></td>
+  <td align="left">
+    <table><tr>
+    <td class="featureR descriptionL">DuckDuckGo<br>or choose<br>another<br>search engine</td>
+    <td class="featureR"><img style="float:right" class="featureR" src="/images/feature3.png" /></td>
+    </tr></table>
+  </td>
+  <td width="15%"></td>
+  <td align="right">
+    <table><tr>
+    <td class="featureR descriptionL">Intruder<br>detected!<br>4 failed<br>attempts</td>
+    <td class="featureR"><img style="float:right" class="featureR" src="/images/feature4.png" /></td>
+    </tr></table>
+  </td>
+  <td width="15%"></td>
+  </tr></table>
+  
+  <p class="section3">Privacy is important and your browsing history is erased when you turn off the computer. The default search uses <a href="https://duckduckgo.com/about">DuckDuckGo</a> which does not track your search history and does not "<a href="http://dontbubble.us">filter bubble</a>". Ad blocking is installed to protect you from misleading links and tracking advertisements. "<a href="http://donottrack.us">Do not track</a>" is enabled too. JustBrowsing comes with a lockscreen to protect your privacy if you have to leave the computer and <a href="http://justbrowsing.info/advanced/#sentry">alerts you of intruders</a>. The JustBrowsing project is free and <a href="https://github.com/justbrowsing/justbrowsing">open source</a>.</p>
+  
+  <br><br>
+  <table align="center" class="readmore"><tr>
+  <td><a href="http://justbrowsing.info/advanced/" class="readmore">Technical Details</a></td>
+  <td><a href="http://justbrowsing.info/advanced/"><img style="margin-left:30px" src="/images/tools.png" /></a></td>
+  </tr></table>
+  
+  <br><br>
+  <div style="float:left; width:30px; padding-right:150px"><font id="branding">Proudly Powered by</font></div>
+  <a href="https://www.archlinux.org"><img class="branding" src="/images/archlinux.png" /></a><a href="http://www.mozilla.org/firefox/new/"><img class="branding" src="/images/firefox.png" /></a><a href="https://www.google.com/chrome/"><img class="branding" src="/images/chrome.png" /></a>
+  </div>
+</div>
 
 <div align="center">
-<a name="quickstart"></a>
-<h2>Quick Start</h2>
-<div align="center" style="width:70%;line-height:30px;">
-Just Browsing is a "live CD" that does not make any changes to the existing operating system on the computer. Enjoying a simple computing experience with only a web browser (your choice of Mozilla Firefox or Google Chrome) is just a few steps away.
-</div>
-<br>
-<div id="news">Did you know?<br>
-This ISO can also be cloned to a USB thumbdrive
-</div>
-<br><br>
-<table><tr>
-	<td><b>1.) Download ISO image</b> (note: rather large, may take awhile to download)<b>:</b></td>
-</tr></table><br>
-<table><tr>
-	<td><a href="https://sourceforge.net/projects/justbrowsing/files/"><div id="spin"><img src="blankcd.png"/></div></a></td>
-</tr></table>
-<table>
-<tr><td><br><br></td></tr>
-<tr><td><b>2.) Burn to CD-R (or DVD&plusmn;R)</b><br><br>
-Instructions for:
-<table align="center">
-	<tr><td><a href="http://howtoubuntu.org/how-to-burn-an-iso-to-a-cd-or-dvd-in-ubuntu#gnome2" class="external"><b>Linux (Gnome 2)</b></a></td>
-		<td><img src="howto/panel-gnome2.png" /></td></tr>
-	<tr><td><a href="http://howtoubuntu.org/how-to-burn-an-iso-to-a-cd-or-dvd-in-ubuntu#gnome3" class="external"><b>Linux (Gnome 3)</b></a></td>
-		<td><img src="howto/panel-gnome3.png" /></td></tr>
-	<tr><td><a href="http://www.ghacks.net/2009/01/11/burn-cd-and-dvd-iso-images-with-k3b/" class="external"><b>Linux (KDE)</b></a></td>
-		<td><img src="howto/panel-kde.png" /></td></tr>
-	<tr><td><a href="http://pcsupport.about.com/od/toolsofthetrade/ss/writeisofecddvd.htm#win2k" class="external"><b>Windows 2000</b></a></td>
-		<td><img src="howto/panel-2000.png" /></td></tr>
-	<tr><td><a href="http://pcsupport.about.com/od/toolsofthetrade/ss/writeisofecddvd.htm#winxp" class="external"><b>Windows XP</b></a></td>
-		<td><img src="howto/panel-xp.png" /></td></tr>
-	<tr><td><a href="http://pcsupport.about.com/od/toolsofthetrade/ss/writeisofecddvd.htm#winvista" class="external"><b>Windows Vista</b></a></td>
-		<td><img src="howto/panel-vista.png" /></td></tr>
-	<tr><td><a href="http://web.archive.org/web/20130311064943/http://blogs.windows.com/windows/b/windowsexperience/archive/2009/04/13/burn-iso-images-natively-in-windows-7.aspx#win7" class="external"><b>Windows 7</b></a></td>
-		<td><img src="howto/panel-win7.png" /></td></tr>
-	<tr><td><a href="http://web.archive.org/web/20130311064943/http://blogs.windows.com/windows/b/windowsexperience/archive/2009/04/13/burn-iso-images-natively-in-windows-7.aspx#win8" class="external"><b>Windows 8</b></a></td>
-		<td><img src="howto/panel-win8.png" /></td></tr>
-</table></td></tr>
-<tr><td><br><br></td></tr>
-<tr><td><b>3.) Reboot/restart the computer</b></td></tr>
-<tr><td><br><br></td></tr>
-<tr><td><b>4.) Boot from CD-ROM</b><br><br>
-Hold the BIOS setup hotkey (varies) on the keyboard when the computer powers on:
-	<br><table style="margin-left:100px">
-	<tr><td>&bull;&nbsp;<a href="http://pcsupport.about.com/od/fixtheproblem/ht/accessbios.htm">Access the BIOS</a></td></tr>
-	<tr><td>&bull;&nbsp;<a href="http://pcsupport.about.com/od/fixtheproblem/a/biosaccess_pc.htm">Common BIOS hotkeys</a>
-	 (ESC, F1, F2, F8, F10, F11, F12 or DEL)</td></tr></table>
-</td></tr>
-<tr><td>
-Select CD-ROM as 1st boot priority:
-	<br><table style="margin-left:100px">
-	<tr><td>&bull;&nbsp;<a href="http://pcsupport.about.com/od/fixtheproblem/ss/bootorderchange.htm">Change Boot Order</a></td></tr>
-	<tr><td>&bull;&nbsp;<a href=http://www.wikihow.com/Set-Bios-to-Boot-from-a-CD-ROM">Boot Priority</a></td></tr></table>
-</td></tr>
-<tr><td>
-Alternatively, quick Boot Menu:
-	<br><table style="margin-left:100px">
-	<tr><td>&bull;&nbsp;<a href="https://help.ubuntu.com/community/BootFromCD#PC_requires_you_to_hold_down_or_press_a_key_to_boot_from_CD">Boot Menu</a></td></tr></table>
-</td></tr>
-
-<tr><td><br><br></td></tr>
-<tr><td><b>5.) You should see this bootloader</b> (otherwise go back to <b>Step 4.</b>)<b>:</b>
-	<br><br><img src="howto/00_syslinux.png" /></td></tr>
-<tr><td><br><br></td></tr>
-<tr><td><b>6.) Finally the splash screen:</b>
-	<br><br><img src="howto/00_splash.png" /></td></tr>
-</table></div>
-<br><br><br>
-
-<div id="screenshots">
-<h2><a href="#slide01">Slideshow</a></h2><br>
-<a href="screenshots/01_firefox.png"><img src="screenshots/thumbs/01_firefox.png" class="screens" /></a>
-<a href="screenshots/02_chrome.png"><img src="screenshots/thumbs/02_chrome.png" class="screens" /></a>
-<a href="screenshots/03_notes.png"><img src="screenshots/thumbs/03_notes.png" class="screens" /></a><br><br>
-<a href="screenshots/04_calc.png"><img src="screenshots/thumbs/04_calc.png" class="screens" /></a>
-<a href="screenshots/05_timers.png"><img src="screenshots/thumbs/05_timers.png" class="screens" /></a>
-<a href="screenshots/06_wageclock.png"><img src="screenshots/thumbs/06_wageclock.png" class="screens" /></a><br><br>
-<a href="screenshots/07_lockdialog.png"><img src="screenshots/thumbs/07_lockdialog.png" class="screens" /></a>
-<a href="screenshots/08_lockscreen.png"><img src="screenshots/thumbs/08_lockscreen.png" class="screens" /></a>
-<a href="screenshots/09_lockstates.png"><img src="screenshots/thumbs/09_lockstates.png" class="screens" /></a><br><br>
-<a href="screenshots/10_wbar.png"><img src="screenshots/thumbs/10_wbar.png" class="screens" /></a>
-<a href="screenshots/11_failcount.png"><img src="screenshots/thumbs/11_failcount.png" class="screens" /></a>
-<a href="screenshots/12_pavucontrol.png"><img src="screenshots/thumbs/12_pavucontrol.png" class="screens" /></a>
-</div><br><br><br><br><br><br>
-
-<div id="about" align="center">
-<h2>About</h2>
-<table>
-<tr><td>&bull;&nbsp;Choose Firefox or Chrome - whichever is more comfortable to you.</td></tr>
-<tr><td>&bull;&nbsp;No logins, no malware, no sluggish boot. Designed with old machines in mind.</td></tr>
-<tr><td>&bull;&nbsp;A calculator, text editor, timer and more are always one click away.</td></tr>
-<tr><td>&bull;&nbsp;Your privacy protected - a lockscreen to keep out intruders</td></tr>
-<tr><td>&bull;&nbsp;Your history is erased when you turn off the computer</td></tr>
-</table>
-<br><br><br><br>
-
-<div style="width:80%;line-height:30px">
-JustBrowsing is built on the excellent ArchLinux, a rolling-release distribution, which keeps it always up-to-date. It uses the light-weight window manager, i3, and keeps the experience uncluttered. A bottom panel, adeskbar, displays the time and date, and has all the settings visible, no hunting around. Free and open source. The background inspiration for JustBrowsing is detailed <a href="http://justbrowsingcd.tumblr.com/post/49050201846/inspiration-for-justbrowsing">here</a></div>
-</div><br><br><br><br>
-
-<br><br><br><br><br><br>
-<a href="https://www.archlinux.org/"><img src="archtux-geek.png" /></a>
-
-
-<br><br><br>
+<a href="http://justbrowsing.info/old/">old site</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <script type="text/javascript">
 var sc_project=8731705;
 var sc_invisible=0;
@@ -222,138 +197,67 @@ scJsHost+
   ga('create', 'UA-40026407-1', 'justbrowsing.info');
   ga('send', 'pageview');
 </script>
+</div>
+<br><br><br>
+<!-- end content -->
 
-</div>
-<br><br><br><br>
+<!-- begin footer -->
+<div id="footer">
+  <div id="adeskbar" class="panel">
+    <table width="100%"><tr>
+      <td class="browser" align="left">
+        <table><tr>
+        <td><a href="https://github.com/justbrowsing/justbrowsing-chrome-profile" alt="Google Chrome" title="Google Chrome">
+        <img  class="browsers"src="/panel/chrome24.png" /></a></td>
+        <td><a href="https://github.com/justbrowsing/justbrowsing-firefox-profile" alt="Mozilla Firefox" title="Mozilla Firefox">
+        <img class="browsers" src="/panel/firefox24.png" /></a></td>
+        </tr></table>
+      </td>
 
-<!-- http://www.wickham43.net/headerfooterfix.php -->
-<div id="footerwrap">
-<div id="footer" class="gradient">
-<table width="100%"><tr>
+      <td class="webapps" align="right">
+        <table><tr>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-notes/" alt="Notes web-app" title="Notes web-app">
+        <img class="webapps" src="/panel/notes24.png" /></a></td>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-calculator/" alt="Calculator web-app" title="Calculator web-app">
+        <img class="webapps" src="/panel/calc24.png" /></a></td>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-timers/" alt="Timers web-app" title="Timers web-app">
+        <img class="webapps" src="/panel/timer24.png" /></a></td>
+        <td><a href="https://github.com/justbrowsing/justbrowsing-email" alt="Email web-app" title="Email web-app">
+        <img class="webapps" src="/panel/email24.png" /></a></td>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-wageclock/" alt="Wageclock web-app" title="Wageclock web-app">
+        <img class="webapps" src="/panel/wageclock24.png" /></a></td>
+        </tr></table>
+      </td>
 
-<td class="adeskbar" align="left" style="width:20%">
-<a href="https://github.com/justbrowsing/justbrowsing-chrome-profile" alt="Google Chrome web-browser" class="tooltip1">
-<img src="chrome24.png" /></a>
-<a href="https://github.com/justbrowsing/justbrowsing-firefox-profile" alt="Mozilla Firefox web-browser" class="tooltip1">
-<img src="firefox24.png" /></a>
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/justbrowsing/justbrowsing-adeskbar" alt="adeskbar panel" class="tooltip1">
-<img src="adeskbar.png" /></a>
-<a href="https://github.com/justbrowsing/justbrowsing-config-files" alt="i3 Window Manager" class="tooltip1">
-<img src="i3.png" /></a>
-</td>
+      <td class="applets" align="right">
+        <table><tr>
+        <td><a href="https://aur.archlinux.org/packages/network-manager-applet-gtk2/" alt="network applet" title="network applet">
+        <img class="applets" src="/panel/nmapplet24.png" /></a></td>
+        <td><a href="https://aur.archlinux.org/packages/pnmixer/" alt="volume applet" title="volume applet">
+        <img class="applets" src="/panel/pnmixer24.png" /></a></td>
+        <td id="date" class="applets" title="Date">Mon Jul 15, 2013</td>
+        <td id="clock" class="applets" title="Clock">2:20 AM</td>
+        </tr></table>
+      </td>
 
-<td class="adeskbar" align="center" style="width:35%">
-<a href="http://justbrowsing.github.com/justbrowsing-notes/" alt="Notes web-app" class="tooltip1">
-<img src="notes24.png" /></a>&nbsp;
-<a href="http://justbrowsing.github.com/justbrowsing-calculator/" alt="Calculator web-app" class="tooltip1">
-<img src="calc24.png" /></a>&nbsp;
-<a href="http://justbrowsing.github.com/justbrowsing-timers/" alt="Timers web-app" class="tooltip1">
-<img src="timer24.png" /></a>&nbsp;
-<a href="https://github.com/justbrowsing/justbrowsing-email" alt="Email web-app" class="tooltip1">
-<img src="email24.png" /></a>&nbsp;
-<a href="http://justbrowsing.github.com/justbrowsing-wageclock/" alt="Wageclock web-app" class="tooltip1">
-<img src="wageclock24.png" /></a>&nbsp;
-<!--<a href="http://justbrowsing.github.com/justbrowsing-qrclipboard/" alt="QR clipboard" class="tooltip1">
-<img src="qr24.png" /></a>&nbsp;-->
-</td>
+      <td class="power" align="right">
+        <table><tr>
+        <td><a href="http://justbrowsing.info/advanced/#lockscreen" alt="Lock Screen" title="Lock Screen">
+        <img class="power" src="/panel/lock24.png" /></a></td>
+        <td><a href="#home" alt="Reboot" title="Reboot"><img class="power" src="/panel/reboot24.png" /></a></td>
+        <td><a href="http://justbrowsing.info/#home" alt="Shutdown" title="Shutdown">
+        <img class="power" src="/panel/shutdown24.png" /></a></td>
+        </tr></table>
+      </td>
+    </tr></table>
+  </div>
+</div>
+<!-- end footer -->
 
-<td class="adeskbar" align="right" style="width:45%">
-<a href="https://aur.archlinux.org/packages/pnmixer/" alt="pnmixer volume applet" class="tooltip2">
-<img src="pnmixer24.png" /></a>&nbsp;
-<a href="https://aur.archlinux.org/packages/network-manager-applet-gtk2/" alt="networkmanager networking applet" class="tooltip2">
-<img src="nmapplet24.png" /></a>&nbsp;
-&nbsp;&nbsp;
-<a href="#history" alt="Date" class="tooltip2">
-<font id="date">Sun Apr 7, 2013</font></a>
-
-<a href="" alt="Time" class="tooltip2">
-<font id="clock" class="panel">09:31 PM</font></a>
-&nbsp;&nbsp;
-
-<a href="#lockscreen" alt="Lock screen" class="tooltip2">
-<img src="lock24.png" /></a>&nbsp;
-<a href="" alt="Reboot" class="tooltip2">
-<img src="reboot24.png" /></a>&nbsp;
-<a href="#home" alt="Shutdown" class="tooltip2">
-<img src="shutdown24.png" /></a>&nbsp;
-</td>
-
-</tr></table>
-</div>
-</div>
-
-<div class="qr" id="qrcode"><a href=""><img src="qr64.png" /></a></div>
-
-<div class="lb" id="lockscreen"><a href="https://github.com/justbrowsing/i3lock-spy/">
-<div id="wbar" align="left" class="wbar"><img src="wbar-animate.gif"></div>
-<div id="i3lock"><img src="lockscreen.png" /></div>
-</a></div>
-
-<div class="lb" id="slide01">
-<a href="#slide02"><img src="screenshots/01_firefox.png" style="width:60%;max-height:60%"></a>
-</div>
-<div class="lb" id="slide02">
-<a href="#slide03"><img src="screenshots/02_chrome.png" style="width:60%;max-height:60%"></a>
-</div>
-<div class="lb" id="slide03">
-<a href="#slide04"><img src="screenshots/03_notes.png" style="width:60%;max-height:60%"></a>
-</div>
-<div class="lb" id="slide04">
-<a href="#slide05"><img src="screenshots/04_calc.png" style="width:60%;max-height:60%"></a>
-</div>
-<div class="lb" id="slide05">
-<a href="#slide06"><img src="screenshots/05_timers.png" style="width:60%;max-height:60%"></a>
-</div>
-<div class="lb" id="slide06">
-<a href="#slide07"><img src="screenshots/06_wageclock.png" style="width:60%;max-height:60%"></a>
-</div>
-<div class="lb" id="slide07">
-<a href="#slide08"><img src="screenshots/07_lockdialog.png" style="width:60%;max-height:60%"></a>
-</div>
-<div class="lb" id="slide08">
-<a href="#slide09"><img src="screenshots/08_lockscreen.png" style="width:60%;max-height:60%"></a>
-</div>
-<div class="lb" id="slide09">
-<a href="#slide10"><img src="screenshots/09_lockstates.png" style="width:60%;max-height:60%"></a>
-</div>
-<div class="lb" id="slide10">
-<a href="#slide11"><img src="screenshots/10_wbar.png" style="width:60%;max-height:60%"></a>
-</div>
-<div class="lb" id="slide11">
-<a href="#slide12"><img src="screenshots/11_failcount.png" style="width:60%;max-height:60%"></a>
-</div>
-<div class="lb" id="slide12">
-<a href="#screenshots"><img src="screenshots/12_pavucontrol.png" style="width:60%;max-height:60%"></a>
-</div>
-
-<div class="lb" id="history"><ul>
-<li><a href="rev3.html"><h1>Site Version 3.0</h1> 2013-04-07</a></li>
-<li><a href="rev2.html"><h1>Site Version 2.0</h1> 2013-03-31</a></li>
-<li><a href="rev1.html"><h1>Site Version 1.0</h1> 2013-02-19</a></li>
-</ul></div>
-
-<script src="date.js"></script>
-<script type="text/javascript">
-function timedate() {
-	var date = Date.today().toString('ddd MMM d, yyyy');
-	var now = new Date();
-	var hh = now.getHours();
-	var xm  = (hh >= 12) ? "PM" : "AM";
-	var mm = now.getMinutes();
-	if(hh > 12) { hh -= 12; }
-	if(hh == 0) { hh = 12; }
-	if(hh < 10) { hh = "0" + hh; }
-	if(mm < 10) { mm = "0" + mm; }
-	var clock = hh + ":" + mm + " " + xm;
-
-	document.getElementById('date').innerHTML = date;
-	document.getElementById('clock').innerHTML = clock;
-	setTimeout('timedate()',500);
-}
-</script>
-<script type="text/javascript">
-timedate();
-</script>
-</body></html>
+<!-- begin scripts -->
+<script type="text/javascript" src="/includes/date.js"></script>
+<script type="text/javascript" src="/includes/clockapplet.js"></script>
+<script type="text/javascript">timedate();</script>
+<!-- end scripts -->
+</body>
+</html>
