@@ -21,7 +21,7 @@
 Status:&lt;br&gt;
 * Updated browsers to Firefox 22.0 and Google Chrome 30.0.1566.2 dev&lt;br&gt;
 * Updated to Linux kernel 3.9.9&lt;br&gt;
-* IgnorePkg = python-xlib profile-sync-daemon&lt;br&gt;</ul>
+* IgnorePkg = python-xlib profile-sync-daemon&lt;br&gt;
 Known bugs:&lt;br&gt;
 * Some issues with Hangouts and/or Chrome when loading Gmail&lt;br&gt;
 * Lockscreen wallpaper still cut off&lt;br&gt;
