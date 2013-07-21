@@ -1,192 +1,266 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
-  <url>
-    <loc>http://justbrowsing.info</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/start/</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/start/syslinux.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/start/splash.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/start/vmware-driver.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/start/vbox-settings.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/lock_1.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/lock_2.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/lock_3.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/lock_4.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/lock_5.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/lock_6.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/lock_7.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/screen_1.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/screen_2.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/screen_3.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/screen_4.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/screen_5.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/screen_6.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/screen_7.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/screen_8.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/gallery/screen_9.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/feed.xml</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/new/</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/advanced/</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/support/</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-  <url>
-    <loc>http://justbrowsing.info/old/</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/feed.xml</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/log/</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/social/</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/01_firefox.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/02_chrome.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/03_notes.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/04_calc.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/05_timers.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/06_wageclock.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/07_lockdialog.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/08_lockscreen.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/09_lockstates.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/10_wbar.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/11_failcount.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/screenshots/12_pavucontrol.png</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/rev3.html</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/rev2.html</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://justbrowsing.info/old/rev1.html</loc>
-    <lastmod>2013-07-21T12:33:24+00:00</lastmod>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://justbrowsing.info/</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/start/</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/new/</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/advanced/</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/support/</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/lock_1.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/lock_2.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/lock_3.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/lock_4.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/lock_5.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/lock_6.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/lock_7.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/screen_1.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/screen_2.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/screen_3.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/screen_4.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/screen_5.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/screen_6.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/screen_7.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/screen_8.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/gallery/screen_9.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/log/</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/social/</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/rev3.html</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/rev2.html</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/rev1.html</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/log.html</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/social.html</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/01_firefox.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/02_chrome.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/03_notes.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/04_calc.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/05_timers.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/06_wageclock.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/07_lockdialog.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/08_lockscreen.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/09_lockstate.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/10_wbar.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/11_failcount.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/old/screenshots/12_pavucontrol.png</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://justbrowsing.info/index.html</loc>
+  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
 </urlset>
