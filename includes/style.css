@@ -888,6 +888,27 @@ img.resize:hover {
   color: #145D6E;
 }
 
+div.whatsnew {
+  line-height: 1.5em;
+  text-align: left; 
+  width: 33%;
+}
+
+p.whatsnew {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 5px;
+  border-bottom: 4px solid #DDD;
+}
+
+p.whatsnew:hover {
+  color: #FFF;
+  background: #000;
+}
+
+
 /* http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/super-simple-lightbox-with-css-and-jquery/ */
 
 #lightbox {
