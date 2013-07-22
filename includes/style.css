@@ -289,10 +289,16 @@ table.readmore, div.readmore {
   -moz-border-radius: 5px;
   border-radius: 5px;
   background: #3F3F3F;
+  padding: 0 20px 0 20px;
 }
 
 table.readmore:hover, div.readmore:hover {
   background: #2C2C2C;
+}
+
+img.readmore {
+  vertical-align: middle;
+  margin-left: 40px;
 }
 
 a.readmore {
@@ -301,7 +307,6 @@ a.readmore {
   font-size: 2em;
   color: #FFF;
   text-decoration: none;
-  margin: 20px;
 }
 
 a.readmore:hover, a.readmore:active {
