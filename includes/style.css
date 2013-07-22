@@ -449,6 +449,7 @@ a.extensions:hover, a.extensions:active {
 
 a.buttontext {
   color: #FFF;
+  display: block;
 }
 
 a.buttontext:hover {
