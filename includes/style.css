@@ -117,6 +117,10 @@ img.logo {
   text-align: left;
 }
 
+.section {
+  font-size: 1.2em;
+}
+
 .titlebar {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.95em;
@@ -876,6 +880,12 @@ img.resize {
 
 img.resize:hover {
   border-color: #FF0000;
+}
+
+.tip {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #145D6E;
 }
 
 /* http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/super-simple-lightbox-with-css-and-jquery/ */
