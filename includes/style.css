@@ -47,6 +47,24 @@ img {
   text-decoration: none;
 }
 
+.goto {
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+
+.gotolight {
+  color: #DDD;
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+
+.goto:hover, .gotolight:hover {
+  color: #D90000;
+  text-decoration: none;
+  text-shadow: 0px 2px 3px #555;
+}
+
 #header1 {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
