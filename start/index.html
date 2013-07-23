@@ -761,11 +761,14 @@ function googleTranslateElementInit() {
         </table></div><br></td></tr>
       <tr><td><img src="num2.png" /></td>
         <td>Choose Boot JustBrowsing (VMware)
-        <br><b>Select entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font> <b>and</b> <font class="kbd notranslate">Enter</font></td>
+        <br><b>Select entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        <br>Edit entry with <font class="kbd notranslate">TAB</font> and set <font class="codeinline notranslate">vmware=1366x768</font> to desired resolution
+        <br><b>Press</b> <font class="kbd notranslate">Enter</font> to boot</td>
         <td><a href="vmware-driver.png"><img class="resize" src="vmware-driver.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num3.png" /></td>
-        <td>Splash screen</td>
+        <td>Splash screen
+        <br><b>(note: bootsplash not displayed with VMware driver)</b></td>
         <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
       </tr>
       </table>
@@ -793,7 +796,50 @@ function googleTranslateElementInit() {
 
     <a name="vm_virtualbox"></a>
     <div id="STARTvm_virtualbox" class="START step2">
-      <h2>Create Virtual Machine</h2><br>
+      <h2>Recommended: Use OVA Virtual Appliance</h2><br>
+
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td><a href="https://sourceforge.net/projects/justbrowsing/files/Virtual/">Download OVA file</a></td>
+      </tr>
+      <tr><td><h2>OR</h2></td></tr>
+      <tr><td><img src="num1.png" /></td>
+        <td>Convert ISO to OVA</td>
+        <td><div class="codeblock notranslate">
+          <table class="codeblock notranslate">
+            <tr><td>git clone https://github.com/justbrowsing/justbrowsing-remaster
+            <br>cd justbrowsing-remaster
+            <br>./iso2ova ~/Downloads/justbrowsing_YYYYMMDD.iso</td></tr>
+          </table>
+        </div></td>
+      </tr>
+
+      <tr><td><br><br><img src="num2.png" /></td>
+        <td><b>Open Downloads folder</b>
+        <br><font class="kbd notranslate">Double-click</font> OVA file</td>
+        <td><img src="vbox-ova.png" /></td>
+      </tr>
+
+      <tr><td><img src="num3.png" /></td>
+        <td><u>Note</u>: may need to run <font class="codeinline">modprobe vboxdrv</font>
+        <br><b>Press Import</b></td>
+        <td><img src="vbox-import.png" /></td>
+      </tr>      
+      <tr><td><img src="num4.png" /></td>
+        <td><b>Press Start</b>
+        <br>Choose Boot JustBrowsing (VMware)
+        <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        and <font class="kbd notranslate">Enter</font>
+        <br>(note: use <a href="/start/#vm_qemu">QEMU</a> or VMware for resolution greater than 1024x768)</td>
+        <td><a href="vmware-driver.png"><img class="resize" src="vmware-driver.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num5.png" /></td>
+        <td>Splash screen</td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+
+      <h2>Alternate: Create Virtual Machine</h2><br>
       <table>
       <tr><td><img src="num1.png" /></td>
         <td><u>Note</u>: may need to run <font class="codeinline">modprobe vboxdrv</font>
@@ -817,8 +863,11 @@ function googleTranslateElementInit() {
         <td><a href="vbox-settings.png"><img class="resize" src="vbox-settings.resized.png" /></a>
       </tr>
       <tr><td><img src="num4.png" /></td>
-        <td>Choose Boot JustBrowsing (VMware)
-        <br><b>Select entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font> <b>and</b> <font class="kbd notranslate">Enter</font></td>
+        <td><b>Press Start</b>
+        <br>Choose Boot JustBrowsing (VMware)
+        <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        and <font class="kbd notranslate">Enter</font>
+        <br>(note: use <a href="/start/#vm_qemu">QEMU</a> or VMware for resolution greater than 1024x768)</td>
         <td><a href="vmware-driver.png"><img class="resize" src="vmware-driver.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num5.png" /></td>
