@@ -12,7 +12,7 @@ body {
 }
 
 .tile {
-  background-image: url('/includes/lightblue-pattern.png');
+  background-image: url('/includes/lightblue-pattern.jpg');
   background-position: center center;
 }
 
@@ -163,8 +163,8 @@ a.titlebar:hover {
 }
 
 .social {
-  padding: 0 0 0 5px;
-  margin: 5px 0 0 0;
+  padding: 0;
+  margin: 5px 2px 0 3px;
 }
 
 .tabbar {
