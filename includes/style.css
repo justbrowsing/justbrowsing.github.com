@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600);
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600,600italic,700);
 @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
 
 body {
@@ -13,6 +13,11 @@ body {
 
 .tile {
   background-image: url('/includes/lightblue-pattern.jpg');
+  background-position: center center;
+}
+
+.gentile {
+  background-image: url('/includes/lightpurple-pattern.jpg');
   background-position: center center;
 }
 
@@ -86,6 +91,21 @@ img {
   color: #FFF;
 }
 
+#genheader1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-size: 1.95em;
+  color: #7A5ADA;
+}
+
+#genheader2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.95em;
+  color: #DDDDFF;
+}
+
 .warning {
   background: #00A8B8;
   border-top: 2px solid black;
@@ -110,6 +130,21 @@ img.logo {
   font-weight: 600;
   font-size: 3.95em;
   color: #1793D1;
+}
+
+#genlogo1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-size: 3.95em;
+  color: #7A5ADA;
+}
+
+#genlogo2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 3.95em;
+  color: #DDDDFF;
 }
 
 #tagline {
@@ -162,9 +197,13 @@ a.titlebar:hover {
   text-decoration: underline;
 }
 
-.social {
+img.social {
   padding: 0;
   margin: 5px 2px 0 3px;
+}
+
+img.social:hover {
+  opacity: 0.5;
 }
 
 .tabbar {
