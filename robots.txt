@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://justbrowsing.info/sitemap.xml
