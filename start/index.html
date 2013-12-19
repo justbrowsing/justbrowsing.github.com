@@ -77,7 +77,7 @@
 	<table width="99%" class="addressbar"><tr>
 	<td align="left" width="25px">&nbsp;<a href="http://justbrowsing.info/start/"><img class="sprite-spritesheet-globe" src="/includes/sprite.png" /></a></td>
 	<td align="left">http://justbrowsing.info/start/</td>
-	<td align="right">Stable release: 2013-07-18</a></td><td align="right">
+	<td align="right">Stable release: 2013-12-18</a></td><td align="right">
 	&nbsp;<img class="sprite-spritesheet-star" src="/includes/sprite.png" />&nbsp;</td>
 	</tr></table>
 <td><label for="togglemenu"><img class="menu sprite-spritesheet-menubutton" src="/includes/sprite.png" /></label></td>
@@ -104,8 +104,8 @@
 <!-- Choose -->
 <a id="chooseCD" class="choice choose" href="#cd"><img src="/images/cdr192.png" alt="cd"/><br>CD-ROM</a>
 <a id="chooseUSB" class="choice choose" href="#usb"><img src="/images/usb192.png" alt="USB"/><br>USB</a>
-<!--<a id="chooseGRUB" class="choice choose" href="#grub"><img src="/images/grub192.png" alt="GRUB"/><br>GRUB2</a>
-<br>-->
+<a id="chooseGRUB" class="choice choose" href="#grub"><img src="/images/grub192.png" alt="GRUB"/><br>GRUB2</a>
+<br>
 <a id="chooseIODD" class="choice choose" href="#iodd"><img src="/images/iodd192.png" alt="IODD"/><br>I-ODD</a>
 <a id="chooseVM" class="choice choose" href="#vm"><img src="/images/vm192.png" alt="VM"/><br>Virtual Machine</a>
 
@@ -662,14 +662,34 @@
 
     <a name="grub_jb"></a>
     <div id="STARTgrub_jb" class="START step2">
-    Just browsing installer...
+    Coming soon
     <br><br><br><br>
     </div>
 
     <a name="grub_existing"></a>
     <div id="STARTgrub_existing" class="START step2">
-    Existing install...
-    <br><br><br><br>
+
+      <h2>Existing GRUB2 install</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td>Copy .iso to /boot partition</td>
+      </tr>
+      <tr><td><img src="num2.png" /></td>
+        <td><b>Add the following boot entry to /boot/grub/grub.cfg</b></td>
+      <td><div class="codeblock notranslate">
+        <table class="codeblock notranslate">    
+        <tr><td>menuentry "JustBrowsing" {</td></tr>
+        <tr><td>&nbsp;&nbsp;set isofile="/justbrowsing_20131218.iso"</td></tr>
+        <tr><td>&nbsp;&nbsp;set hdN="hd0"</td></tr>
+        <tr><td>&nbsp;&nbsp;set sdX="sda"</td></tr>
+        <tr><td>&nbsp;&nbsp;set N="1"</td></tr>
+        <tr><td>&nbsp;&nbsp;loopback loop ($hdN,$N)/$isofile</td></tr>
+        <tr><td>&nbsp;&nbsp;linux (loop)/arch/boot/i686/vmlinuz archisolabel=justbrowsing img_dev=/dev/$sdX$N img_loop=$isofile earlymodules=loop quiet splash vga=791</td></tr>
+        <tr><td>&nbsp;&nbsp;initrd (loop)/arch/boot/i686/archiso.img</td></tr>
+        <tr><td>}</td></tr>
+        </table></div>
+       </td>
+       </tr></table>
     </div>
   </div>
 

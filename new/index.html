@@ -73,7 +73,7 @@
 	<table width="99%" class="addressbar"><tr>
 	<td align="left" width="25px">&nbsp;<a href="http://justbrowsing.info/new/"><img class="sprite-spritesheet-globe" src="/includes/sprite.png" /></a></td>
 	<td align="left">http://justbrowsing.info/new/</td>
-	<td align="right">Stable release: 2013-07-18</a></td><td align="right">
+	<td align="right">Stable release: 2013-12-18</a></td><td align="right">
 	&nbsp;<img class="sprite-spritesheet-star" src="/includes/sprite.png" />&nbsp;</td>
 	</tr></table>
 <td><label for="togglemenu"><img class="menu sprite-spritesheet-menubutton" src="/includes/sprite.png" /></label></td>
@@ -115,7 +115,7 @@ function googleTranslateElementInit() {
 <font class="caption">Community contributions welcome</font>
 <div class="whatsnew">
 <br>
-<p class="whatsnew">Smaller ISO size</p>
+<p class="whatsnew"><strike>Smaller ISO size</strike></p>
 <p class="whatsnew">Language translations</p>
 <p class="whatsnew">Faster boot up</p>
 <p class="whatsnew">UEFI 'Secure Boot' support</p>
@@ -126,6 +126,46 @@ function googleTranslateElementInit() {
 
 <div align="center" style="background:#FF9600;">
 <br><h1><a href="/feed.xml"><img src="/images/rss48.png" /></a><a class="anchor" name="changelog">Changelog</a><a class="goto" href="/new/#changelog">&#8674;</a></h1></div>
+
+<div align="left" class="changelog">
+<a name="05-0"><b><u>0.5-0</u></b></a><br>
+2013-12-18</li></ul>
+
+ Changelog:<ul>
+<li>Upgraded autologin@.service</a>
+<li>GTK icon theme enabled</li>
+<li>Updated Firefox profile</li>
+<li>Update Chrome profile</li>
+<li>Fixes for Chrome slotting (symlinks)</li>
+<li>Chrome: installed camera app</li>
+<li>Firefox: tweaks to about:config</li>
+<li>Firefox: MoreInContent+ extension</li>
+<li>Removed python3</li>
+<li>Optimize ISO size each build</li>
+<li>Default volume 100% for all audio cards</li>
+<li>Change i3 default tiling to tabbed</li>
+<li>VirtualBox support</li>
+<li>VirtualBox RDP fixes</li>
+<li>Keyboard layout/keymap applet switcher (gxkb: us,fr,it,is)</li>
+<li>Fixes to autosize script</li>
+<li>PXE support</li></ul>
+
+ Status:<ul>
+<li>Updated browsers to Firefox 22.0 and Google Chrome 30.0.1566.2 dev</li>
+<li>Updated to Linux kernel 3.12.5</li>
+<li>IgnorePkg = systemd systemd-sysvcompat python-xlib profile-sync-daemon</li></ul>
+
+ Known bugs:<ul>
+<li>Holding systemd-204 because even ver.208 has slow shutdown</li>
+<li>VirtualBox support doesn't work 1 in 4 times, restart X</li>
+<li>PXE boot is untested</li><br><br>
+</div>
+
+<div align="left" class="changelog">
+<a name="04-X"><b><u>0.4-X</u></b></a><br>
+Nightlies</li></ul>
+See <a href="https://sourceforge.net/projects/justbrowsing/files/Nightlies/">changelog for nightlies</a>
+</div>
 
 <div align="left" class="changelog">
 <a name="03-8"><b><u>0.3-8</u></b></a><br>
