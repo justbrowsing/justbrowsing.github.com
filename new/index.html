@@ -102,6 +102,8 @@ function googleTranslateElementInit() {
 <div align="center" style="background:#199DFF;">
 <br><h1><a class="anchor" name="recent">Recent Changes</a><a class="goto" href="/new/#recent">&#8674;</a></h1>
 <div class="whatsnew">
+<p class="whatsnew">Language translations <a href="/advanced/#locale">&#8674;</a></p>
+<p class="whatsnew">Smaller ISO size</p>
 <p class="whatsnew">Nightly releases autobuilt <a href="http://sourceforge.net/projects/justbrowsing/files/Nightlies/">&#8674;</a></p>
 <p class="whatsnew">Virtualbox OVA images <a href="http://sourceforge.net/projects/justbrowsing/files/Virtual">&#8674;</a></p>
 <p class="whatsnew">Improved build scripts <a href="https://github.com/justbrowsing/justbrowsing-remaster">&#8674;</a></p>
@@ -115,8 +117,6 @@ function googleTranslateElementInit() {
 <font class="caption">Community contributions welcome</font>
 <div class="whatsnew">
 <br>
-<p class="whatsnew"><strike>Smaller ISO size</strike></p>
-<p class="whatsnew">Language translations</p>
 <p class="whatsnew">Faster boot up</p>
 <p class="whatsnew">UEFI 'Secure Boot' support</p>
 <p class="whatsnew">Custom lock dialog</p>
@@ -126,6 +126,33 @@ function googleTranslateElementInit() {
 
 <div align="center" style="background:#FF9600;">
 <br><h1><a href="/feed.xml"><img src="/images/rss48.png" /></a><a class="anchor" name="changelog">Changelog</a><a class="goto" href="/new/#changelog">&#8674;</a></h1></div>
+
+<div align="left" class="changelog">
+<a name="05-1"><b><u>0.5-1</u></b></a><br>
+2013-12-25</li></ul>
+
+ Changelog:<ul>
+<li>Boot parameter keymap=xx</li>
+<li>Boot parameter locale=xx</li>
+<li>Boot parameter clean=true</li>
+<li>Syslinux load keymap menus</a>
+<li>Syslinux video mode menus</a>
+<li>Syslinux help menus</a>
+<li>Set gxkb keymap option</li>
+<li>Set browser locale option</li>
+<li>Fresh/untouched browser profile option</li>
+<li>Browser wrapper scripts</li>
+
+ Status:<ul>
+<li>Currently Firefox 26.0 (stable) and Google Chrome 31.0.1650.63 (beta)</li>
+<li>Currently Linux kernel 3.12.5</li>
+<li>IgnorePkg = systemd systemd-sysvcompat python-xlib profile-sync-daemon</li></ul>
+
+ Known bugs:<ul>
+<li>Only 33 keymaps and locales, need more support</li>
+<li>Holding systemd at release 204</li>
+<li>PXE boot is untested</li><br><br>
+</div>
 
 <div align="left" class="changelog">
 <a name="05-0"><b><u>0.5-0</u></b></a><br>
