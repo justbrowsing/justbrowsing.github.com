@@ -73,7 +73,7 @@
 	<table width="99%" class="addressbar"><tr>
 	<td align="left" width="25px">&nbsp;<a href="http://justbrowsing.info/advanced/"><img class="sprite-spritesheet-globe" src="/includes/sprite.png" /></a></td>
 	<td align="left">http://justbrowsing.info/advanced/</td>
-	<td align="right">Stable release: 2013-12-18</a></td><td align="right">
+	<td align="right">Stable release: 2013-12-25</a></td><td align="right">
 	&nbsp;<img class="sprite-spritesheet-star" src="/includes/sprite.png" />&nbsp;</td>
 	</tr></table>
 <td><label for="togglemenu"><img class="menu sprite-spritesheet-menubutton" src="/includes/sprite.png" /></label></td>
@@ -189,6 +189,8 @@ function googleTranslateElementInit() {
 <br>
 <table><tr><td class="category">Tools</td>
   <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/">Add to Search Bar</a></td>
+  <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/click-to-play-manager/">Click-to-Play Manager</a></td>
+
   <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/hide-my-ass-proxy-extension/">Hide My Ass Proxy</a></td>
   <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/offline-qr-generator/">Offline QR Generator</a></td>
   <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/screengrab-fix-version/">Screengrab</a></td>
@@ -200,7 +202,8 @@ function googleTranslateElementInit() {
   <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/download-manager-tweak/">Download Manager Tweak</a></td>
   <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/menu-editor/">Menu Editor</a></td>
   <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/menu-icons-plus/">Menu Icons Plus</a></td>
-  <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/more-in-content-ui/">More in Content UI</a></td>
+  <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/more-in-content-ui-plus/">More in Content UI+</a></td>
+  <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/skip-addon-check/">Skip Addon Compatibility Check</a></td>
   <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/">Tab Mix Plus</a></td>
   <td class="extensions"><a class="extensions" href="https://addons.mozilla.org/en-US/firefox/addon/toolbar-buttons/">Toolbar Buttons</a></td>
 </tr></table>
@@ -221,6 +224,7 @@ function googleTranslateElementInit() {
 <br>
 <table><tr><td class="category">Tools</td>
   <td class="extensions"><a class="extensions" href="https://chrome.google.com/webstore/detail/addthis-share-bookmark-ol/pannmpobbfegpjngknbghelclaalbfob">AddThis</a></td>
+  <td class="extensions"><a class="extensions" href="https://chrome.google.com/webstore/detail/camera/hfhhnacclhffhdffklopdkcgdhifgngh">Camera</a></td>
   <td class="extensions"><a class="extensions" href="https://chrome.google.com/webstore/detail/chrome-to-mobile/idknbmbdnapjicclomlijcgfpikmndhd">Chrome to Mobile</a></td>
   <td class="extensions"><a class="extensions" href="https://chrome.google.com/webstore/detail/save-to-google-drive/gmbmikajjgmnabiglmofipeabaddhgne">Save to Google Drive</a></td>
   <td class="extensions"><a class="extensions" href="https://chrome.google.com/webstore/detail/screen-capture-by-google/cpngackimfmofbokmjmljamhdncknpmg">Screen Capture</a></td>
@@ -242,6 +246,94 @@ function googleTranslateElementInit() {
 <br><font class="caption">Mugshots of intruders that entered an incorrect password</font>
 </div>
 <p class="paragraph">Lock screens are designed to protect privacy. However, most only offer defense against intruders. <a href="https://aur.archlinux.org/packages/i3lock-spy/">i3lock-sentry</a> takes an offensive position by counting failed attempts and utilizing the computer's webcam (if present) to capture snapshots of the trespasser.</p>
+<br><br>
+</div>
+
+<div class="advanced" style="background:#1793D1;">
+<br><h1><a class="anchor" name="bootparameters">Boot Parameters</a><a class="goto" href="/advanced/#bootparameters">&#8674;</a></h1>
+<div align="center"><img src="/images/boot_parameters.png" /><br>
+<font class="caption">Press <font class="kbd">TAB</font> to edit JustBrowsing bootloader menu entry</font>
+</div>
+<p class="paragraph">Change settings at boot time using the provided boot entries or customize them. Especially useful when combined with GRUB2 ISO boot method for persistent language and keyboard layout settings.</p>
+<p class="paragraph">Press <font class="kbd">F1</font> to bring up boot parameters</p>
+<div style="align:center; width:100%">
+<table class="tab1">
+<tr><th class="tab1">Parameter</th><th class="tab1">Description</th></tr>
+<tr class="tab1"><td class="tab1">default=firefox</td><td class="tab1">Sets default browser to Mozilla Firefox</td></tr>
+<tr class="tab1"><td class="tab1">default=chrome</td><td class="tab1">Sets default browser to Google Chrome</td></tr>
+<tr class="tab1"><td class="tab1">nomodeset</td><td class="tab1">Disables kernel mode setting (needed for some GPUS)</td></tr>
+<tr class="tab1"><td class="tab1">display=1024x768</td><td class="tab1">Forces resolution of 1024x768</td></tr>
+<tr class="tab1"><td class="tab1">display=1366x768</td><td class="tab1">Forces resolution of 1366x768</td></tr>
+<tr class="tab1"><td class="tab1">gpu=vmware</td><td class="tab1">Enables VMware GPU driver</td></tr>
+<tr class="tab1"><td class="tab1">gpu=vbox</td><td class="tab1">Enables Virtualbox GPU driver</td></tr>
+<tr class="tab1"><td class="tab1">locale=de</td><td class="tab1">Set browser locale to German</td></tr>
+<tr class="tab1"><td class="tab1">locale=en_US</td><td class="tab1">Set browser locale to English US</td></tr>
+<tr class="tab1"><td class="tab1">keymap=us</td><td class="tab1">Set keymap to USA layout</td></tr>
+<tr class="tab1"><td class="tab1">locale=is</td><td class="tab1">Set keymap to Iceland layout</td></tr>
+<tr class="tab1"><td class="tab1">clean=true</td><td class="tab1">Use fresh/untouched browser profiles</td></tr>
+</table></div>
+<br><br>
+</div>
+
+<div class="advanced" style="background:#F46C25;">
+<br><h1><a class="anchor" name="locale">Localization</a><a class="goto" href="/advanced/#locale">&#8674;</a></h1>
+<div align="center"><img src="/images/locale_list.png" /><br>
+<font class="caption">Press <font class="kbd">F2</font> to bring up locale and keymap list</font>
+</div>
+<p class="paragraph">JustBrowsing release 20131225 and newer support localization. Select an entry under "Choose locale & keymap". Currently 33 keymaps are supported but browser localization varies, see the below compatability table.</p>
+<div style="align:center; width:100%"><table align="center"><tr><td>
+<table class="tab1">
+<tr><th class="tab1">Keymap</th><th class="tab1">Locale</th><th class="tab1">Firefox</th>
+  <th class="tab1">Chrome</th><th class="tab1">Name</th></tr>
+<tr class="tab1"><td class="tab1">af</td><td class="tab1">af</td><td class="tab1">x</td><td class="tab1"></td><td class="tab1">Afrikaans</td></tr>
+<tr class="tab1"><td class="tab1">am</td><td class="tab1">am</td><td class="tab1"></td><td class="tab1">x</td><td class="tab1">Amharic</td></tr>
+<tr class="tab1"><td class="tab1">be</td><td class="tab1">be</td><td class="tab1">x</td><td class="tab1"></td><td class="tab1">Belarusian</td></tr>
+<tr class="tab1"><td class="tab1">bg</td><td class="tab1">bg</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">Bulgarian</td></tr>
+<tr class="tab1"><td class="tab1">br</td><td class="tab1">br</td><td class="tab1">x</td><td class="tab1"></td><td class="tab1">Brazilian</td></tr>
+<tr class="tab1"><td class="tab1">ca</td><td class="tab1">ca</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">Catalan</td></tr>
+<tr class="tab1"><td class="tab1">cn</td><td class="tab1">cn</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">Chinese</td></tr>
+<tr class="tab1"><td class="tab1">de</td><td class="tab1">de</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">German</td></tr>
+<tr class="tab1"><td class="tab1">es</td><td class="tab1">es</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">Spanish</td></tr>
+<tr class="tab1"><td class="tab1">et</td><td class="tab1">et</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">Estonian</td></tr>
+<tr class="tab1"><td class="tab1">fi</td><td class="tab1">fi</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">Finnish</td></tr>
+<tr class="tab1"><td class="tab1">fr</td><td class="tab1">fr</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">French</td></tr>
+<tr class="tab1"><td class="tab1">gb</td><td class="tab1">gb</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">English (GB)</td></tr>
+<tr class="tab1"><td class="tab1">hr</td><td class="tab1">hr</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">Croatian</td></tr>
+<tr class="tab1"><td class="tab1">hu</td><td class="tab1">hu</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">Hungarian</td></tr>
+<tr class="tab1"><td class="tab1">is</td><td class="tab1">is</td><td class="tab1">x</td><td class="tab1"></td><td class="tab1">Icelandic</td></tr>
+<tr class="tab1"><td class="tab1">it</td><td class="tab1">it</td><td class="tab1">x</td><td class="tab1">x</td><td class="tab1">Italian</td></tr>
+</table></td><td>
+
+<table class="tab2">
+<tr><th class="tab2">Keymap</th><th class="tab2">Locale</th><th class="tab2">Firefox</th>
+  <th class="tab2">Chrome</th><th class="tab2">Name</th></tr>
+<tr class="tab2"><td class="tab2">jp</td><td class="tab2">ja</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">Japanese</td></tr>
+<tr class="tab2"><td class="tab2">lt</td><td class="tab2">lt</td><td class="tab2"></td><td class="tab2">x</td><td class="tab2">Lithuanian</td></tr>
+<tr class="tab2"><td class="tab2">lv</td><td class="tab2">lv</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">Latvian</td></tr>
+<tr class="tab2"><td class="tab2">mk</td><td class="tab2">mk</td><td class="tab2">x</td><td class="tab2"></td><td class="tab2">Macedonian</td></tr>
+<tr class="tab2"><td class="tab2">ml</td><td class="tab2">ml</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">Malayalam</td></tr>
+<tr class="tab2"><td class="tab2">nl</td><td class="tab2">nl</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">Dutch</td></tr>
+<tr class="tab2"><td class="tab2">no</td><td class="tab2">no</td><td class="tab2"></td><td class="tab2">x</td><td class="tab2">Norwegian</td></tr>
+<tr class="tab2"><td class="tab2">pl</td><td class="tab2">pl</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">Polish</td></tr>
+<tr class="tab2"><td class="tab2">ro</td><td class="tab2">ro</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">Romanian</td></tr>
+<tr class="tab2"><td class="tab2">ru</td><td class="tab2">ru</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">Russian</td></tr>
+<tr class="tab2"><td class="tab2">si</td><td class="tab2">si</td><td class="tab2">x</td><td class="tab2"></td><td class="tab2">Sinhala</td></tr>
+<tr class="tab2"><td class="tab2">sk</td><td class="tab2">sk</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">Slovak</td></tr>
+<tr class="tab2"><td class="tab2">th</td><td class="tab2">th</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">Thai</td></tr>
+<tr class="tab2"><td class="tab2">tr</td><td class="tab2">tr</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">Turkish</td></tr>
+<tr class="tab2"><td class="tab2">tw</td><td class="tab2">zh_TW</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">Taiwanese</td></tr>
+<tr class="tab2"><td class="tab2">us</td><td class="tab2">en_US</td><td class="tab2">x</td><td class="tab2">x</td><td class="tab2">English (US)</td></tr>
+<tr class="tab2"><td class="tab2">&nbsp;</td><td class="tab2"></td><td class="tab2"></td><td class="tab2"></td><td class="tab2"></td></tr>
+</table>
+</td></tr></table></div>
+<br><br>
+</div>
+
+<div class="advanced" style="background:#ED97FF;">
+<br><h1><a class="anchor" name="keymaps">Keymaps</a><a class="goto" href="/advanced/#keymaps">&#8674;</a></h1>
+<div align="center"><img src="/images/syslinux_kbd.png" /><br>
+<font class="caption">Temporarily load an azerty/dvorak/qwerty/qwertz keymap</font></div>
+<p class="paragraph">Also supported is loading a keymap within the boot menu to edit boot entries. Select "Advanced Options -> Load keymap", then a keyboard layout style and finally the appropriate keymap. This will NOT be passed to the OS.</p>
 <br><br>
 </div>
 

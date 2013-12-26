@@ -938,6 +938,35 @@ font.codeinline, table.codeinline {
   border-radius: 0 10px 10px 0;
 }
 
+table.tab1, table.tab2 {
+  border-spacing: 0.5em;
+  border-collapse: collapse;
+}
+
+th.tab1, th.tab2 {
+  border: 1px solid #000;
+}
+
+table.tab1, table.tab2, th.tab1, th.tab2 {
+  border:1px solid black;
+}
+
+td.tab1:nth-of-type(odd), td.tab1:nth-of-type(even) {
+  border: 1px solid #000;
+}
+
+td.tab2:nth-of-type(odd), td.tab2:nth-of-type(even) {
+  border: 1px solid #000;
+}
+
+tr.tab1:nth-of-type(odd), tr.tab2:nth-of-type(even) {
+  background: #CCC;
+}
+
+tr.tab1:nth-of-type(even), tr.tab2:nth-of-type(odd) {
+  background: #FFF;
+}
+
 img.resize {
   border: 5px solid #DDD;
   -moz-box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
