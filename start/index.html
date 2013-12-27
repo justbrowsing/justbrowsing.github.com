@@ -669,27 +669,30 @@
     <a name="grub_existing"></a>
     <div id="STARTgrub_existing" class="START step2">
 
-      <h2>Existing GRUB2 install</h2>
-      <table>
+      <h2>Existing GRUB2 HDD/USB install</h2>
+      <h3>(HDD or USB "Live" ISO install for Advanced users)</h3>
+      <table width="100%">
       <tr><td><img src="num1.png" /></td>
-        <td>Copy .iso to /boot partition</td>
+        <td>Copy .iso file to /boot partition</td>
+        <td></td>
+          <td><img src="num2.png" /></td>
+        <td><b>Add the following boot entry to <a href="/start/grub.cfg">/boot/grub/grub.cfg</a></b></td>
       </tr>
-      <tr><td><img src="num2.png" /></td>
-        <td><b>Add the following boot entry to /boot/grub/grub.cfg</b></td>
-      <td><div class="codeblock notranslate">
+      </table>
+      <div class="codeblock notranslate">
         <table class="codeblock notranslate">    
         <tr><td>menuentry "JustBrowsing" {</td></tr>
-        <tr><td>&nbsp;&nbsp;set isofile="/justbrowsing_20131218.iso"</td></tr>
+        <tr><td>&nbsp;&nbsp;set isofile="/justbrowsing_20131225.iso"</td></tr>
         <tr><td>&nbsp;&nbsp;set hdN="hd0"</td></tr>
         <tr><td>&nbsp;&nbsp;set sdX="sda"</td></tr>
         <tr><td>&nbsp;&nbsp;set N="1"</td></tr>
         <tr><td>&nbsp;&nbsp;loopback loop ($hdN,$N)/$isofile</td></tr>
-        <tr><td>&nbsp;&nbsp;linux (loop)/arch/boot/i686/vmlinuz archisolabel=justbrowsing img_dev=/dev/$sdX$N img_loop=$isofile earlymodules=loop quiet splash vga=791</td></tr>
+        <tr><td>&nbsp;&nbsp;linux (loop)/arch/boot/i686/vmlinuz archisolabel=justbrowsing img_dev=/dev/$sdX$N img_loop=$isofile earlymodules=loop quiet splash gfxpayload=1024x768</td></tr>
         <tr><td>&nbsp;&nbsp;initrd (loop)/arch/boot/i686/archiso.img</td></tr>
         <tr><td>}</td></tr>
-        </table></div>
-       </td>
-       </tr></table>
+        </table>
+      </div>
+
     </div>
   </div>
 

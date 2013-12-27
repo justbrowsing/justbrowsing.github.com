@@ -858,8 +858,8 @@ div.codeblock {
 }
 
 table.codeblock {
-  font-family: 'Share Tech Mono', sans-serif;
-  line-height: 0.9em;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.2em;
 }
 
 table.codeblock td {
@@ -965,6 +965,10 @@ tr.tab1:nth-of-type(odd), tr.tab2:nth-of-type(even) {
 
 tr.tab1:nth-of-type(even), tr.tab2:nth-of-type(odd) {
   background: #FFF;
+}
+
+tr.X {
+  text-decoration:line-through;
 }
 
 img.resize {
