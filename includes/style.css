@@ -357,7 +357,7 @@ img.readmore {
   margin-left: 40px;
 }
 
-a.readmore {
+a.readmore, text.readmore {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   font-size: 2em;
