@@ -5,8 +5,113 @@
 <title>Just Browsing Changelog</title>
 <link>http://justbrowsing.info/new/</link>
 <description>Changelog for the JustBrowsing LiveCD project</description>
-<lastBuildDate>Thu, 18 Jul 2013 04:28:56 GMT</lastBuildDate>
+<lastBuildDate>Sat, 28 Dec 2013 22:59:00 GMT</lastBuildDate>
 <language>en-us</language>
+<item>
+<title>2013-12-25 (0.5-1)</title>
+<link>http://justbrowsing.info/new/#05-1</link>
+<guid>http://justbrowsing.info/new/#05-1</guid>
+<pubDate>Wed, 25 Dec 2013 14:01:17 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Boot parameter keymap=xx&lt;br&gt;
+* Boot parameter locale=xx&lt;br&gt;
+* Boot parameter clean=true&lt;br&gt;
+* Syslinux load keymap menus&lt;br&gt;
+* Syslinux video mode menus&lt;br&gt;
+* Syslinux help menus&lt;br&gt;
+* Set gxkb keymap option&lt;br&gt;
+* Set browser locale option&lt;br&gt;
+* Fresh/untouched browser profile option&lt;br&gt;
+* Browser wrapper scripts&lt;br&gt;
+&lt;br&gt;
+ Status:&lt;br&gt;
+* Currently Firefox 26.0 (stable) and Google Chrome 31.0.1650.63 (beta)&lt;br&gt;
+* Currently Linux kernel 3.12.5&lt;br&gt;
+* IgnorePkg = systemd systemd-sysvcompat python-xlib profile-sync-daemon&lt;br&gt;
+&lt;br&gt;
+ Known bugs:&lt;br&gt;
+* Chinese (both) and Japanese inputs don't work, require ibus&lt;br&gt;
+* Only 30 keymaps and 33 locales, need more support&lt;br&gt;
+* Holding systemd at release 204&lt;br&gt;
+* PXE boot is untested&lt;br&gt;
+</description>
+</item>
+<item>
+<title>2013-12-18 (0.5-0)</title>
+<link>http://justbrowsing.info/new/#05-0</link>
+<guid>http://justbrowsing.info/new/#05-0</guid>
+<pubDate>Wed, 18 Dec 2013 23:28:31 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Upgraded autologin@.service&lt;br&gt;
+* GTK icon theme enabled&lt;br&gt;
+* Updated Firefox profile&lt;br&gt;
+* Update Chrome profile&lt;br&gt;
+* Fixes for Chrome slotting (symlinks)&lt;br&gt;
+* Chrome: installed camera app&lt;br&gt;
+* Firefox: tweaks to about:config&lt;br&gt;
+* Firefox: MoreInContent+ extension&lt;br&gt;
+* Removed python3&lt;br&gt;
+* Optimize ISO size each build&lt;br&gt;
+* Default volume 100% for all audio cards&lt;br&gt;
+* Change i3 default tiling to tabbed&lt;br&gt;
+* VirtualBox support&lt;br&gt;
+* VirtualBox RDP fixes&lt;br&gt;
+* Keyboard layout/keymap applet switcher (gxkb: us,fr,it,is)&lt;br&gt;
+* Fixes to autosize script&lt;br&gt;
+* PXE support&lt;br&gt;
+&lt;br&gt;
+Status:&lt;br&gt;
+* Updated browsers to Firefox 26.0 (stable) and Google Chrome 31.0.1650.63 (beta)&lt;br&gt;
+* Updated to Linux kernel 3.12.5&lt;br&gt;
+* IgnorePkg = systemd systemd-sysvcompat python-xlib profile-sync-daemon&lt;br&gt;
+&lt;br&gt;
+Known bugs:&lt;br&gt;
+* Holding systemd-204 because even ver.208 has slow shutdown&lt;br&gt;
+* VirtualBox support doesn't work 1 in 4 times, restart X&lt;br&gt;
+* PXE boot is untested&lt;br&gt;&lt;br&gt;
+</description>
+</item>
+<item>
+<title>Nightlies (0.4-X)</title>
+<link>http://justbrowsing.info/new/#04-X</link>
+<guid>http://justbrowsing.info/new/#04-X</guid>
+<pubDate>Tue, 29 Oct 2013 12:00:00 GMT</pubDate>
+<description>See changelog for nightlies:&lt;br&gt;
+* Nightly: 20131110&lt;br&gt;
+* Nightly: 20131029&lt;br&gt;
+* Nightly: 20131027&lt;br&gt;
+* Nightly: 20131025&lt;br&gt;
+* Nightly: 20131024&lt;br&gt;
+* Nightly: 20131022&lt;br&gt;
+* Nightly: 20131021&lt;br&gt;
+* Nightly: 20130819&lt;br&gt;
+* Nightly: 20130818&lt;br&gt;
+* Nightly: 20130817&lt;br&gt;
+* Nightly: 20130816&lt;br&gt;
+* Nightly: 20130815&lt;br&gt;
+* Nightly: 20130814&lt;br&gt;
+* Nightly: 20130813&lt;br&gt;
+* Nightly: 20130812&lt;br&gt;
+* Nightly: 20130810&lt;br&gt;
+* Nightly: 20130809&lt;br&gt;
+* Nightly: 20130808&lt;br&gt;
+* Nightly: 20130807&lt;br&gt;
+* Nightly: 20130806&lt;br&gt;
+* Nightly: 20130802&lt;br&gt;
+* Nightly: 20130801&lt;br&gt;
+* Nightly: 20130731&lt;br&gt;
+* Nightly: 20130730&lt;br&gt;
+* Nightly: 20130729&lt;br&gt;
+* Nightly: 20130728&lt;br&gt;
+* Nightly: 20130727&lt;br&gt;
+* Nightly: 20130726&lt;br&gt;
+* Nightly: 20130725&lt;br&gt;
+* Nightly: 20130723&lt;br&gt;
+* Nightly: 20130722&lt;br&gt;
+* Nightly: 20130721&lt;br&gt;
+* Nightly: 20130720&lt;br&gt;
+</description>
+</item>
 <item>
 <title>2013-07-18 (0.3-8)</title>
 <link>http://justbrowsing.info/new/#03-8</link>
@@ -18,10 +123,12 @@
 * New: re-enabled Chrome plugins, added flashfree whitelist&lt;br&gt;
 * New: upgrade-iso script to build nightlies&lt;br&gt;
 * Removed: google-talkplugin (hangouts)&lt;br&gt;
+&lt;br&gt;
 Status:&lt;br&gt;
 * Updated browsers to Firefox 22.0 and Google Chrome 30.0.1566.2 dev&lt;br&gt;
 * Updated to Linux kernel 3.9.9&lt;br&gt;
 * IgnorePkg = python-xlib profile-sync-daemon&lt;br&gt;
+&lt;br&gt;
 Known bugs:&lt;br&gt;
 * Some issues with Hangouts and/or Chrome when loading Gmail&lt;br&gt;
 * Lockscreen wallpaper still cut off&lt;br&gt;
@@ -47,16 +154,19 @@ Known bugs:&lt;br&gt;
 * Fixed: lockscreen bruteforce logs failed attempts&lt;br&gt;
 * Fixed: use -vga vmware for resolutions above 1024x768 in QEMU&lt;br&gt;
 * Fixed: upstream fixed -vga=vmware black screen bug&lt;br&gt;
-* Packaged: updated i3lock-spy&lt;br&gt;&lt;br&gt;
+* Packaged: updated i3lock-spy&lt;br&gt;
+&lt;br&gt;
 Status:&lt;br&gt;
 * Manual intervention for ArchLinux /bin, /sbin, /usr/sbin merge to /usr/bin&lt;br&gt;
 * Updated browsers to Firefox 21.0 and Google Chrome 29.0.1521.3 dev&lt;br&gt;
 * Updated to Linux kernel 3.9.5&lt;br&gt;
-* IgnorePkg = python-xlib google-chrome-dev profile-sync-daemon&lt;br&gt;&lt;br&gt;
+* IgnorePkg = python-xlib google-chrome-dev profile-sync-daemon&lt;br&gt;
+&lt;br&gt;
 Dev Edition:&lt;br&gt;
 * First public release&lt;br&gt;
 * Added: xterm, openssh&lt;br&gt;
-* Enabled: VTs, ssh server&lt;br&gt;&lt;br&gt;
+* Enabled: VTs, ssh server&lt;br&gt;
+&lt;br&gt;
 Known bugs:&lt;br&gt;
 * Blinking cursors in QEMU and Virtualbox with std driver&lt;br&gt;
 * Segmentation fault in QEMU with SPICE qxl driver

@@ -91,11 +91,11 @@ $(document).ready(function(){
 
   $('.step2').hide();
 
-  if (document.location.href.indexOf('#') > 0) {
-    hashTo();
+  if ( document.location.href.substr(document.location.href.indexOf('#')) == "#autodetect") {
+    autoDetect();
   }
-  else {
-    //autoDetect();
+  else if (document.location.href.indexOf('#') > 0) {
+    hashTo();
   }
 
   $(window).bind('hashchange', function() {
