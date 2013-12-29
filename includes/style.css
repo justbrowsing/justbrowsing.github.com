@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600);
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600,600italic,700);
-@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
 
 body {
   padding: 0;
@@ -972,7 +971,7 @@ tr.X {
 }
 
 img.resize {
-  border: 5px solid #DDD;
+  border: 5px solid #D6E3F8;
   -moz-box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
   -webkit-box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
   box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
@@ -983,6 +982,14 @@ img.resize {
 
 img.resize:hover {
   border-color: #FF0000;
+}
+
+.maximize {
+  float:left;
+  color: #444;
+  background-color: #FBFBFB;
+  border: rgba(0,0,0,0.9);
+  padding: 2px 8px 2px 8px;
 }
 
 .tip {
@@ -1029,9 +1036,9 @@ p.whatsnew:hover {
   -webkit-box-shadow: 0 0 25px #111;
   -moz-box-shadow: 0 0 25px #111;
   width: auto;
-  max-width: 960px;
+  max-width: 500px;
   height: auto;
-  max-height: 500px;
+  max-height: 375px;
   padding-top: 10px;
 }
 
