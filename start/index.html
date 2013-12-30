@@ -682,17 +682,7 @@
       </tr>
       </table>
       <div class="codeblock notranslate">
-        <table class="codeblock notranslate">    
-        <tr><td>menuentry "JustBrowsing" {</td></tr>
-        <tr><td>&nbsp;&nbsp;set isofile="/justbrowsing_20131225.iso"</td></tr>
-        <tr><td>&nbsp;&nbsp;set hdN="hd0"</td></tr>
-        <tr><td>&nbsp;&nbsp;set sdX="sda"</td></tr>
-        <tr><td>&nbsp;&nbsp;set N="1"</td></tr>
-        <tr><td>&nbsp;&nbsp;loopback loop ($hdN,$N)/$isofile</td></tr>
-        <tr><td>&nbsp;&nbsp;linux (loop)/arch/boot/i686/vmlinuz archisolabel=justbrowsing img_dev=/dev/$sdX$N img_loop=$isofile earlymodules=loop quiet splash gfxpayload=1024x768</td></tr>
-        <tr><td>&nbsp;&nbsp;initrd (loop)/arch/boot/i686/archiso.img</td></tr>
-        <tr><td>}</td></tr>
-        </table>
+        <script notranslate src="https://gist.github.com/justbrowsing/c93fb2b61ea679938a92.js"></script>
       </div>
 
     </div>
@@ -798,10 +788,8 @@
 
       <h2>Full QEMU command</h2><br>
         <div class="codeblock notranslate">
-        <table class="codeblock notranslate">
-          <tr><td>QEMU_AUDIO_DRV=alsa qemu-system-x86_64 -enable-kvm -m 2000 -machine type=pc,accel=kvm 
-	-cpu host -vga vmware -soundhw ac97 -cdrom justbrowsing_YYYYMMDD.iso</td></tr>
-        </table></div><br>
+        <script notranslate src="https://gist.github.com/justbrowsing/9896d86b2f6be7f39b24.js"></script>
+        </div><br>
 
       <h2>Parameter breakdown</h2><br>
         <table class="codeinline notranslate">
