@@ -401,10 +401,6 @@ a.bookmarks:hover, a.bookmarks:active {
   color: #FFF;
 }
 
-.addons {
-  
-}
-
 .category {
   font-weight: bold;
   width: 100px;
@@ -621,6 +617,24 @@ body>div#footer {
 div#adeskbar {
   height: 30px;
   margin: 0 20px 0 0;
+}
+
+.banner {
+  padding-bottom: 3em; 
+  margin: 0;
+  position: relative;
+}
+
+.banner a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+  opacity: 0;
+  filter: alpha(opacity=1);
 }
 
 .browsers, .webapps, .applets, .power {
