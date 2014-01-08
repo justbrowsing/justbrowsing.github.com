@@ -538,7 +538,7 @@ a.buttontext:hover {
   color: #FFF;
   padding-left: 22px;
   padding-right: 22px;
-  margin-top:-22px;  
+  margin-top:-22px;
 }
 
 .centered {
@@ -570,7 +570,7 @@ a.buttontext:hover {
   font-weight: 400;
   font-size: 0.9em;
   line-height: 1.5em;
-  padding: 22px;  
+  padding: 22px;
 }
 
 .changelog:nth-child(odd) {
@@ -578,7 +578,233 @@ a.buttontext:hover {
 }
 
 .changelog:nth-child(even) {
-  background: #FFF;  
+  background: #FFF;
+}
+
+td.featured {
+  width: 200px;
+  border: solid #000 3px;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+td.featured:hover {
+  border: dotted #00275A 3px;
+  opacity: 0.7;
+  filter:alpha(opacity=70);
+}
+
+td.featured a {
+  text-align: center;
+  line-height: 1em;
+  display: block;
+}
+
+td.featured a:hover {
+  text-decoration: none;
+}
+
+td.featured {
+  font-size: 1em;
+  line-height: 1em;
+}
+
+.lffl {
+  font-size: 5em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  background-color: #EEEEEE;
+}
+
+a.lffl {
+  color: #B81B1B;
+}
+
+a.lffl:hover {
+  color: #000;
+}
+
+.killer {
+  font-size: 2.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  background-color: #FF0000;
+}
+
+a.killer {
+  color: #F1F1F1;
+}
+
+a.killer:hover {
+  color: #000;
+}
+
+.dwrean {
+  font-size: 3.5em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  background-color: #FBFBFB;
+}
+
+a.dwrean {
+  color: #000;
+}
+
+.red, a.dwrean:hover {
+  color: #FF0000;
+}
+
+.osarena {
+  font-size: 3.5em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  background-color: #555555;
+}
+
+a.osarena {
+  color: #909090;
+}
+
+a.osarena:hover {
+  color: #000;
+}
+
+.mbnet {
+  font-size: 3.5em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  background-color: #EBB400;
+}
+
+a.mbnet {
+  color: #6E6E6E;
+}
+
+.white, a.mbnet:hover {
+  color: #FFF;
+}
+
+td.listed {
+  width: 100px;
+  border: solid #000 3px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+td.listed:hover {
+  border: dotted #00275A 3px;
+  opacity: 0.7;
+  filter:alpha(opacity=70);
+}
+
+td.listed a {
+  text-align: center;
+  line-height: 1em;
+  display: block;
+}
+
+td.listed a:hover {
+  text-decoration: none;
+}
+
+td.listed {
+  font-size: 1em;
+  line-height: 1em;
+}
+
+.sforge {
+  font-size: 1.8em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  background-color: #2A5F7A;
+}
+
+a.sforge {
+  color: #FFF;
+}
+
+a.sforge:hover {
+  color: #000;
+}
+
+.livelst {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  background-color: #CDCDD1;
+}
+
+a.livelst {
+  color: #000;
+}
+
+a.livelst:hover {
+  color: #FFF;
+}
+
+.softp {
+  font-size: 1.5em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  background-color: #011F5B;
+}
+
+a.softp {
+  color: #FFF;
+}
+
+a.softp:hover {
+  color: #8896B3;
+}
+
+.reddit {
+  font-size: 2.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  background-color: #CEE3F8;
+}
+
+a.reddit {
+  color: #FF0000;
+}
+
+a.reddit:hover {
+  color: #000;
+}
+
+.alt2 {
+  font-size: 2em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  background-color: #4B87A8;
+}
+
+a.alt2 {
+  color: #FFF;
+}
+
+a.alt2:hover {
+  color: #000;
+}
+
+.dwatch {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: #FFFF00;
+}
+
+a.dwatch {
+  color: #003399;
+}
+
+a.dwatch:hover {
+  color: #000;
 }
 
 
@@ -620,7 +846,7 @@ div#adeskbar {
 }
 
 .banner {
-  padding-bottom: 3em; 
+  padding-bottom: 3em;
   margin: 0;
   position: relative;
 }
@@ -736,7 +962,7 @@ div#adeskbar {
   padding-left: 22px;
   padding-right: 22px;
   padding-bottom: 22px;
-  margin-top:-22px;  
+  margin-top:-22px;
 }
 
 .galleria-div {
@@ -749,7 +975,7 @@ div#adeskbar {
   padding-left: 22px;
   padding-right: 22px;
   padding-bottom: 22px;
-  margin-top:-22px;  
+  margin-top:-22px;
 }
 
 .galleria, .autoplay {
@@ -1014,7 +1240,7 @@ img.resize:hover {
 
 div.whatsnew {
   line-height: 1.5em;
-  text-align: left; 
+  text-align: left;
   width: 70%;
 }
 
@@ -1037,11 +1263,11 @@ p.whatsnew:hover {
 
 #lightbox {
   position: fixed;
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
-  background: url(/previews/overlay.png) repeat; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/previews/overlay.png) repeat;
   text-align: center;
   vertical-align: middle;
 }
