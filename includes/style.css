@@ -1091,7 +1091,7 @@ div.codeblock {
   display: block;
   clear: both;
   color: #555555;
-  padding: 1em 1em;
+  padding: 0.5em 0.5em;
   background: #f4f4f4;
   border: solid 1px #e1e1e1
 }
@@ -1102,7 +1102,7 @@ table.codeblock {
 }
 
 table.codeblock td {
-  padding: 0 20px 0 20px;
+  padding: 0 0.5em 0 0.5em;
 }
 
 font.kbd {
