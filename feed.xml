@@ -5,8 +5,86 @@
 <title>Just Browsing Changelog</title>
 <link>http://justbrowsing.info/new/</link>
 <description>Changelog for the JustBrowsing LiveCD project</description>
-<lastBuildDate>Sat, 28 Dec 2013 22:59:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 26 Jan 2014 12:00:00 GMT</lastBuildDate>
 <language>en-us</language>
+<item>
+<title>2014-01-25 Nightly (0.5-4)</title>
+<link>http://justbrowsing.info/new/#05-4</link>
+<guid>http://justbrowsing.info/new/#05-4</guid>
+<pubDate>Sat, 25 Jan 2014 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Added ipw2100-fw for Intel Wifi 2100&lt;br&gt;
+* Added ipw2200-fw for Intel Wifi 2200BG&lt;br&gt;
+</description>
+</item>
+<item>
+<title>2014-01-24 (0.5-3)</title>
+<link>http://justbrowsing.info/new/#05-3</link>
+<guid>http://justbrowsing.info/new/#05-3</guid>
+<pubDate>Fri, 24 Jan 2014 11:15:19 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Boot parameter parser changed&lt;br&gt;
+* Boot parameter clean=true fixed&lt;br&gt;
+* Boot parameter zone=Continent\City (timezones) added&lt;br&gt;
+* Syslinux timezone menus added&lt;br&gt;
+* Syslinux F3 timezone cheatsheet&lt;br&gt;
+* Improve boot time: lz4 initrd instead of xz&lt;br&gt;
+* Update: xf86-video-qxl&lt;br&gt;
+* Debug: ALT+F2 (/tmp/debug) and Firefox (about:addons-memory)&lt;br&gt;
+* Hotkeys: ALT+F1 (switch browser), ALT+F5 to ALT+F9 (webapps)&lt;br&gt;
+* Fixed .sfs checksum and pkglist for ISO&lt;br&gt;
+* Locale: Brazillian actually Breton&lt;br&gt;
+* Locale: English (GB) fixed&lt;br&gt;
+* Locale: Greek added&lt;br&gt;
+* Locale: Sinhali removed&lt;br&gt;
+* Locale: Swedish added&lt;br&gt;
+* Keymap: Added missing flags&lt;br&gt;
+* Keymap: Dvorak added&lt;br&gt;
+* Keymap: Polish (same as US) in all gxkb&lt;br&gt;
+* Bookmarks: draw.io added&lt;br&gt;
+* Bookmarks: newegg camel removed&lt;br&gt;
+* Firefox: Remove Google Search Redirects added&lt;br&gt;
+* Firefox: Video Resumer added&lt;br&gt;
+* Firefox: Setting Sanity added&lt;br&gt;
+* Firefox: about:addons-memory added&lt;br&gt;
+* Chrome: rebuilt chrome profile&lt;br&gt;
+* Chrome: DuckDuckGo Home&lt;br&gt;
+* Chrome: Google Docs added&lt;br&gt;
+* Chrome: Hangouts added&lt;br&gt;
+* Chrome: WOT added&lt;br&gt;
+* Chrome: AddThis removed&lt;br&gt;
+* Chrome: Flashblock removed&lt;br&gt;
+* Chrome: TurnOffTheLights fixed&lt;br&gt;
+* Cleanup: Removed dupe backgrounds&lt;br&gt;
+* Cleanup: Removed python3 again&lt;br&gt;
+* jb-install: 0.1 alpha "live" and "persist" installer released&lt;br&gt;
+&lt;br&gt;
+ Status:&lt;br&gt;
+* Currently Firefox 26.0 (stable) and Google Chrome 32.0.1700.77 (stable)&lt;br&gt;
+* Currently Linux kernel 3.12.8&lt;br&gt;
+* IgnorePkg = python-xlib profile-sync-daemon&lt;br&gt;
+* ISO size: 603 MB&lt;br&gt;
+&lt;br&gt;
+ Known bugs:&lt;br&gt;
+* PXE boot not yet working&lt;br&gt;
+* If US keymap in gxkb config, defaults to US&lt;br&gt;
+* Some browser locales missing fonts&lt;br&gt;
+* Chinese and Japanese keymaps need ibus&lt;br&gt;
+</description>
+</item>
+<item>
+<title>Nightlies (0.5-2)</title>
+<link>http://justbrowsing.info/new/#05-2</link>
+<guid>http://justbrowsing.info/new/#05-2</guid>
+<pubDate>Wed, 8 Jan 2014 12:00:00 GMT</pubDate>
+<description>See changelog for nightlies:&lt;br&gt;
+* Nightly: 20140107&lt;br&gt;
+* Nightly: 20140106&lt;br&gt;
+* Nightly: 20140104&lt;br&gt;
+* Nightly: 20140103&lt;br&gt;
+* Nightly: 20140102&lt;br&gt;
+</description>
+</item>
 <item>
 <title>2013-12-25 (0.5-1)</title>
 <link>http://justbrowsing.info/new/#05-1</link>
