@@ -5,8 +5,42 @@
 <title>Just Browsing Changelog</title>
 <link>http://justbrowsing.info/new/</link>
 <description>Changelog for the JustBrowsing LiveCD project</description>
-<lastBuildDate>Sun, 26 Jan 2014 12:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 09 Apr 2014 12:00:00 GMT</lastBuildDate>
 <language>en-us</language>
+<item>
+<title>2014-04-09 (0.6-0)</title>
+<link>http://justbrowsing.info/new/#06-0</link>
+<guid>http://justbrowsing.info/new/#06-0</guid>
+<pubDate>Wed, 09 Apr 2014 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Experimental: Settings configurator (jb-config)&lt;br&gt;
+* Experimental: Printer support (CUPS w/ Gutenprint drivers)&lt;br&gt;
+* Enabled: avahi-daemon w/ mdns support&lt;br&gt;
+* Enabled: CUPS webUI&lt;br&gt;
+* Fixed: touchpad setting&lt;br&gt;
+* Fixed: volume hotkeys&lt;br&gt;
+* Fixed: copytoram menu entry&lt;br&gt;
+* Fixed: typo in F1.txt&lt;br&gt;
+* Locale: Vietnamese added&lt;br&gt;
+* Added ttf-msfonts&lt;br&gt;
+&lt;br&gt;
+ Status:&lt;br&gt;
+* Updated browsers to Firefox 28.0 (stable) and Google Chrome 34.0.1847.116 (stable)&lt;br&gt;
+* Updated to Linux kernel 3.13.8&lt;br&gt;
+* Updated to OpenSSL 1.0.1g (not vulnerable to "HeartBleed")&lt;br&gt;
+* IgnorePkg = python-xlib profile-sync-daemon&lt;br&gt;
+* ISO size: 691 MB&lt;br&gt;
+&lt;br&gt;
+ Known bugs:&lt;br&gt;
+* Firefox: old profile asks to reset&lt;br&gt;
+* Chrome: extensions not up to date&lt;br&gt;
+* jb-config: panel doesn't resize when changing resolution&lt;br&gt;
+* jb-config: change keymap not implemented&lt;br&gt;
+* jb-config: change locale not implemented&lt;br&gt;
+* jb-config: browser, VM, etc options not implemented&lt;br&gt;
+* jb-config: bug report tool broken&lt;br&gt;
+</description>
+</item>
 <item>
 <title>2014-01-25 Nightly (0.5-4)</title>
 <link>http://justbrowsing.info/new/#05-4</link>

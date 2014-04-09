@@ -73,7 +73,7 @@
 	<table width="99%" class="addressbar"><tr>
 	<td align="left" width="25px">&nbsp;<a href="http://justbrowsing.info/new/"><img class="sprite-spritesheet-globe" src="/includes/sprite.png" /></a></td>
 	<td align="left">http://justbrowsing.info/new/</td>
-	<td align="right">Testing release: 2014-04-08</a></td><td align="right">
+	<td align="right">Stable release: 2014-04-09</a></td><td align="right">
 	&nbsp;<img class="sprite-spritesheet-star" src="/includes/sprite.png" />&nbsp;</td>
 	</tr></table>
 <td><label for="togglemenu"><img class="menu sprite-spritesheet-menubutton" src="/includes/sprite.png" /></label></td>
@@ -102,6 +102,8 @@ function googleTranslateElementInit() {
 <div align="center" style="background:#199DFF;">
 <br><h1><a class="anchor" name="recent">Recent Changes</a><a class="goto" href="/new/#recent">&#8674;</a></h1>
 <div class="whatsnew">
+<p class="whatsnew">Printer support</p>
+<p class="whatsnew">GUI Settings configurator</p>
 <p class="whatsnew">Language translations <a href="/advanced/#locale">&#8674;</a></p>
 <p class="whatsnew">Nightly releases autobuilt <a href="http://sourceforge.net/projects/justbrowsing/files/Nightlies/">&#8674;</a></p>
 <p class="whatsnew">Virtualbox OVA images <a href="http://sourceforge.net/projects/justbrowsing/files/Virtual">&#8674;</a></p>
@@ -116,6 +118,9 @@ function googleTranslateElementInit() {
 <font class="caption">Community contributions welcome</font>
 <div class="whatsnew">
 <br>
+<p class="whatsnew">Config file</p>
+<p class="whatsnew">PXE support</p>
+<p class="whatsnew">Interactive boot</p>
 <p class="whatsnew">zRAM support</p>
 <p class="whatsnew">Smaller ISO size</p>
 <p class="whatsnew">Faster boot up</p>
@@ -127,6 +132,39 @@ function googleTranslateElementInit() {
 
 <div align="center" style="background:#FF9600;">
 <br><h1><a href="/feed.xml"><img src="/images/rss48.png" /></a><a class="anchor" name="changelog">Changelog</a><a class="goto" href="/new/#changelog">&#8674;</a></h1></div>
+
+<div align="left" class="changelog">
+<a name="06-0"><b><u>0.6-0</u></b></a><br>
+2014-04-09</li></ul>
+
+<br>Changelog:<ul>
+<li>Experimental: Settings configurator (jb-config)</li>
+<li>Experimental: Printer support (CUPS w/ Gutenprint drivers)</li>
+<li>Enabled: avahi-daemon w/ mdns support</li>
+<li>Enabled: CUPS webUI</li>
+<li>Fixed: touchpad setting</li>
+<li>Fixed: volume hotkeys</li>
+<li>Fixed: copytoram menu entry</li>
+<li>Fixed: typo in F1.txt</li>
+<li>Locale: Vietnamese added</li>
+<li>Added ttf-msfonts</li></ul>
+
+ Status:<ul>
+<li>Updated browsers to Firefox 28.0 (stable) and Google Chrome 34.0.1847.116 (stable)</li>
+<li>Updated to Linux kernel 3.13.8</li>
+<li>Updated to OpenSSL 1.0.1g (not vulnerable to "HeartBleed")</li>
+<li>IgnorePkg = python-xlib profile-sync-daemon</li>
+<li>ISO size: 691 MB</li></ul>
+
+ Known bugs:<ul>
+<li>Firefox: old profile asks to reset</li>
+<li>Chrome: extensions not up to date</li>
+<li>jb-config: panel doesn't resize when changing resolution</li>
+<li>jb-config: change keymap not implemented</li>
+<li>jb-config: change locale not implemented</li>
+<li>jb-config: browser, VM, etc options not implemented</li>
+<li>jb-config: bug report tool broken</li>
+</div>
 
 <div align="left" class="changelog">
 <a name="05-4"><b><u>0.5-4</u></b></a><br>
