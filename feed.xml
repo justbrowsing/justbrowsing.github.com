@@ -5,8 +5,28 @@
 <title>Just Browsing Changelog</title>
 <link>http://justbrowsing.info/new/</link>
 <description>Changelog for the JustBrowsing LiveCD project</description>
-<lastBuildDate>Wed, 09 Apr 2014 12:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 14 Apr 2014 18:00:00 GMT</lastBuildDate>
 <language>en-us</language>
+<item>
+<title>2014-04-14 Nightly (0.6-1)</title>
+<link>http://justbrowsing.info/new/#06-1</link>
+<guid>http://justbrowsing.info/new/#06-1</guid>
+<pubDate>Mon, 14 Apr 2014 18:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Replaced: zenity lockdialog with gtkdialog version&lt;br&gt;
+* Silent boot: agetty --skip-login to autologin@.service&lt;br&gt;
+* Silent boot: kernel.printk = 3 3 3 3 to systctl.d&lt;br&gt;
+* Removed: perl, zenity, ttf-dejavu, linux-headers&lt;br&gt;
+* Removed: unused Adwaita and HighContrast themes&lt;br&gt;
+* jb-config: prevent more than one settings dialog&lt;br&gt;
+* Build system: downgrade to syslinux 6.02 (menu select/highlight not working in 6.03)&lt;br&gt;
+* ISO structure: updated archiso and syslinux files&lt;br&gt;
+&lt;br&gt;
+ Status:&lt;br&gt;
+* Updated to Linux kernel 3.14.1&lt;br&gt;
+* ISO size: 675 MB&lt;br&gt;
+</description>
+</item>
 <item>
 <title>2014-04-09 (0.6-0)</title>
 <link>http://justbrowsing.info/new/#06-0</link>
