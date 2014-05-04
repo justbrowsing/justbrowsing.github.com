@@ -5,8 +5,28 @@
 <title>Just Browsing Changelog</title>
 <link>http://justbrowsing.info/new/</link>
 <description>Changelog for the JustBrowsing LiveCD project</description>
-<lastBuildDate>Mon, 14 Apr 2014 18:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 04 May 2014 12:00:00 GMT</lastBuildDate>
 <language>en-us</language>
+<item>
+<title>2014-05-04 Nightly (0.6-2)</title>
+<link>http://justbrowsing.info/new/#06-2</link>
+<guid>http://justbrowsing.info/new/#06-2</guid>
+<pubDate>Sun, 04 May 2014 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Firefox: various changes for the Australis UI&lt;br&gt;
+* Firefox: added Classic Theme Restorer&lt;br&gt;
+* Firefox: added RSS/atom feeds to bookmarks menu&lt;br&gt;
+* Chrome: removed Apps bookmark&lt;br&gt;
+* Chrome: set home to chrome://apps&lt;br&gt;
+* Fixed: touchpad settings (again)&lt;br&gt;
+* Added install.preset for jb-remaster&lt;br&gt;
+&lt;br&gt;
+ Status:&lt;br&gt;
+* Updated browsers to Firefox 29.0 (stable) and Google Chrome 34.0.1847.132 (stable)&lt;br&gt;
+* Updated to Linux kernel 3.14.2&lt;br&gt;
+* ISO size: 640 MB&lt;br&gt;
+</description>
+</item>
 <item>
 <title>2014-04-14 Nightly (0.6-1)</title>
 <link>http://justbrowsing.info/new/#06-1</link>

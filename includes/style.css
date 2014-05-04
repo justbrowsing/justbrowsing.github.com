@@ -706,6 +706,25 @@ font.yt {
   font-size: 2.0em;
 }
 
+.linuxuser {
+  font-size: 3.0em;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  background-color: #000;
+}
+
+a.linuxuser {
+  color: #FFF;
+}
+
+.yellow {
+  font-size: 0.75em;
+}
+
+.yellow, a.linuxuser:hover {
+  color: #FAC700;
+}
+
 td.listed {
   width: 100px;
   border: solid #000 3px;
