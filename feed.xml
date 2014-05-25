@@ -5,8 +5,33 @@
 <title>Just Browsing Changelog</title>
 <link>http://justbrowsing.info/new/</link>
 <description>Changelog for the JustBrowsing LiveCD project</description>
-<lastBuildDate>Sun, 04 May 2014 12:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 25 May 2014 19:00:00 GMT</lastBuildDate>
 <language>en-us</language>
+<item>
+<title>2014-05-25 Nightly (0.6-3)</title>
+<link>http://justbrowsing.info/new/#06-3</link>
+<guid>http://justbrowsing.info/new/#06-3</guid>
+<pubDate>Sun, 25 May 2014 19:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Re-added: google-talkplugin (Hangouts) plugin&lt;br&gt;
+* Firefox: various changes for the Australis UI&lt;br&gt;
+* Firefox: Default=1 (profiles.ini)&lt;br&gt;
+* Firefox: Classic Theme Restorer (Beta)&lt;br&gt;
+* Firefox: added RSS Icon in Awesombar&lt;br&gt;
+* Firefox: added Profilist&lt;br&gt;
+* Firefox: added Simple Locale Switcher&lt;br&gt;
+* Firefox: added Nuke Anything Enhanced&lt;br&gt;
+* Open in tab: Adblock Edge, Classic Theme Restorer, Tab Mix Plus&lt;br&gt;
+* Chrome: removed cruft from profile&lt;br&gt;
+* Chrome: reset flags&lt;br&gt;
+* Chrome: enabled new user profile management&lt;br&gt;
+&lt;br&gt;
+ Status:&lt;br&gt;
+* Updated browsers to Firefox 29.0.1 (stable) and Google Chrome 35.0.1916.114 (stable)&lt;br&gt;
+* Updated to Linux kernel 3.14.4&lt;br&gt;
+* ISO size: 649 MB&lt;br&gt;
+</description>
+</item>
 <item>
 <title>2014-05-04 Nightly (0.6-2)</title>
 <link>http://justbrowsing.info/new/#06-2</link>
