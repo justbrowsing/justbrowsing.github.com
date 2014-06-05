@@ -20,6 +20,14 @@ body {
   background-position: center center;
 }
 
+.nexttile {
+  background: url('/includes/grass.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;         /* Generic*/
+}
+
 p {
   text-align: left;
 }
@@ -144,6 +152,27 @@ img.logo {
   font-style: italic;
   font-size: 3.95em;
   color: #DDDDFF;
+}
+
+#nextlogo1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 4.05em;
+  color: #000;
+}
+
+#nextlogo2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  font-size: 3.95em;
+  color: #000;
+}
+
+.giant {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 4.05em;
+  color: #000;
 }
 
 #tagline {
