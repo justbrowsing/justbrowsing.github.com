@@ -1,5 +1,54 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600);
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600,600italic,700);
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600); */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(OpenSans-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(OpenSans.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(OpenSans-Semibold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(OpenSansLight-Italic.woff) format('woff');
+}
+
+/* @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600,600italic,700); */
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(TitilliumWeb-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Titillium WebSemiBold'), local('TitilliumWeb-SemiBold'), url(TitilliumWeb-SemiBold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Titillium WebBold'), local('TitilliumWeb-Bold'), url(TitilliumWeb-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Titillium WebSemiBold Italic'), local('TitilliumWeb-SemiBoldItalic'), url(TitilliumWeb-SemiBoldItalic.woff) format('woff');
+}
 
 body {
   padding: 0;
@@ -368,7 +417,7 @@ a.poll {
   border-radius: 3px;
 }
 
-table.readmore, div.readmore {
+table.readmore, td.readmore, div.readmore {
   border: 2px solid black;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -377,7 +426,7 @@ table.readmore, div.readmore {
   padding: 0 20px 0 20px;
 }
 
-table.readmore:hover, div.readmore:hover {
+table.readmore:hover, td.readmore:hover, div.readmore:hover {
   background: #2C2C2C;
 }
 
@@ -1386,6 +1435,10 @@ p.whatsnew:hover {
   background: #000;
 }
 
+.contrib {
+  line-height: 2em;
+  margin-bottom: 1em;
+}
 
 /* http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/super-simple-lightbox-with-css-and-jquery/ */
 
