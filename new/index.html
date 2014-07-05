@@ -74,7 +74,7 @@
 	<table width="99%" class="addressbar"><tr>
 	<td align="left" width="25px">&nbsp;<a href="http://justbrowsing.info/new/"><img class="sprite-spritesheet-globe" src="/includes/sprite.png" /></a></td>
 	<td align="left">http://justbrowsing.info/new/</td>
-	<td align="right">Stable release: 2014-04-09</a></td><td align="right">
+	<td align="right">Stable release: 2014-07-04</a></td><td align="right">
 	&nbsp;<img class="sprite-spritesheet-star" src="/includes/sprite.png" />&nbsp;</td>
 	</tr></table>
 <td><label for="togglemenu"><img class="menu sprite-spritesheet-menubutton" src="/includes/sprite.png" /></label></td>
@@ -103,8 +103,10 @@ function googleTranslateElementInit() {
 <div align="center" style="background:#199DFF;">
 <br><h1><a class="anchor" name="recent">Recent Changes</a><a class="goto" href="/new/#recent">&#8674;</a></h1>
 <div class="whatsnew">
-<p class="whatsnew">Printer support</p>
+<p class="whatsnew">Config file</p>
 <p class="whatsnew">GUI Settings configurator</p>
+<p class="whatsnew">Improved lockscreen</p>
+<p class="whatsnew">Printer support</p>
 <p class="whatsnew">Language translations <a href="/advanced/#locale">&#8674;</a></p>
 <p class="whatsnew">Nightly releases autobuilt <a href="http://sourceforge.net/projects/justbrowsing/files/Nightlies/">&#8674;</a></p>
 <p class="whatsnew">Virtualbox OVA images <a href="http://sourceforge.net/projects/justbrowsing/files/Virtual">&#8674;</a></p>
@@ -119,7 +121,6 @@ function googleTranslateElementInit() {
 <font class="caption">Community contributions welcome</font>
 <div class="whatsnew">
 <br>
-<p class="whatsnew">Config file</p>
 <p class="whatsnew">PXE support</p>
 <p class="whatsnew">Interactive boot</p>
 <p class="whatsnew">zRAM support</p>
@@ -133,6 +134,58 @@ function googleTranslateElementInit() {
 
 <div align="center" style="background:#FF9600;">
 <br><h1><a href="/feed.xml"><img src="/images/rss48.png" /></a><a class="anchor" name="changelog">Changelog</a><a class="goto" href="/new/#changelog">&#8674;</a></h1></div>
+
+<div align="left" class="changelog">
+<a name="06-5"><b><u>0.6-5</u></b></a><br>
+2014-07-04</li></ul>
+
+<br>Changelog:<ul>
+<li>Settings: boot parameter parser updated</li>
+<li>Settings: url parameters added</li>
+<li>Settings: backend added loading config</li>
+<li>Settings: backend added saving config</li>
+<li>Settings: GUI added changing default browser</li>
+<li>Settings: GUI added changing locale</li>
+<li>Settings: GUI added changing keymap</li>
+<li>Settings: GUI added toggling force clean profiles</li>
+<li>Settings: GUI added setting custom homepage</li>
+<li>Settings: uploaded to git repo</li>
+<li>Rewrote: syslinux locale and keymap menu</li>
+<li>Rewrote: syslinux virtual machine menus</li>
+<li>Rewrote: browser toggle to use x-www-browser</li>
+<li>Rewrote: panel dynamic resizing</li>
+<li>Updated: i3lock-spy (zoom fit patches)</li>
+<li>Updated: i3lock-sentry (CSS and placeholders)</li>
+<li>Replaced: gxkb with jbxkb (custom) keyboard layout tray applet</li>
+<li>Compressed: chrome, libxul.so (firefox), GoogleTalkPlugin binaries with upx</li>
+<li>Added: batterymon-clone laptop battery tray applet</li>
+<li>Added: ibus-lite, ibus-pinyin (Chinese), ibus-skk (Japanese), ibus-m17n (various)</li>
+<li>Added: ttf-bitstream-vera, ttf-droid, ttf-indic-otf, ttf-tibetan-machine</li>
+<li>Added: Intel i740 and i810 GPU firmware</li>
+<li>Added: Broadcom b43-firmware</li>
+<li>Added: Chinese (pinyin), Chinese (cangjie), Japanese (skk), Korean (romaja), Thai (kesmanne) ibus inputs</li>
+<li>Added: Hebrew and Vietnamese (tcvn) keymaps and locales</li>
+<li>Added .torrent download option</li></ul>
+
+ Status:<ul>
+<li>Updated browsers to Firefox 30.0 (stable) and Google Chrome 35.0.1916.153 (stable)</li>
+<li>Updated to Linux kernel 3.15.3</li>
+<li>ISO size: 673 MB</li></ul>
+
+ Known bugs:<ul>
+<li>Non-whitelisted keymaps not functional in Chrome 35+</li>
+<li>Broadcom BCM4311 wifi broken in kernel 3.15 (fixed in 3.16rc3)</li>
+<li>Networks save/load not implemented</li>
+<li>Printer save/load not implemented</li>
+<li>Bug reporting partially implemented</li></ul>
+</div>
+
+<div align="left" class="changelog">
+<a name="06-4"><b><u>0.6-4</u></b></a><br>
+2014-06-29 Testing</li></ul>
+<br>Changelog:<ul>
+<li>Various</li>
+</div>
 
 <div align="left" class="changelog">
 <a name="06-3"><b><u>0.6-3</u></b></a><br>
@@ -198,7 +251,7 @@ function googleTranslateElementInit() {
 
 <div align="left" class="changelog">
 <a name="06-0"><b><u>0.6-0</u></b></a><br>
-2014-04-09</li></ul>
+2014-07-04</li></ul>
 
 <br>Changelog:<ul>
 <li>Experimental: Settings configurator (jb-config)</li>

@@ -5,8 +5,63 @@
 <title>Just Browsing Changelog</title>
 <link>http://justbrowsing.info/new/</link>
 <description>Changelog for the JustBrowsing LiveCD project</description>
-<lastBuildDate>Sun, 25 May 2014 19:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 04 Jul 2014 23:00:00 GMT</lastBuildDate>
 <language>en-us</language>
+<item>
+<title>2014-07-04 (0.6-5)</title>
+<link>http://justbrowsing.info/new/#06-5</link>
+<guid>http://justbrowsing.info/new/#06-5</guid>
+<pubDate>Fri, 04 Jul 2014 23:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Settings: boot parameter parser updated&lt;br&gt;
+* Settings: url parameters added&lt;br&gt;
+* Settings: backend added loading config&lt;br&gt;
+* Settings: backend added saving config&lt;br&gt;
+* Settings: GUI added changing default browser&lt;br&gt;
+* Settings: GUI added changing locale&lt;br&gt;
+* Settings: GUI added changing keymap&lt;br&gt;
+* Settings: GUI added toggling force clean profiles&lt;br&gt;
+* Settings: GUI added setting custom homepage&lt;br&gt;
+* Settings: uploaded to git repo&lt;br&gt;
+* Rewrote: syslinux locale and keymap menu&lt;br&gt;
+* Rewrote: syslinux virtual machine menus&lt;br&gt;
+* Rewrote: browser toggle to use x-www-browser&lt;br&gt;
+* Rewrote: panel dynamic resizing&lt;br&gt;
+* Updated: i3lock-spy (zoom fit patches)&lt;br&gt;
+* Updated: i3lock-sentry (CSS and placeholders)&lt;br&gt;
+* Replaced: gxkb with jbxkb (custom) keyboard layout tray applet&lt;br&gt;
+* Compressed: chrome, libxul.so (firefox), GoogleTalkPlugin binaries with upx&lt;br&gt;
+* Added: batterymon-clone laptop battery tray applet&lt;br&gt;
+* Added: ibus-lite, ibus-pinyin (Chinese), ibus-skk (Japanese), ibus-m17n (various)&lt;br&gt;
+* Added: ttf-bitstream-vera, ttf-droid, ttf-indic-otf, ttf-tibetan-machine&lt;br&gt;
+* Added: Intel i740 and i810 GPU firmware&lt;br&gt;
+* Added: Broadcom b43-firmware&lt;br&gt;
+* Added: Chinese (pinyin), Chinese (cangjie), Japanese (skk), Korean (romaja), Thai (kesmanne) ibus inputs&lt;br&gt;
+* Added: Hebrew and Vietnamese (tcvn) keymaps and locales&lt;br&gt;
+* Added .torrent download option&lt;br&gt;
+&lt;br&gt;
+ Status:&lt;br&gt;
+* Updated browsers to Firefox 30.0 (stable) and Google Chrome 35.0.1916.153 (stable)&lt;br&gt;
+* Updated to Linux kernel 3.15.3&lt;br&gt;
+* ISO size: 673 MB&lt;br&gt;
+&lt;br&gt;
+ Known bugs:&lt;br&gt;
+* Non-whitelisted keymaps not functional in Chrome 35+&lt;br&gt;
+* Broadcom BCM4311 wifi broken in kernel 3.15 (fixed in 3.16rc3)&lt;br&gt;
+* Networks save/load not implemented&lt;br&gt;
+* Printer save/load not implemented&lt;br&gt;
+* Bug reporting partially implemented&lt;br&gt;
+</description>
+</item>
+<item>
+<title>2014-06-29 Testing (0.6-4)</title>
+<link>http://justbrowsing.info/new/#06-4</link>
+<guid>http://justbrowsing.info/new/#06-4</guid>
+<pubDate>Sun, 29 Jun 2014 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Various&lt;br&gt;
+</description>
+</item>
 <item>
 <title>2014-05-25 Nightly (0.6-3)</title>
 <link>http://justbrowsing.info/new/#06-3</link>
