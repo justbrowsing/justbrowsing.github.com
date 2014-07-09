@@ -14,6 +14,8 @@
 <pubDate>Tue, 08 Jul 2014 20:00:00 GMT</pubDate>
 <description>Changelog:&lt;br&gt;
 * Added: chrome-remote-desktop (server)&lt;br&gt;
+* Added: Hipmunk bookmark&lt;br&gt;
+* Chrome: added extension formerly named QuickOffice&lt;br&gt;
 * Fixed: missing Downloads folder&lt;br&gt;
 * Packaged: jb-config&lt;br&gt;
 * Packaged: custom systemd unit files&lt;br&gt;
