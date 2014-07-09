@@ -521,20 +521,45 @@ a.extensions:hover, a.extensions:active {
   border-color: #999;
 }
 
-.buttontop {
+.buttonleft, .buttonright, .buttontop, .buttonbottom {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   font-size: 0.8em;
   color: #FFF;
-  width: 180px;
   height: 30px;
   line-height: 30px;
   text-align: center;
   margin-left: 10px;
+}
+
+.buttonleft {
+  width: 100px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+.buttonright {
+  width: 100px;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.buttontop {
+  width: 180px;
   background: #222;
   -webkit-border-radius: 5px 5px 0 0;
   -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
+}
+
+.buttonbottom {
+  width: 180px;
+  background: #222;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
 }
 
 .buttonbig {
@@ -548,22 +573,6 @@ a.extensions:hover, a.extensions:active {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-}
-
-.buttonbottom {
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 400;
-  font-size: 0.8em;
-  color: #FFF;
-  width: 180px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  margin-left: 10px;
-  background: #222;
-  -webkit-border-radius: 0 0 5px 5px;
-  -moz-border-radius: 0 0 5px 5px;
-  border-radius: 0 0 5px 5px;
 }
 
 .download {
@@ -1438,6 +1447,56 @@ p.whatsnew:hover {
 .contrib {
   line-height: 2em;
   margin-bottom: 1em;
+}
+
+td.store {
+  line-height: 2em;
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+
+tr.store {
+  border: 2px solid #D6E3F8;
+  -moz-box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  -webkit-box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+tr.store:nth-child(odd) {
+  background-color:rgba(0, 0, 0, 0.5)
+}
+
+tr.store:nth-child(odd):hover {
+  background-color:rgba(0, 0, 0, 0.4)
+}
+
+tr.store:nth-child(even) {
+  background-color:rgba(255, 255, 255, 0.4)
+}
+
+tr.store:nth-child(even):hover {
+  background-color:rgba(255, 255, 255, 0.5)
+}
+
+img.store {
+  margin: 1em;
+  border: 5px solid #D6E3F8;
+  -moz-box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  -webkit-box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+p.store {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.2em;
 }
 
 /* http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/super-simple-lightbox-with-css-and-jquery/ */
