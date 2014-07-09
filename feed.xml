@@ -5,8 +5,29 @@
 <title>Just Browsing Changelog</title>
 <link>http://justbrowsing.info/new/</link>
 <description>Changelog for the JustBrowsing LiveCD project</description>
-<lastBuildDate>Fri, 04 Jul 2014 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 08 Jul 2014 20:00:00 GMT</lastBuildDate>
 <language>en-us</language>
+<item>
+<title>2014-07-08 (0.6-6)</title>
+<link>http://justbrowsing.info/new/#06-6</link>
+<guid>http://justbrowsing.info/new/#06-6</guid>
+<pubDate>Tue, 08 Jul 2014 20:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Added: chrome-remote-desktop (server)&lt;br&gt;
+* Fixed: missing Downloads folder&lt;br&gt;
+* Packaged: jb-config&lt;br&gt;
+* Packaged: custom systemd unit files&lt;br&gt;
+* Updated: i3lock-spy&lt;br&gt;
+* Updated: justbrowsing-adeskbar&lt;br&gt;
+* ISO: squashfs now uses XZ compression&lt;br&gt;
+&lt;br&gt;
+ Status:&lt;br&gt;
+* Updated to Linux kernel 3.15.4&lt;br&gt;
+* Also a 3.14LTS edition&lt;br&gt;
+* 64-bit release&lt;br&gt;
+* ISO size: 635 MB&lt;br&gt;
+</description>
+</item>
 <item>
 <title>2014-07-04 (0.6-5)</title>
 <link>http://justbrowsing.info/new/#06-5</link>
