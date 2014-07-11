@@ -206,8 +206,10 @@ scJsHost+
         <img class="applets sprite-spritesheet-nmapplet24" src="/includes/sprite.png" alt="NetworkManager icon" /></a></td>
         <td><a href="https://aur.archlinux.org/packages/pnmixer/" title="volume applet">
         <img class="applets sprite-spritesheet-pnmixer24" src="/includes/sprite.png" alt="volume icon" /></a></td>
-        <td id="date" class="applets" title="Date">Mon Jul 15, 2013</td>
-        <td id="clock" class="applets" title="Clock">2:20 AM</td>
+        <td><a href="https://github.com/justbrowsing/jbxkb" id="locale" title="Unknown locale">
+        <img class="applets" src="/flags/zz.png" id="flag" alt="jbxkb" /></a></td>
+        <td id="date" class="applets" title="Date">Sat Dec 28, 2013</td>
+        <td id="clock" class="applets" title="Clock">7:36 PM</td>
         </tr></table>
       </td>
 
@@ -229,7 +231,9 @@ scJsHost+
 <!-- begin scripts -->
 <script type="text/javascript" src="/includes/date-en-US.min.js"></script>
 <script type="text/javascript" src="/includes/clockapplet.js"></script>
+<script type="text/javascript" src="/includes/jb-locale.js"></script>
 <script type="text/javascript">timedate();</script>
+<script type="text/javascript">locale();</script>
 <!-- end scripts -->
 </body>
 </html>
