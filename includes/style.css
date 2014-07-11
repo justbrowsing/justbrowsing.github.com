@@ -1202,29 +1202,29 @@ div.START {
   background-color: rgba(0,0,0,0.2);
 }
 
-.choice {
+.choice, .altchoice {
   display: inline-block;
   padding: 1em;
   margin: 0.5em;
   border-radius: 1em;
 }
 
-.choice:hover, .choice.current:hover {
+.choice:hover, .choice.current:hover, .altchoice:hover, .altchoice.current:hover {
   background-color: #376B95;
 }
 
-.choice.current {
+.choice.current, .altchoice.current {
   background-color: #99C6CC;
 }
 
-a.choice, a.choice:hover {
+a.choice, a.choice:hover, a.altchoice, a.altchoice:hover {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   font-size: 1.1em;
   text-decoration: none;
 }
 
-a.choice:hover {
+a.choice:hover, a.altchoice:hover {
   color: #FFF;
 }
 

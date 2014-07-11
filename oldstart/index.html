@@ -72,7 +72,7 @@
 <table class="tabbar bordertab" width="100%">
 <tr class="alltabs bordertab gradient">
 <td><a href="http://justbrowsing.info/#back"><img class="menu sprite-spritesheet-arrow3" src="/includes/sprite.png" /></a></td>
-<td><a href="/start-more"><img class="menu sprite-spritesheet-arrow4" src="/includes/sprite.png" /></a></td>
+<td><img class="sprite-spritesheet-arrow2" src="/includes/sprite.png" /></td>
 <td><a href="http://justbrowsing.info/#home"><img class="menu sprite-spritesheet-home" src="/includes/sprite.png" /></a></td>
 <td width="99%" style="padding-top:0px;">
 	<table width="99%" class="addressbar"><tr>
@@ -103,12 +103,15 @@
 <h1><a class="anchor" name="boot">Step 1. Choose a boot method</a></h1>
 
 <!-- Choose -->
-<a id="chooseCD" class="choice choose" href="#cd"><img src="/images/cdr192.png" alt="CD"/><br>CD-ROM</a>
+<a id="chooseCD" class="choice choose" href="#cd"><img src="/images/cdr192.png" alt="cd"/><br>CD-ROM</a>
 <a id="chooseUSB" class="choice choose" href="#usb"><img src="/images/usb192.png" alt="USB"/><br>USB</a>
-<a id="chooseVM" class="choice choose" href="#vm"><img src="/images/vm192.png" alt="VM"/><br>Virtual Machine</a>
-<a id="chooseMORE" class="altchoice choose" href="/start-more"><img src="/images/more192.png" alt="GRUB I-ODD PXE"/><br>Even More</a>
+<a id="chooseGRUB" class="choice choose" href="#grub"><img src="/images/grub192.png" alt="GRUB"/><br>GRUB2</a>
 <br>
-<div class="warning"><a class="readmore" href="http://justbrowsing.info/store/#start">New: Buy a premade USB drive!</a></div><br>
+<a id="chooseIODD" class="choice choose" href="#iodd"><img src="/images/iodd192.png" alt="IODD"/><br>I-ODD</a>
+<a id="chooseVM" class="choice choose" href="#vm"><img src="/images/vm192.png" alt="VM"/><br>Virtual Machine</a>
+<!--<a id="choosePXE" class="choice choose" href="#pxe"><img src="/images/pxe192.png" alt="PXE"/><br>PXE</a>-->
+<br>
+<div class="warning"><a class="readmore" href="http://justbrowsing.info/support/#contact">Need help? Just ask</a></div><br>
 
 <!-- CDROM -->
   <a name="cd"></a>
@@ -684,6 +687,136 @@
     </div>
   </div>
 
+  <!-- Grub2 -->
+  <a name="grub"></a>
+  <div id="STARTgrub" class="START step2">
+  <font style="font-size:x-large">Choose Option</font>
+  <br>
+  <a id="chooseGRUB_NEW" class="choice" href="#grub_new"><img src="panel-new.png" alt="New Install" /></a>
+  <a id="chooseGRUB_EXISTING" class="choice" href="#grub_existing"><img src="panel-existing.png" alt="Existing Install" /></a>
+
+    <a name="grub_jb"></a>
+    <div id="STARTgrub_new" class="START step2">
+      <h2>Install to a real Hard Drive</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td><a href="https://www.archlinux.org/download">Download the ArchLinux .iso file</a></td>
+      </tr>
+      <tr><td><img src="num2.png" /></td>
+        <td><b>Burn to a CD/DVD/USB</b></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td><a href="https://sourceforge.net/projects/justbrowsing/files/latest/download">Download the JustBrowsing .iso file</a></td>
+      </tr>
+      <tr><td><img src="num4.png" /></td>
+        <td><b>Copy justbrowsing_YYYYMMDD.iso file to USB thumbdrive</b></td>
+      </tr>
+      <tr><td><img src="num5.png" /></td>
+        <td>Boot ArchLinux LiveCD/USB</td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td><b>Follow one of the following tutorials:</b><ul>
+        <li><a href="http://goo.gl/Aq5D8D">Youtube</a> (video playlist)</li>
+        <li><a href="http://goo.gl/8iJLa8">Shelr.tv</a> (text-based)</li>
+        <li><a href="http://goo.gl/hF1aK3">Showterm.io</a> (text-based)</li></ul></td>
+      <tr><td><h2>OR</h2></td></tr>
+      <tr><td><img src="num6.png" /></td>
+        <td>Experimental install wizard (live or persist installer):
+          <div class="codeblock notranslate">
+            <table class="codeblock notranslate">
+              <tr><td>wget http://goo.gl/7O0Ikz -O /usr/bin/jb-install
+              <br>chmod +x /usr/bin/jb-install
+              <br>jb-install</td></tr>
+            </table>
+          </div>
+        </td>
+        <td><a href="/start/jb-installer.png"><img class="resize" src="/start/jb-installer.resized.png" /></a></td>
+      </tr></table>
+    <br><br><br><br>
+    </div>
+
+    <a name="grub_existing"></a>
+    <div id="STARTgrub_existing" class="START step2">
+
+      <h2>Existing GRUB2 HDD/USB install</h2>
+      <h3>(HDD or USB "Live" ISO install for Advanced users)</h3>
+      <table width="100%">
+      <tr><td><img src="num1.png" /></td>
+        <td>Copy .iso file to /boot partition</td></tr>
+      <tr><td><img src="num2.png" /></td>
+        <td><b>Add the following boot entry to <a href="/start/grub.cfg">/boot/grub/grub.cfg</a></b></td>
+      </tr>
+      </table>
+      <div class="codeblock notranslate">
+        <script notranslate src="https://gist.github.com/justbrowsing/c93fb2b61ea679938a92.js"></script>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- I-ODD -->
+  <a name="iodd"></a>
+  <div id="STARTiodd" class="START step2">
+  <font style="font-size:x-large">Step 2. Select Detail</font>
+  <br>
+  <a id="chooseIODD_SIMPLE" class="choice" href="#iodd_simple"><img src="panel-simple.png" alt="Simple" /></a>
+  <a id="chooseIODD_README" class="choice" href="#iodd_readme"><img src="panel-readme.png" alt="README" /></a>
+
+    <a name="iodd_simple"></a>
+    <div id="STARTiodd_simple" class="START step2">
+      <h2>I-ODD Quick Start</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td>Plug in device in HDD mode
+        <br><b>Copy .iso to _ISO folder</b></td>
+      </tr>
+      <tr><td><img src="num2.png" /></td>
+        <td>Safely remove device
+        <br><b>Reboot/Restart the computer</b></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td>Plug in device in ISO/ODD mode
+        <br><b>Select justbrowsing_YYYYMMDD.iso from the list</b></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="iodd_readme"></a>
+    <div id="STARTiodd_readme" class="START step2" style="background:#FFF;">
+      <h2>I-ODD README</h2>
+      <table align="center" class="readmore"><tr>
+      <td><a href="http://sourceforge.net/projects/jbdocs/files/IODD.pdf/download" class="readmore">Download README</a></td>
+      </tr></table>
+
+      <h3>This readme covers the following Virtual Disk Enclosures:</h3>
+      <ul><li>I-ODD 2501</li>
+      <li>Zalman VE-200</li>
+      <li>Zalman VE-300</li></ul>
+
+      <h3>NOTES:</h3>
+      <ul><li>Special functionality only for first partition.</li>
+      <li>Partition must be NTFS (or FAT32 or exFAT with alternative firmware)</li>
+      <li>Images must be placed in the folder _ISO</li>
+      <li>A maximum of 30 images per directory.</li></ul>
+
+      <h3>SUPPORTED FILE-TYPES:</h3>
+      <ul><li>.iso -- CD/DVD/Blu-Ray optical disc image</li>
+      <li>.dsk -- Hard disk image</li>
+      <li>.ima -- Floppy disk image</li>
+      <li>.rmd -- Removable Disk image</li></ul>
+
+      <h3>ADDITIONAL NOTES:</h3>
+      <ul><li>Folders may be nested with a maximum of 30 files and folders per directory.</li>
+      <li>.img files in the Linux world are dd continguous hard disk images (rename to .dsk)</li>
+      <li>.img files in the Windows world are either .ISO or a similar format such as Nero (convert to standard ISO)</li>
+      <li>Hold jog wheel center button (dual mode) and plug usb into computer to unmount usb image.</li>
+      <li>Hold jog wheel up button and plug usb to enter ISO/ODD only mode</li>
+      <li>Hold jog wheel down button and plug usb to enter HDD only mode</li></ul>
+    </div>
+  </div>
+
+
   <!-- VM -->
   <a name="vm"></a>
   <div id="STARTvm" class="START step2">
@@ -691,7 +824,6 @@
   <br>
   <a id="chooseVM_QEMU" class="choice" href="#vm_qemu"><img src="panel-qemu.png" alt="QEMU" /></a>
   <a id="chooseVM_VIRTUALBOX" class="choice" href="#vm_virtualbox"><img src="panel-virtualbox.png" alt="VirtualBox" /></a>
-  <a id="chooseVM_CREATEVBOX" class="choice" href="#vm_virtualbox_alt"><img src="panel-virtualbox-alt.png" alt="VirtualBox Alt" /></a>
   <!--<a id="chooseVM_VMWARE" class="choice" href="#vm_vmware"><img src="panel-vmware.png" /><br>VMware</a>-->
 
     <a name="vm_qemu"></a>
@@ -707,19 +839,13 @@
           <br>./qemu-iso ~/Downloads/justbrowsing_YYYYMMDD.iso</td></tr>
         </table></div><br></td></tr>
       <tr><td><img src="num2.png" /></td>
-        <td>Note: For resolutions greater than 1024x768 pass <font class="codeinline">-vga vmware</font> to QEMU
-        <br><b>Select entry with </b><font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
-        <b>and</b> <font class="kbd notranslate">Enter</font>
-        <br>Choose virtual machine (QEMU + VMware)</td>
+        <td>Choose Boot JustBrowsing (VMware)
+        <br><b>Select entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        <br>Edit entry with <font class="kbd notranslate">TAB</font> and set <font class="codeinline notranslate">vmware=1366x768</font> to desired resolution
+        <br><b>Press</b> <font class="kbd notranslate">Enter</font> to boot</td>
         <td><a href="vmware-driver.png"><img class="resize" src="vmware-driver.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num3.png" /></td>
-        <td><b>Select a screen resolution entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
-        <br>OR edit entry with <font class="kbd notranslate">TAB</font> and set <font class="codeinline notranslate">display=</font> to desired resolution
-        <br><b>Press</b> <font class="kbd notranslate">Enter</font> to boot</td>
-        <td><a href="vbox-resolution.png"><img class="resize" src="vbox-resolution.resized.png" /></a></td>
-      </tr>
-      <tr><td><img src="num4.png" /></td>
         <td>Splash screen
         <br><b>(note: bootsplash not displayed with VMware driver)</b></td>
         <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
@@ -747,13 +873,11 @@
 
     <a name="vm_virtualbox"></a>
     <div id="STARTvm_virtualbox" class="START step2">
-      <h2>Recommended: Use OVA Virtual Appliance</h2>
-      <p>Open Virtualization Archive (OVA) is a portable Virtual Appliance bundle containing a Virtual Machine.
-      <br>JustBrowsing .ova files make it easy to test JustBrowsing or distribute across a computer lab.</p><br>
+      <h2>Recommended: Use OVA Virtual Appliance</h2><br>
 
       <table>
       <tr><td><img src="num1.png" /></td>
-        <td><a href="https://sourceforge.net/projects/justbrowsing/files/Virtual/"><b>Download OVA file</b></a></td>
+        <td><a href="https://sourceforge.net/projects/justbrowsing/files/Virtual/">Download OVA file</a></td>
       </tr>
       <tr><td><h2>OR</h2></td></tr>
       <tr><td><img src="num1.png" /></td>
@@ -780,29 +904,19 @@
       </tr>      
       <tr><td><img src="num4.png" /></td>
         <td><b>Press Start</b>
+        <br>Choose Boot JustBrowsing (VMware)
         <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
         and <font class="kbd notranslate">Enter</font>
-        <br><b>Choose virtual machine (VirtualBox)</b></td>
-        <td><a href="vbox-driver.png"><img class="resize" src="vbox-driver.resized.png" /></a></td>
+        <br>(note: use <a href="/start/#vm_qemu">QEMU</a> or VMware for resolution greater than 1024x768)</td>
+        <td><a href="vmware-driver.png"><img class="resize" src="vmware-driver.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num5.png" /></td>
-        <td><b>Select a screen resolution entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
-        <br>OR edit entry with <font class="kbd notranslate">TAB</font> and set <font class="codeinline notranslate">display=</font> to desired resolution
-        <br><b>Press</b> <font class="kbd notranslate">Enter</font> to boot</td>
-        <td><a href="vbox-resolution.png"><img class="resize" src="vbox-resolution.resized.png" /></a></td>
-      </tr>
-      <tr><td><img src="num6.png" /></td>
         <td>Splash screen</td>
         <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
       </tr>
       </table>
-    </div>
 
-    <a name="vm_virtualbox_alt"></a>
-    <div id="STARTvm_virtualbox_alt" class="START step2">
-      <h2>Alternate: Create Virtual Machine</h2>
-      <p>Note: The <a href="#vm_virtualbox">OVA bundles</a> a <b>JUSTDATA</b> labeled harddrive for the config file, use that instead.<br>
-
+      <h2>Alternate: Create Virtual Machine</h2><br>
       <table>
       <tr><td><img src="num1.png" /></td>
         <td><u>Note</u>: may need to run <font class="codeinline">modprobe vboxdrv</font>
@@ -827,18 +941,13 @@
       </tr>
       <tr><td><img src="num4.png" /></td>
         <td><b>Press Start</b>
+        <br>Choose Boot JustBrowsing (VMware)
         <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
         and <font class="kbd notranslate">Enter</font>
-        <br><b>Choose virtual machine (VirtualBox)</b></td>
-        <td><a href="vbox-driver.png"><img class="resize" src="vbox-driver.resized.png" /></a></td>
+        <br>(note: use <a href="/start/#vm_qemu">QEMU</a> or VMware for resolution greater than 1024x768)</td>
+        <td><a href="vmware-driver.png"><img class="resize" src="vmware-driver.resized.png" /></a></td>
       </tr>
       <tr><td><img src="num5.png" /></td>
-        <td><b>Select a screen resolution entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
-        <br>OR edit entry with <font class="kbd notranslate">TAB</font> and set <font class="codeinline notranslate">display=</font> to desired resolution
-        <br><b>Press</b> <font class="kbd notranslate">Enter</font> to boot</td>
-        <td><a href="vbox-resolution.png"><img class="resize" src="vbox-resolution.resized.png" /></a></td>
-      </tr>
-      <tr><td><img src="num6.png" /></td>
         <td>Splash screen</td>
         <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
       </tr>
@@ -891,7 +1000,6 @@
 <br><br>
 
 <div align="center">
-<a href="/oldstart">old page</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="http://justbrowsing.info/old/#quickstart">old site</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <script type="text/javascript">
 var sc_project=8731705;

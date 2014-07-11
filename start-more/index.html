@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JustBrowsing LiveCD :: Start</title>
+<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/style.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/spritesheet.css" />
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .borderspacer, .bordertab, .activetab, .inactivetab, .contentspacer, .panel {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+<script type="text/javascript" src="/includes/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="/includes/jquery.ba-hashchange.min.js"></script>
+<script type="text/javascript" src="/includes/tom-switch.js"></script>
+
+<meta name="google-translate-customization" content="481c92effddb4830-698984b4311b9c69-g1f387e881da85961-11" />
+<meta name="google-site-verification" content="TBwgbqHrSet7rP89LR7HMhrKKbEMenIu9lDdYV_F160" />
+<meta name="wot-verification" content="257c57118fb324031aef"/>         
+</head>
+<body style="background:#FBFBFB">
+
+<!-- begin header -->
+<div id="menubar">
+<a name="home"></a>
+
+<table class="titlebar" width="100%"><tr>
+
+<td align="left">
+<table class="titlebar"><tr><td><img class="sprite-spritesheet-cd" src="/includes/sprite.png" alt="CD-R" title="CD-R" /></td><td><img class="sprite-spritesheet-usb" src="/includes/sprite.png" alt="USB" title="USB" /></td><td><img class="sprite-spritesheet-grub" src="/includes/sprite.png" alt="GRUB2" title="GRUB2" /></td><td><img class="sprite-spritesheet-iodd" src="/includes/sprite.png" alt="I-ODD" title="I-ODD" /><img class="sprite-spritesheet-vm" src="/includes/sprite.png" alt="Virtual Machine" title="Virtual Machine" /></td>
+</tr></table></td>
+
+<td align="center">
+<table class="titlebar"><tr class="titlebar"><td class="titlebar"><font id="header1">just</font>&nbsp;<font id="header2">browsing</font></td><td class="titlebar"></td><td class="titlebar"></td><td class="titlebar"><font id="header3">Start Guide</font></td>
+</tr></table></td>
+
+<td align="right">
+<a href="http://justbrowsingcd.tumblr.com"><img class="social sprite-spritesheet-tumblr" src="/includes/sprite.png" /></a><a href="https://github.com/justbrowsing"><img class="social sprite-spritesheet-github" src="/includes/sprite.png" /></a><a href="https://twitter.com/justbrowsingcd"><img class="social sprite-spritesheet-twitter" src="/includes/sprite.png" /></a><a href="https://plus.google.com/b/116839020975727867575/116839020975727867575/"><img class="social sprite-spritesheet-gplus" src="/includes/sprite.png" /></a><a href="https://www.facebook.com/justbrowsingcd"><img class="social sprite-spritesheet-facebook" src="/includes/sprite.png" /></a><a href="http://pinterest.com/justbrowsingcd/pins/"><img class="social sprite-spritesheet-pinterest" src="/includes/sprite.png" /></a><a href="http://www.stumbleupon.com/stumbler/JustBrowsingCD"><img class="social sprite-spritesheet-stumbleupon" src="/includes/sprite.png" /></a>&nbsp;</td>
+
+</tr></table>
+
+<table class="tabbar bordertab" width="100%">
+<tr class="alltabs bordertab gradient">
+<td class="inactivetab"><img class="sprite-spritesheet-bartab" src="/includes/sprite.png" /></td>
+<td class="inactivetab"><a class="inactivetab" href="http://justbrowsing.info">
+  <img class="favicon sprite-spritesheet-favicon" src="/includes/sprite.png" />Home</a></td>
+<td class="inactivetab"><img class="sprite-spritesheet-footab" src="/includes/sprite.png" align="right" /></td>
+<td class="activetab"><a class="activetab" href="http://justbrowsing.info/start/">
+  <img class="favicon sprite-spritesheet-quickstart" src="/includes/sprite.png" />Start Guide</a></td>
+<td class="inactivetab"><img class="sprite-spritesheet-atab-right" src="/includes/sprite.png" /></td>
+<td class="inactivetab"><a class="inactivetab" href="http://justbrowsing.info/gallery/">
+  <img class="favicon sprite-spritesheet-screenshots" src="/includes/sprite.png" />Gallery</a></td>
+<td class="inactivetab"><img class="sprite-spritesheet-itab-left" src="/includes/sprite.png" /></td>
+<td class="inactivetab"><a class="inactivetab" href="http://justbrowsing.info/new/">
+  <img class="favicon sprite-spritesheet-rss" src="/includes/sprite.png" />What's New</a></td>
+<td class="inactivetab"><img class="sprite-spritesheet-itab-left" src="/includes/sprite.png" /></td>
+<td class="inactivetab"><a class="inactivetab" href="http://justbrowsing.info/advanced/">
+  <img class="favicon sprite-spritesheet-code" src="/includes/sprite.png" />Advanced</a></td>
+<td class="inactivetab"><img class="sprite-spritesheet-itab-left" src="/includes/sprite.png" /></td>
+<td class="inactivetab"><a class="inactivetab" href="http://justbrowsing.info/support/">
+  <img class="favicon sprite-spritesheet-support" src="/includes/sprite.png" />Support</a></td>
+<td class="lasttab"><img class="sprite-spritesheet-itab-right" src="/includes/sprite.png" /></td>
+<td class="tabbar bordertab" width="10%"><img class="sprite-spritesheet-newtab" src="/includes/sprite.png" /></td>
+</tr>
+</table>
+
+<table class="tabbar bordertab" width="100%">
+<tr class="alltabs bordertab gradient">
+<td><a href="/start/"><img class="menu sprite-spritesheet-arrow3" src="/includes/sprite.png" /></a></td>
+<td><img class="sprite-spritesheet-arrow2" src="/includes/sprite.png" /></td>
+<td><a href="http://justbrowsing.info/#home"><img class="menu sprite-spritesheet-home" src="/includes/sprite.png" /></a></td>
+<td width="99%" style="padding-top:0px;">
+	<table width="99%" class="addressbar"><tr>
+	<td align="left" width="25px">&nbsp;<a href="http://justbrowsing.info/start/"><img class="sprite-spritesheet-globe" src="/includes/sprite.png" /></a></td>
+	<td align="left">http://justbrowsing.info/start-more/</td>
+	<td align="right">Stable release: 2014-07-08</a></td><td align="right">
+	&nbsp;<img class="sprite-spritesheet-star" src="/includes/sprite.png" />&nbsp;</td>
+	</tr></table>
+<td><label for="togglemenu"><img class="menu sprite-spritesheet-menubutton" src="/includes/sprite.png" /></label></td>
+<td>&nbsp;&nbsp;</td>
+</td></tr>
+</table>
+
+
+<div class="tabbar contentspacer" width="100%"></div>
+</div>
+<!-- end header -->
+
+<!-- begin content -->
+<div class="start" align="center" width="100%" style="background:#FBFBFB;">
+
+<table width="90%"><tr>
+<td align="left"><font class="tip">Enjoying a simple computing experience is just a few steps away</font></td>
+<td id="google_translate_element" align="right" style="margin-right: 10px"></td>
+</tr></table>
+<br>
+<div class="warning"><a class="readmore" href="https://sourceforge.net/projects/justbrowsing/files/latest/download">Note: Please download the ISO first</a></div>
+<h1><a class="anchor" name="boot">Step 1. Choose a boot method</a></h1>
+
+<!-- Choose -->
+<a id="chooseCLASSIC" class="altchoice choose" href="/start/"><img src="/images/classic192.png" alt="Classic Boot"/><br>Go Back</a>
+<a id="chooseGRUB" class="choice choose" href="#grub"><img src="/images/grub192.png" alt="GRUB"/><br>GRUB2</a>
+<a id="chooseIODD" class="choice choose" href="#iodd"><img src="/images/iodd192.png" alt="IODD"/><br>I-ODD</a>
+<!--<a id="choosePXE" class="choice choose" href="#pxe"><img src="/images/pxe192.png" alt="PXE"/><br>PXE</a>-->
+<br>
+<div class="warning"><a class="readmore" href="http://justbrowsing.info/store/#start">New: Buy a premade USB drive!</a></div><br>
+
+  <!-- Grub2 -->
+  <a name="grub"></a>
+  <div id="STARTgrub" class="START step2">
+  <font style="font-size:x-large">Choose Option</font>
+  <br>
+  <a id="chooseGRUB_NEW" class="choice" href="#grub_new"><img src="panel-new.png" alt="New Install" /></a>
+  <a id="chooseGRUB_EXISTING" class="choice" href="#grub_existing"><img src="panel-existing.png" alt="Existing Install" /></a>
+
+    <a name="grub_jb"></a>
+    <div id="STARTgrub_new" class="START step2">
+      <h2>Install to a real Hard Drive</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td><a href="https://www.archlinux.org/download">Download the ArchLinux .iso file</a></td>
+      </tr>
+      <tr><td><img src="num2.png" /></td>
+        <td><b>Burn to a CD/DVD/USB</b></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td><a href="https://sourceforge.net/projects/justbrowsing/files/latest/download">Download the JustBrowsing .iso file</a></td>
+      </tr>
+      <tr><td><img src="num4.png" /></td>
+        <td><b>Copy justbrowsing_YYYYMMDD.iso file to USB thumbdrive</b></td>
+      </tr>
+      <tr><td><img src="num5.png" /></td>
+        <td>Boot ArchLinux LiveCD/USB</td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td><b>Follow one of the following tutorials:</b><ul>
+        <li><a href="http://goo.gl/Aq5D8D">Youtube</a> (video playlist)</li>
+        <li><a href="http://goo.gl/8iJLa8">Shelr.tv</a> (text-based)</li>
+        <li><a href="http://goo.gl/hF1aK3">Showterm.io</a> (text-based)</li></ul></td>
+      <tr><td><h2>OR</h2></td></tr>
+      <tr><td><img src="num6.png" /></td>
+        <td>Experimental install wizard (live or persist installer):
+          <div class="codeblock notranslate">
+            <table class="codeblock notranslate">
+              <tr><td>wget http://goo.gl/7O0Ikz -O /usr/bin/jb-install
+              <br>chmod +x /usr/bin/jb-install
+              <br>jb-install</td></tr>
+            </table>
+          </div>
+        </td>
+        <td><a href="/start/jb-installer.png"><img class="resize" src="/start/jb-installer.resized.png" /></a></td>
+      </tr></table>
+    <br><br><br><br>
+    </div>
+
+    <a name="grub_existing"></a>
+    <div id="STARTgrub_existing" class="START step2">
+
+      <h2>Existing GRUB2 HDD/USB install</h2>
+      <h3>(HDD or USB "Live" ISO install for Advanced users)</h3>
+      <table width="100%">
+      <tr><td><img src="num1.png" /></td>
+        <td>Copy .iso file to /boot partition</td></tr>
+      <tr><td><img src="num2.png" /></td>
+        <td><b>Add the following boot entry to <a href="/start/grub.cfg">/boot/grub/grub.cfg</a></b></td>
+      </tr>
+      </table>
+      <div class="codeblock notranslate">
+        <script notranslate src="https://gist.github.com/justbrowsing/c93fb2b61ea679938a92.js"></script>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- I-ODD -->
+  <a name="iodd"></a>
+  <div id="STARTiodd" class="START step2">
+  <font style="font-size:x-large">Step 2. Select Detail</font>
+  <br>
+  <a id="chooseIODD_SIMPLE" class="choice" href="#iodd_simple"><img src="panel-simple.png" alt="Simple" /></a>
+  <a id="chooseIODD_README" class="choice" href="#iodd_readme"><img src="panel-readme.png" alt="README" /></a>
+
+    <a name="iodd_simple"></a>
+    <div id="STARTiodd_simple" class="START step2">
+      <h2>I-ODD Quick Start</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td>Plug in device in HDD mode
+        <br><b>Copy .iso to _ISO folder</b></td>
+      </tr>
+      <tr><td><img src="num2.png" /></td>
+        <td>Safely remove device
+        <br><b>Reboot/Restart the computer</b></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td>Plug in device in ISO/ODD mode
+        <br><b>Select justbrowsing_YYYYMMDD.iso from the list</b></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="iodd_readme"></a>
+    <div id="STARTiodd_readme" class="START step2" style="background:#FFF;">
+      <h2>I-ODD README</h2>
+      <table align="center" class="readmore"><tr>
+      <td><a href="http://sourceforge.net/projects/jbdocs/files/IODD.pdf/download" class="readmore">Download README</a></td>
+      </tr></table>
+
+      <h3>This readme covers the following Virtual Disk Enclosures:</h3>
+      <ul><li>I-ODD 2501</li>
+      <li>Zalman VE-200</li>
+      <li>Zalman VE-300</li></ul>
+
+      <h3>NOTES:</h3>
+      <ul><li>Special functionality only for first partition.</li>
+      <li>Partition must be NTFS (or FAT32 or exFAT with alternative firmware)</li>
+      <li>Images must be placed in the folder _ISO</li>
+      <li>A maximum of 30 images per directory.</li></ul>
+
+      <h3>SUPPORTED FILE-TYPES:</h3>
+      <ul><li>.iso -- CD/DVD/Blu-Ray optical disc image</li>
+      <li>.dsk -- Hard disk image</li>
+      <li>.ima -- Floppy disk image</li>
+      <li>.rmd -- Removable Disk image</li></ul>
+
+      <h3>ADDITIONAL NOTES:</h3>
+      <ul><li>Folders may be nested with a maximum of 30 files and folders per directory.</li>
+      <li>.img files in the Linux world are dd continguous hard disk images (rename to .dsk)</li>
+      <li>.img files in the Windows world are either .ISO or a similar format such as Nero (convert to standard ISO)</li>
+      <li>Hold jog wheel center button (dual mode) and plug usb into computer to unmount usb image.</li>
+      <li>Hold jog wheel up button and plug usb to enter ISO/ODD only mode</li>
+      <li>Hold jog wheel down button and plug usb to enter HDD only mode</li></ul>
+    </div>
+  </div>
+
+  <!-- PXE -->
+  <a name="pxe"></a>
+  <div id="STARTpxe" class="START step2">
+  <font style="font-size:x-large">Step 2. Select PXE method</font>
+  <br>
+  <a id="choosePXE_IPXE" class="choice" href="#pxe_ipxe"><img src="panel-qemu.png" /><br>iPXE</a>
+  <a id="choosePXE_HTTP" class="choice" href="#pxe_http"><img src="panel-qemu.png" /><br>HTTP</a>
+  <a id="choosePXE_NFS" class="choice" href="#pxe_nfs"><img src="panel-qemu.png" /><br>NFS</a>
+  <a id="choosePXE_NBD" class="choice" href="#pxe_nbd"><img src="panel-qemu.png" /><br>NBD</a>
+
+    <a name="pxe_ipxe"></a>
+    <div id="STARTpxe_ipxe" class="START step2">
+      <h2>iPXE Server</h2><br>
+      <h2>iPXE Client</h2><br>
+    </div>
+
+    <a name="pxe_http"></a>
+    <div id="STARTpxe_http" class="START step2">
+      <h2>PXE HTTP Server</h2><br>
+      <h2>PXE HTTP Client</h2><br>
+    </div>
+
+    <a name="pxe_nfs"></a>
+    <div id="STARTpxe_nfs" class="START step2">
+      <h2>PXE NFS Server</h2><br>
+      <h2>PXE NFS Client</h2><br>
+    </div>
+
+    <a name="pxe_nbd"></a>
+    <div id="STARTpxe_nbd" class="START step2">
+      <h2>PXE NBD Server</h2><br>
+      <h2>PXE NBD Client</h2><br>
+    </div>
+
+  </div>
+
+</div>
+<br><br>
+
+<div align="center">
+<a href="/oldstart">old page</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://justbrowsing.info/old/#quickstart">old site</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<script type="text/javascript">
+var sc_project=8731705;
+var sc_invisible=0;
+var sc_security="238c831f";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter">
+<a alt="web analytics" href="http://statcounter.com/" target="_blank">
+<img class="statcounter" src="http://c.statcounter.com/8731705/0/238c831f/0/" alt="web analytics"></a></div>
+</noscript>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-40026407-1', 'justbrowsing.info');
+  ga('send', 'pageview');
+</script>
+</div>
+<br><br><br>
+<!-- end content -->
+
+<!-- begin footer -->
+<div id="footer">
+  <div id="adeskbar" class="panel">
+    <table width="100%"><tr>
+      <td class="browser" align="left">
+        <table><tr>
+        <td><a href="https://github.com/justbrowsing/justbrowsing-chrome-profile" title="Google Chrome">
+        <img class="browsers sprite-spritesheet-chrome24" src="/includes/sprite.png" alt="Google Chrome icon" /></a></td>
+        <td><a href="https://github.com/justbrowsing/justbrowsing-firefox-profile" title="Mozilla Firefox">
+        <img class="browsers sprite-spritesheet-firefox24" src="/includes/sprite.png" alt="Mozilla Firefox icon" /></a></td>
+        </tr></table>
+      </td>
+
+      <td class="webapps" align="right">
+        <table><tr>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-notes/" title="Notes web-app">
+        <img class="webapps sprite-spritesheet-notes24" src="/includes/sprite.png" alt="Note icon" /></a></td>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-calculator/" title="Calculator web-app">
+        <img class="webapps sprite-spritesheet-calc24" src="/includes/sprite.png" alt="Calc icon" /></a></td>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-timers/" title="Timers web-app">
+        <img class="webapps sprite-spritesheet-timer24" src="/includes/sprite.png" alt="Timer icon" /></a></td>
+        <td><a href="https://github.com/justbrowsing/justbrowsing-email" title="Email web-app">
+        <img class="webapps sprite-spritesheet-email24" src="/includes/sprite.png" alt="Email icon" /></a></td>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-wageclock/" title="Wageclock web-app">
+        <img class="webapps sprite-spritesheet-wageclock24" src="/includes/sprite.png" alt="Wageclock icon" /></a></td>
+        </tr></table>
+      </td>
+
+      <td class="applets" align="right">
+        <table><tr>
+        <td><a href="https://aur.archlinux.org/packages/network-manager-applet-gtk2/" title="network applet">
+        <img class="applets sprite-spritesheet-nmapplet24" src="/includes/sprite.png" alt="NetworkManager icon" /></a></td>
+        <td><a href="https://aur.archlinux.org/packages/pnmixer/" title="volume applet">
+        <img class="applets sprite-spritesheet-pnmixer24" src="/includes/sprite.png" alt="volume icon" /></a></td>
+        <td id="date" class="applets" title="Date">Mon Jul 15, 2013</td>
+        <td id="clock" class="applets" title="Clock">2:20 AM</td>
+        </tr></table>
+      </td>
+
+      <td class="power" align="right">
+        <table><tr>
+        <td><a href="http://justbrowsing.info/advanced/#lockscreen" title="Lock Screen">
+        <img class="power sprite-spritesheet-lock24" src="/includes/sprite.png" alt="lock icon" /></a></td>
+        <td><a href="#home" title="Reboot">
+        <img class="power sprite-spritesheet-reboot24" src="/includes/sprite.png" alt="reboot icon" /></a></td>
+        <td><a href="http://justbrowsing.info/#home" title="Shutdown">
+        <img class="power sprite-spritesheet-shutdown24" src="/includes/sprite.png" alt="shutdown icon" /></a></td>
+        </tr></table>
+      </td>
+    </tr></table>
+  </div>
+</div>
+<!-- end footer -->
+
+<!-- begin scripts -->
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, gaTrack: true, gaId: 'UA-40026407-1'}, 'google_translate_element'); }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript" src="/includes/date-en-US.min.js"></script>
+<script type="text/javascript" src="/includes/clockapplet.js"></script>
+<script type="text/javascript">timedate();</script>
+<!-- end scripts -->
+</body>
+</html>
