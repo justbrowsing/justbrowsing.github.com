@@ -99,8 +99,9 @@ function googleTranslateElementInit() {
 <br><h1><a class="anchor" name="de">Desktop Environment</a><a class="goto" href="/advanced/#de">&#8674;</a></h1>
 <div align="center"><img src="/images/adeskbar.png" /><br>
 <font class="caption">Panel at a glance</font></div>
-<p class="paragraph">JustBrowsing uses the lightweight <a href="https://github.com/justbrowsing/justbrowsing-config-files">i3 window manager</a> to keep the experience uncluttered and without window borders. A bottom panel, <a href="https://github.com/justbrowsing/justbrowsing-adeskbar">adeskbar</a>, displays the time and date, and has all the settings visible - no hunting around.</p>
-<p class="paragraph"><a href="https://aur.archlinux.org/packages/justbrowsing-webapps">Webapps</a> can be launched from this panel or toggle the browser session. A single-window paradigm allows the browser to maximize the available screen real estate. <a href="https://aur.archlinux.org/packages/network-manager-applet-gtk2/">NetworkManager applet</a> automatically connects to wired networks and makes it easy to connect to wifi networks. The volume is controlled by the <a href="https://aur.archlinux.org/packages/pnmixer/">pnmixer applet</a> or volume keys. Advanced audio settings can be adjusted using <a href="/images/pavucontrol.png">pavucontrol</a>. The keymap is set and can be selected using <a href="https://aur.archlinux.org/packages/gxkb/">gxkb applet</a> (4 listed must be chosen at boot time).</p>
+<p class="paragraph">JustBrowsing uses the lightweight <a href="https://github.com/justbrowsing/justbrowsing-config-files">i3 window manager</a> to keep the experience uncluttered and without window borders. A bottom panel, <a href="https://github.com/justbrowsing/justbrowsing-adeskbar">adeskbar</a>, displays the time and date, and has many settings visible - no hunting around. A single-window paradigm allows the browser to maximize the available screen real estate.</p>
+<p class="paragraph"><a href="https://aur.archlinux.org/packages/justbrowsing-webapps">Webapps</a> can be launched from this panel or toggle the browser session. <a href="https://aur.archlinux.org/packages/network-manager-applet-gtk2/">NetworkManager applet</a> automatically connects to wired networks and makes it easy to connect to wifi networks. The volume is controlled by the <a href="https://aur.archlinux.org/packages/pnmixer/">pnmixer applet</a> or volume keys. Advanced audio settings can be adjusted using <a href="/images/pavucontrol.png">pavucontrol</a>. The keymap is set and can be selected using the <a href="https://github.com/justbrowsing/jbxkb">jbxkb</a> applet which was created for this project.</p>
+<p class="paragraph">The <a href="https://github.com/justbrowsing/jb-config">jb-config</a> GUI utility is a new way to <a href="https://www.youtube.com/watch?v=EewFGZDRMHA" title="YouTube tutorial">manage settings</a> and can change the screen resolution, timezone, language, keymap, homepage and default browser. An optional <a href="http://justbrowsingcd.tumblr.com/post/90307114569/configuration-file">configuration file</a> may be created on media (that must be <a href="http://justbrowsingcd.tumblr.com/post/90844020509/new-stable-release-20140704">labeled JUSTDATA</a>) to save preferences persistently. Unlike some other browser-based distros, JustBrowsing supports <a href="http://justbrowsingcd.tumblr.com/post/82133917998/more-progress-with-the-new-justbrowsing-settings">USB printing</a> (<a href="http://gimp-print.sourceforge.net/p_Supported_Printers.php" title="Gutenprint drivers labeled 'EXPERIMENTAL' do NOT work!">supported printers</a>).</p>
 <br><br>
 </div>
 
@@ -279,7 +280,7 @@ function googleTranslateElementInit() {
 <div align="center"><img src="/images/boot_parameters.png" /><br>
 <font class="caption">Press <font class="kbd">TAB</font> to edit JustBrowsing bootloader menu entry</font>
 </div>
-<p class="paragraph">Change settings at boot time using the provided boot entries or customize them. Especially useful when combined with GRUB2 ISO boot method for persistent language and keyboard layout settings.</p>
+<p class="paragraph">Change settings at boot time using the provided boot entries or customize them. Create a <a href="http://justbrowsingcd.tumblr.com/post/90844020509/new-stable-release-20140704">JUSTDATA partition with justbrowsing.cfg</a> for persistent language, keyboard layout, etc. settings.</p>
 <p class="paragraph">Press <font class="kbd">F1</font> to bring up boot parameters</p>
 <div style="align:center; width:100%">
 <table class="tab1">
@@ -360,7 +361,7 @@ function googleTranslateElementInit() {
 </td></tr></table></div>
 <div align="center">
 <font class="caption">Tip: keymaps can also be toggled with <font class="kbd">Left click</font> and switched from a list with <font class="kbd">Right click</font></font></div>
-<p class="paragraph">The <a href="https://github.com/justbrowsing/jbxkb">jbxkb</a> PyGTK applet was created for this project. It is inspired by gxkb and uses some icons from that applet. Some keymaps depend on ibus input methods, while the rest use standard XKB layouts. Starting in Chrome 35, only <a href="https://github.com/justbrowsing/justbrowsing/issues/13">whitelisted XKB keymaps</a> are compatible.</p>
+<p class="paragraph">Note: Some keymaps depend on ibus input methods, while the rest use standard XKB layouts. Starting in Chrome 35, only <a href="https://github.com/justbrowsing/justbrowsing/issues/13">whitelisted XKB keymaps</a> are compatible.</p>
 <br><br>
 </div>
 
@@ -393,7 +394,10 @@ function googleTranslateElementInit() {
 <p class="paragraph"><a href="http://justbrowsingcd.tumblr.com/post/49067539614/open-source-transparency">Open Source transparency</a> is an important aspect of the development of JustBrowsing. I have <a href="https://github.com/justbrowsing/justbrowsing-remaster">provided some scripts</a> to make it easy to customize the LiveCD. Not happy with the provided Firefox or Chrome browser profile? Subsitute your own. Need to make other changes? You can. <a href="http://justbrowsingcd.tumblr.com/post/54983116942/thanks-for-this-ive-tried-a-ton-of-livecds-and-this">Step-by-step instructions</a>.</p>
 <br>
 <div align="center">
-<h3>Quick video tutorial</h3><iframe id="shelr_record_51db9bd99660807d7600003d" scrolling="no" src="http://shelr.tv/records/51db9bd99660807d7600003d/embed" width="600" height="420" style="border:0"></iframe></div>
+<h3>Quick video tutorial</h3>
+<!--<iframe id="shelr_record_51db9bd99660807d7600003d" scrolling="no" src="http://shelr.tv/records/51db9bd99660807d7600003d/embed" width="600" height="420" style="border:0"></iframe>-->
+<a href="http://shelr.tv/records/51db9bd99660807d7600003d/"><img src="/images/shelr-offline.png" /></a>
+</div>
 <div style="align:center; width:100%">
 <table style="width:100%; border-collapse:collapse;"><tr><td style="width:23%"></td>
 <td class="screenboxL">Build Dependencies:<br><ul>
@@ -421,7 +425,10 @@ Automation helps minimize maintaince of the JustBrowsing project, keeping up-to-
 <p class="paragraph"><a href="http://en.wikipedia.org/wiki/Open_Virtualization_Format">Open Virtualization Archive (OVA)</a> is a portable Virtual Appliance bundle containing a Virtual Machine. JustBrowsing <b>.ova</b> files are generated along with the <b>.iso</b> nightly builds and make it easy to test JustBrowsing or distribute across a computer lab. <a href="/start/#vm_virtualbox">Learn how to import .ova file</a></p>
 <br>
 <div align="center">
-<h3>Quick video tutorial</h3><iframe id="shelr_record_51ee7a4b96608048d2000011" scrolling="no" src="http://shelr.tv/records/51ee7a4b96608048d2000011/embed" width="600" height="420" style="border:0"></iframe></div>
+<h3>Quick video tutorial</h3>
+<!--<iframe id="shelr_record_51ee7a4b96608048d2000011" scrolling="no" src="http://shelr.tv/records/51ee7a4b96608048d2000011/embed" width="600" height="420" style="border:0"></iframe>-->
+<a href="http://shelr.tv/records/51ee7a4b96608048d2000011/"><img src="/images/shelr-offline.png" /></a>
+</div>
 <br><br>
 </div>
 
