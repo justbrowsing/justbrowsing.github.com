@@ -1,5 +1,5 @@
 /*** jb-locale ******/
-/*** version 0.1 ****/
+/*** version 0.2 ****/
 /*** JustBrowsing ***/
 
 function locale() {
@@ -172,8 +172,8 @@ function locale() {
 	}
 
 	document.getElementById("flag").src = "/flags/" + flag + ".png";
-	document.getElementById("locale").title = locale;
-	document.getElementById("locale").href += "#" + browserLang;
+	document.getElementById("language").title = locale;
+	document.getElementById("language").href += "#" + browserLang;
 }
 
 /* END */
