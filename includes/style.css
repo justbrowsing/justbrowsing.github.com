@@ -1268,7 +1268,6 @@ td.choose:hover {
 }
 
 /* http://stackoverflow.com */
-
 div.codeblock {
   font-size: 100%;
   line-height: 1.2em;
@@ -1500,7 +1499,6 @@ p.store {
 }
 
 /* http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/super-simple-lightbox-with-css-and-jquery/ */
-
 #lightbox {
   position: fixed;
   top: 0;
