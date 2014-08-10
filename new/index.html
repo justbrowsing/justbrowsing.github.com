@@ -103,15 +103,15 @@ function googleTranslateElementInit() {
 <div align="center" style="background:#199DFF;">
 <br><h1><a class="anchor" name="recent">Recent Changes</a><a class="goto" href="/new/#recent">&#8674;</a></h1>
 <div class="whatsnew">
+<p class="whatsnew">Save/load Wifi networks</p>
+<p class="whatsnew">Install & save/load printers</p>
 <p class="whatsnew">Config file</p>
 <p class="whatsnew">GUI Settings configurator</p>
 <p class="whatsnew">Improved lockscreen</p>
-<p class="whatsnew">Printer support</p>
 <p class="whatsnew">Language translations <a href="/advanced/#locale">&#8674;</a></p>
 <p class="whatsnew">Nightly releases autobuilt <a href="http://sourceforge.net/projects/justbrowsing/files/Nightlies/">&#8674;</a></p>
 <p class="whatsnew">Virtualbox OVA images <a href="http://sourceforge.net/projects/justbrowsing/files/Virtual">&#8674;</a></p>
 <p class="whatsnew">Improved build scripts <a href="https://github.com/justbrowsing/justbrowsing-remaster">&#8674;</a></p>
-<p class="whatsnew">Website redesign <a href="/#redesign">&#8674;</a></p>
 </div>
 <br><br>
 </div>
@@ -134,6 +134,66 @@ function googleTranslateElementInit() {
 
 <div align="center" style="background:#FF9600;">
 <br><h1><a href="/feed.xml"><img src="/images/rss48.png" /></a><a class="anchor" name="changelog">Changelog</a><a class="goto" href="/new/#changelog">&#8674;</a></h1></div>
+
+<div align="left" class="changelog">
+<a name="06-8"><b><u>0.6-8</u></b></a><br>
+2014-08-08</li></ul>
+
+<br>Changelog:<ul>
+<li>Add: Xwrapper override for xorg-server 1.16+</li>
+<li>Add: Samsung Unified Print Driver</li>
+<li>Add: VDPAU video decoding driver</li>
+<li>Add: dynamically update bookmark</li>
+<li>Major overhaul: jb-config GUI</li>
+<li>Settings: add Kiosk mode</li>
+<li>Settings: choose email provider for compose shortcut</li>
+<li>Settings: save/load installed printers</li>
+<li>Settings: save/load Wifi networks</li>
+<li>Settings: adjust mouse acceleration</li>
+<li>Settings: toggle touchpad tapping</li>
+<li>Settings: adjust screen backlight/dimming</li>
+<li>Settings: adjust screen timeout delay</li>
+<li>Settings: adjust/boot audio volume</li>
+<li>Settings: add save confirmation and log files</li>
+<li>Settings: add display auto/reset option</li>
+<li>Settings: rewrote tree row selection and revert mechanisms</li>
+<li>Syslinux: loglevel=0 to boot entries to suppress output</li>
+<li>Syslinux: add missing Arabic menu entry</li>
+<li>Syslinux: splash replaced, text color inverted</li>
+<li>Packaged: Chrome and Firefox profiles</li>
+<li>Packaged: home directory config files</li>
+<li>Packaged: Xorg configs and Polkit rules</li>
+<li>Shrink binaries: libxul.so, chrome, GoogleTalkPlugin</li>
+<li>Hold: NetworkManager 0.9.8.10 (password input dialog broken upstream for GTK2)</li>
+<li>Hold: archiso 15 (ISO structure altered)</li></ul>
+
+ Status:<ul>
+<li>Updated to Firefox 31.0 (stable)</li>
+<li>Updated to Google Chrome 36.0.1985.125 (stable)</li>
+<li>Updated to Linux kernel 3.15.8</li>
+<li>32-bit release</li>
+<li>64-bit release</li>
+<li>OnlyFirefox release</li>
+<li>OnlyChrome release</li>
+<li>Torrent releases</li>
+<li>ISO size: 659 MB</li></ul>
+
+ Known bugs:<ul>
+<li>Printer refresh does not auto-select driver</li>
+<li>Sometimes volume and mouse acceleration not restored on boot</li>
+<li>zRAM support installed but not enabled</li>
+<li>VPN support not tested</li>
+<li>Non-whitelisted keymaps not functional in Chrome 35+</li>
+<li>Broadcom BCM4311 wifi broken in kernel 3.15 (fixed in 3.16rc3)</li>
+<li>Bug reporting partially implemented</li></ul>
+</div>
+
+<div align="left" class="changelog">
+<a name="06-5"><b><u>0.6-5</u></b></a><br>
+2014-07-27 Testing</li></ul>
+<br>Changelog:<ul>
+<li>Various</li>
+</div>
 
 <div align="left" class="changelog">
 <a name="06-6"><b><u>0.6-6</u></b></a><br>

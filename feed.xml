@@ -5,8 +5,71 @@
 <title>Just Browsing Changelog</title>
 <link>http://justbrowsing.info/new/</link>
 <description>Changelog for the JustBrowsing LiveCD project</description>
-<lastBuildDate>Tue, 08 Jul 2014 20:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 08 Aug 2014 22:11:00 GMT</lastBuildDate>
 <language>en-us</language>
+<item>
+<title>2014-08-08 (0.6-8)</title>
+<link>http://justbrowsing.info/new/#06-8</link>
+<guid>http://justbrowsing.info/new/#06-8</guid>
+<pubDate>Fri, 08 Aug 2014 22:11:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Add: Xwrapper override for xorg-server 1.16+&lt;br&gt;
+* Add: Samsung Unified Print Driver&lt;br&gt;
+* Add: VDPAU video decoding driver&lt;br&gt;
+* Add: dynamically update bookmark&lt;br&gt;
+* Major overhaul: jb-config GUI&lt;br&gt;
+* Settings: add Kiosk mode&lt;br&gt;
+* Settings: choose email provider for compose shortcut&lt;br&gt;
+* Settings: save/load installed printers&lt;br&gt;
+* Settings: save/load Wifi networks&lt;br&gt;
+* Settings: adjust mouse acceleration&lt;br&gt;
+* Settings: toggle touchpad tapping&lt;br&gt;
+* Settings: adjust screen backlight/dimming&lt;br&gt;
+* Settings: adjust screen timeout delay&lt;br&gt;
+* Settings: adjust/boot audio volume&lt;br&gt;
+* Settings: add save confirmation and log files&lt;br&gt;
+* Settings: add display auto/reset option&lt;br&gt;
+* Settings: rewrote tree row selection and revert mechanisms&lt;br&gt;
+* Syslinux: loglevel=0 to boot entries to suppress output&lt;br&gt;
+* Syslinux: add missing Arabic menu entry&lt;br&gt;
+* Syslinux: splash replaced, text color inverted&lt;br&gt;
+* Packaged: Chrome and Firefox profiles&lt;br&gt;
+* Packaged: home directory config files&lt;br&gt;
+* Packaged: Xorg configs and Polkit rules&lt;br&gt;
+* Shrink binaries: libxul.so, chrome, GoogleTalkPlugin&lt;br&gt;
+* Hold: NetworkManager 0.9.8.10 (password input dialog broken upstream for GTK2)&lt;br&gt;
+* Hold: archiso 15 (ISO structure altered)&lt;br&gt;
+&lt;br&gt;
+ Status:&lt;br&gt;
+* Updated to Firefox 31.0 (stable)&lt;br&gt;
+* Updated to Google Chrome 36.0.1985.125 (stable)&lt;br&gt;
+* Updated to Linux kernel 3.15.8&lt;br&gt;
+* 32-bit release&lt;br&gt;
+* 64-bit release&lt;br&gt;
+* OnlyFirefox release&lt;br&gt;
+* OnlyChrome release&lt;br&gt;
+* Torrent releases&lt;br&gt;
+* ISO size: 659 MB&lt;br&gt;
+&lt;br&gt;
+ Known bugs:&lt;br&gt;
+* Printer refresh does not auto-select driver&lt;br&gt;
+* Sometimes volume and mouse acceleration not restored on boot&lt;br&gt;
+* zRAM support installed but not enabled&lt;br&gt;
+* VPN support not tested&lt;br&gt;
+* Non-whitelisted keymaps not functional in Chrome 35+&lt;br&gt;
+* Broadcom BCM4311 wifi broken in kernel 3.15 (fixed in 3.16rc3)&lt;br&gt;
+* Bug reporting partially implemented&lt;br&gt;
+</description>
+</item>
+<item>
+<title>2014-07-27 Testing (0.6-7)</title>
+<link>http://justbrowsing.info/new/#06-7</link>
+<guid>http://justbrowsing.info/new/#06-7</guid>
+<pubDate>Sun, 27 Jul 2014 12:00:00 GMT</pubDate>
+<description>Changelog:&lt;br&gt;
+* Various&lt;br&gt;
+</description>
+</item>
 <item>
 <title>2014-07-08 (0.6-6)</title>
 <link>http://justbrowsing.info/new/#06-6</link>
