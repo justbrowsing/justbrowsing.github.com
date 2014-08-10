@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
     if ($('#lightbox').length > 0) { // #lightbox exists
       
       //place href as img src value
-      $('.maximize').html('<a class="maximize" href="' + full_href + '">Full-size</a>');
+      $('.maximize').html('<a class="maximize" href="' + full_href + '"><img src="/images/expand.png" alt="Full-size" title="Full-size" /></a>');
       $('#content').html('<img class="simplebox" src="' + image_href + '" />');
          
       //show lightbox window - you could use .show('fast') for a transition
@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
       //create HTML markup for lightbox window
       var lightbox = 
       '<div id="lightbox">' +
-          '<a class="maximize" href="' + full_href + '">Full-size</a>' +
+          '<a class="maximize" href="' + full_href + '"><img src="/images/expand.png" alt="Full-size" title="Full-size" /></a>' +
         '<div id="content">' + //insert clicked link's href into img src
           '<img class="simplebox" src="' + image_href + '" />' +
         '</div>' +  
