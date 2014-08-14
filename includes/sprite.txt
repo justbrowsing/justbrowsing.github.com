@@ -1,0 +1,5 @@
+mkdir -p /tmp/spritesheet /tmp/out
+cp -r bar/ panel/ tabs/ spritesheet/
+glue --cachebuster -a horizontal -r -s spritesheet/ -o out/
+sed -i 's/sprite-spritesheet-/sprite-/g' out/spritesheet.css
+min-css out/spritesheet.css
