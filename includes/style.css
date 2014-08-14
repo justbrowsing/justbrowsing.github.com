@@ -890,6 +890,8 @@ a.compsolv:hover {
 
 td.listed {
   width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
   border: solid #000 3px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -934,6 +936,29 @@ a.sforge:hover {
   color: #000;
 }
 
+.nixtorrent {
+  font-size: 1.0em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: #FFF;
+}
+
+a.nixtorrent {
+  color: #7C7F8D;
+}
+
+a.nixtorrent:hover {
+  color: #D74600;
+}
+
+.orange {
+  font-size: 1.6em;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #D74600;
+}
+
 .livelst {
   font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
@@ -948,6 +973,22 @@ a.livelst {
 
 a.livelst:hover {
   color: #FFF;
+}
+
+.distshare {
+  font-size: 1.4em;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  background-color: #3A3E36;
+}
+
+a.distshare {
+  color:#FFF;
+}
+
+a.distshare:hover {
+  color:#88AC9E;
 }
 
 .reddit {

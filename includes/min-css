@@ -1,0 +1,26 @@
+#!/bin/bash
+####################
+### min-css ########
+version=0.1 ########
+### JustBrowsing ###
+####################
+
+max=false
+[ $1 = "--max" ] && max=true && shift
+[ -z $1 ] && echo "USAGE: $0 {[none]|--max} /path/to/file"
+
+input="$@"
+saveDir=$(dirname "$input")
+newFile=$(basename "$input" | sed 's/\(.*\)\./\1\.min\./')
+output="${saveDir}/${newFile}"
+
+cp "$input" "$output"
+sed -i 's/ \/\*/\n\/\*/g' "$output"
+sed -i -e '/^\/\*/d' -e '/^$/d' "$output"
+sed -i ':a;N;$!ba;s/\n  //g' "$output"
+sed -i ':a;N;$!ba;s/\n}/}/g' "$output"
+sed -i -e 's/;}$/}/' -e 's/ {/{/g' -e 's/: /:/g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/; /;/g' -e 's/, \./,\./g' "$output"
+[ "$max" = "true" ] && sed -i ':a;N;$!ba;s/\n//g' "$output"
+echo "Minified to: $output"
+
+### END ###
