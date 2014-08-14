@@ -1,7 +1,7 @@
 #!/bin/bash
 ####################
 ### min-css ########
-version=0.1 ########
+version=0.2 ########
 ### JustBrowsing ###
 ####################
 
@@ -20,6 +20,7 @@ sed -i -e '/^\/\*/d' -e '/^$/d' "$output"
 sed -i ':a;N;$!ba;s/\n  //g' "$output"
 sed -i ':a;N;$!ba;s/\n}/}/g' "$output"
 sed -i -e 's/;}$/}/' -e 's/ {/{/g' -e 's/: /:/g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/; /;/g' -e 's/, \./,\./g' "$output"
+sed -i -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/{ /{/g' -e 's/; /;/g' -e 's/ \./\./g' -e 's/, /,/g' -e 's/;}/}/g' "$output"
 [ "$max" = "true" ] && sed -i ':a;N;$!ba;s/\n//g' "$output"
 echo "Minified to: $output"
 
