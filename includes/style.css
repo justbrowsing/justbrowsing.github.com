@@ -69,6 +69,16 @@ body {
   background-position: center center;
 }
 
+.gctile {
+  background-image: url('/includes/gc-pattern.jpg');
+  background-position: center center;
+}
+
+.fftile {
+  background-image: url('/includes/ff-pattern.jpg');
+  background-position: center center;
+}
+
 .nexttile {
   background: url('/includes/grass.jpg') no-repeat center center fixed;
   -webkit-background-size: cover; /* For WebKit*/
@@ -201,6 +211,16 @@ img.logo {
   font-style: italic;
   font-size: 3.95em;
   color: #DDDDFF;
+}
+
+#onlylogo {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2em;
+  color: #FFF;
+  text-shadow: 1px 1px 5px #000, -1px -1px 5px #000, 1px -1px 5px #000,
+    -1px 1px 5px #000, 3px 3px 8px #000;
 }
 
 #nextlogo1 {
