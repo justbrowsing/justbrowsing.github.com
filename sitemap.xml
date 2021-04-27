@@ -6,260 +6,260 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://justbrowsing.info/</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/start/</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/start/</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/new/</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/new/</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/advanced/</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/advanced/</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/support/</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/support/</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/lock_1.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/lock_1.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/lock_2.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/lock_2.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/lock_3.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/lock_3.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/lock_4.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/lock_4.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/lock_5.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/lock_5.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/lock_6.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/lock_6.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/lock_7.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/lock_7.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/screen_1.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/screen_1.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/screen_2.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/screen_2.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/screen_3.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/screen_3.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/screen_4.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/screen_4.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/screen_5.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/screen_5.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/screen_6.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/screen_6.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/screen_7.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/screen_7.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/screen_8.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/screen_8.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/gallery/screen_9.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/gallery/screen_9.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.71</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/log/</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/log/</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/social/</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/social/</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/rev3.html</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/rev3.html</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/rev2.html</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/rev2.html</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/rev1.html</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/rev1.html</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/log.html</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/log.html</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/social.html</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/social.html</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/01_firefox.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/01_firefox.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/02_chrome.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/02_chrome.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/03_notes.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/03_notes.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/04_calc.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/04_calc.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/05_timers.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/05_timers.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/06_wageclock.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/06_wageclock.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/07_lockdialog.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/07_lockdialog.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/08_lockscreen.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/08_lockscreen.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/09_lockstate.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/09_lockstate.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/10_wbar.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/10_wbar.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/11_failcount.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/11_failcount.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/old/screenshots/12_pavucontrol.png</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/old/screenshots/12_pavucontrol.png</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://justbrowsing.info/index.html</loc>
-  <lastmod>2013-07-21T11:49:04+00:00</lastmod>
+  <loc>http://justbrowsinglinux.com/index.html</loc>
+  <lastmod>2019-10-18T11:49:04+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.41</priority>
 </url>

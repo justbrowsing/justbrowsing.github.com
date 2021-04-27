@@ -1,13 +1,994 @@
-<!DOCTYPE HTML>                                                                 
-<html lang="en">                                                                
-    <head>                                                                      
-        <meta charset="utf-8">
-        <meta http-equiv="refresh" content="0;url=http://justbrowsinglinux.com/start" />       
-        <link rel="canonical" href="http://justbrowsinglinux.com/start" />                     
-    </head>                                                                                                                                                                   
-    <body>                                                                      
-        <h1>                                                                    
-            The page been moved to <a href="http://justbrowsinglinux.com/start">http://justbrowsinglinux.com/start</a>
-        </h1>                                                                   
-    </body>                                                                     
+<!DOCTYPE html>
+<html>
+<head>
+<title>JustBrowsing LiveCD :: Start</title>
+<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/style.min.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/spritesheet.min.css" />
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .borderspacer, .bordertab, .activetab, .inactivetab, .contentspacer, .panel {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+<script type="text/javascript" src="/includes/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="/includes/jquery.ba-hashchange.min.js"></script>
+<script type="text/javascript" src="/includes/tom-switch.js"></script>
+
+<meta name="google-translate-customization" content="481c92effddb4830-698984b4311b9c69-g1f387e881da85961-11" />
+<meta name="google-site-verification" content="TBwgbqHrSet7rP89LR7HMhrKKbEMenIu9lDdYV_F160" />
+<meta name="wot-verification" content="257c57118fb324031aef"/>         
+</head>
+<body style="background:#FBFBFB">
+
+<!-- begin header -->
+<div id="menubar">
+<a name="home"></a>
+
+<table class="titlebar" width="100%"><tr>
+
+<td align="left">
+<table class="titlebar"><tr><td><img class="sprite-cd" src="/includes/sprite.png" alt="CD-R" title="CD-R" /></td><td><img class="sprite-usb" src="/includes/sprite.png" alt="USB" title="USB" /></td><td><img class="sprite-grub" src="/includes/sprite.png" alt="GRUB2" title="GRUB2" /></td><td><img class="sprite-iodd" src="/includes/sprite.png" alt="I-ODD" title="I-ODD" /><img class="sprite-vm" src="/includes/sprite.png" alt="Virtual Machine" title="Virtual Machine" /></td>
+</tr></table></td>
+
+<td align="center">
+<table class="titlebar"><tr class="titlebar"><td class="titlebar"><font id="header1">just</font>&nbsp;<font id="header2">browsing</font></td><td class="titlebar"></td><td class="titlebar"></td><td class="titlebar"><font id="header3">Start Guide</font></td>
+</tr></table></td>
+
+<td align="right">
+<a href="http://justbrowsingcd.tumblr.com"><img class="social sprite-tumblr" src="/includes/sprite.png" /></a><a href="https://github.com/justbrowsing"><img class="social sprite-github" src="/includes/sprite.png" /></a><a href="https://twitter.com/justbrowsingcd"><img class="social sprite-twitter" src="/includes/sprite.png" /></a><a href="https://plus.google.com/b/116839020975727867575/116839020975727867575/"><img class="social sprite-gplus" src="/includes/sprite.png" /></a><a href="https://www.facebook.com/justbrowsingcd"><img class="social sprite-facebook" src="/includes/sprite.png" /></a><a href="http://pinterest.com/justbrowsingcd/pins/"><img class="social sprite-pinterest" src="/includes/sprite.png" /></a><a href="http://www.stumbleupon.com/stumbler/JustBrowsingCD"><img class="social sprite-stumbleupon" src="/includes/sprite.png" /></a>&nbsp;</td>
+
+</tr></table>
+
+<table class="tabbar bordertab" width="100%">
+<tr class="alltabs bordertab gradient">
+<td class="inactivetab"><img class="sprite-bartab" src="/includes/sprite.png" /></td>
+<td class="inactivetab"><a class="inactivetab" href="http://justbrowsinglinux.com">
+  <img class="favicon sprite-favicon" src="/includes/sprite.png" />Home</a></td>
+<td class="inactivetab"><img class="sprite-footab" src="/includes/sprite.png" align="right" /></td>
+<td class="activetab"><a class="activetab" href="http://justbrowsinglinux.com/start/">
+  <img class="favicon sprite-quickstart" src="/includes/sprite.png" />Start Guide</a></td>
+<td class="inactivetab"><img class="sprite-atab-right" src="/includes/sprite.png" /></td>
+<td class="inactivetab"><a class="inactivetab" href="http://justbrowsinglinux.com/gallery/">
+  <img class="favicon sprite-screenshots" src="/includes/sprite.png" />Gallery</a></td>
+<td class="inactivetab"><img class="sprite-itab-left" src="/includes/sprite.png" /></td>
+<td class="inactivetab"><a class="inactivetab" href="http://justbrowsinglinux.com/new/">
+  <img class="favicon sprite-rss" src="/includes/sprite.png" />What's New</a></td>
+<td class="inactivetab"><img class="sprite-itab-left" src="/includes/sprite.png" /></td>
+<td class="inactivetab"><a class="inactivetab" href="http://justbrowsinglinux.com/advanced/">
+  <img class="favicon sprite-code" src="/includes/sprite.png" />Advanced</a></td>
+<td class="inactivetab"><img class="sprite-itab-left" src="/includes/sprite.png" /></td>
+<td class="inactivetab"><a class="inactivetab" href="http://justbrowsinglinux.com/support/">
+  <img class="favicon sprite-support" src="/includes/sprite.png" />Support</a></td>
+<td class="lasttab"><img class="sprite-itab-right" src="/includes/sprite.png" /></td>
+<td class="tabbar bordertab" width="10%"><img class="sprite-newtab" src="/includes/sprite.png" /></td>
+</tr>
+</table>
+
+<table class="tabbar bordertab" width="100%">
+<tr class="alltabs bordertab gradient">
+<td><a href="http://justbrowsinglinux.com/#back"><img class="menu sprite-arrow3" src="/includes/sprite.png" /></a></td>
+<td><a href="/start-more"><img class="menu sprite-arrow4" src="/includes/sprite.png" /></a></td>
+<td><a href="http://justbrowsinglinux.com/#home"><img class="menu sprite-home" src="/includes/sprite.png" /></a></td>
+<td width="99%" style="padding-top:0px;">
+	<table width="99%" class="addressbar"><tr>
+	<td align="left" width="25px">&nbsp;<a href="http://justbrowsinglinux.com/start/"><img class="sprite-globe" src="/includes/sprite.png" /></a></td>
+	<td align="left">http://justbrowsinglinux.com/start/</td>
+	<td align="right">Stable release: 2014-08-08</a></td><td align="right">
+	&nbsp;<img class="sprite-star" src="/includes/sprite.png" />&nbsp;</td>
+	</tr></table>
+<td><label for="togglemenu"><img class="menu sprite-menubutton" src="/includes/sprite.png" /></label></td>
+<td>&nbsp;&nbsp;</td>
+</td></tr>
+</table>
+
+
+<div class="tabbar contentspacer" width="100%"></div>
+</div>
+<!-- end header -->
+
+<!-- begin content -->
+<div class="start" align="center" width="100%" style="background:#FBFBFB;">
+
+<table width="90%"><tr>
+<td align="left"><font class="tip">Enjoying a simple computing experience is just a few steps away</font></td>
+<td id="google_translate_element" align="right" style="margin-right: 10px"></td>
+</tr></table>
+<br>
+<div class="warning"><a class="readmore" href="https://sourceforge.net/projects/justbrowsing/files/latest/download">Note: Please download the ISO first</a></div>
+<h1><a class="anchor" name="boot">Step 1. Choose a boot method</a></h1>
+
+<!-- Choose -->
+<a id="chooseCD" class="choice choose" href="#cd"><img src="/images/cdr192.png" alt="CD"/><br>CD-ROM</a>
+<a id="chooseUSB" class="choice choose" href="#usb"><img src="/images/usb192.png" alt="USB"/><br>USB</a>
+<a id="chooseVM" class="choice choose" href="#vm"><img src="/images/vm192.png" alt="VM"/><br>Virtual Machine</a>
+<a id="chooseMORE" class="altchoice choose" href="/start-more"><img src="/images/more192.png" alt="GRUB I-ODD PXE"/><br>Even More</a>
+<br>
+<div class="warning"><a class="readmore" href="http://justbrowsinglinux.com/store/#start">New: Buy a premade USB drive!</a></div><br>
+
+<!-- CDROM -->
+  <a name="cd"></a>
+  <div id="STARTcd" class="START step2">
+  <font style="font-size:x-large">Step 2. Select your OS</font>
+  <br>
+  <a id="chooseCD_WIN6" class="choice" href="#cd_win6">
+	<img src="panel-2000.png" /><br>
+	<img src="panel-xp.png" /><br>
+	<img src="panel-vista.png" /><br>
+	Windows 2000, XP, Vista</a>
+  <a id="chooseCD_WIN7" class="choice" href="#cd_win7">
+	<img src="panel-win7.png" /><br>
+	<img src="panel-win8.png" /><br>
+	Windows 7, 8</a>
+  <a id="chooseCD_GNOME" class="choice" href="#cd_gnome">
+	<img src="panel-gnome2.png" /><br>
+	<img src="panel-gnome3.png" /><br>
+	Linux (Gnome 2, 3)</a>
+  <a id="chooseCD_KDE" class="choice" href="#cd_kde">
+	<img src="panel-kde.png" /><br>
+	Linux (KDE)</a>
+<!--  <a id="chooseCD_OSX" class="choice" href="#cd_osx">
+	<img src="panel-osx.png" /><br>
+	Mac OSX</a>-->
+
+    <a name="cd_win6"></a>
+    <div id="STARTcd_win6" class="START step2">
+      <h2>Download FreeISOBurner</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td><a href="hhttp://www.freeisoburner.com/">Download FreeISOBurner</a>
+        <br><b>Open FreeISOBurner.exe</b></td>
+      </tr></table>
+
+      <h2>Burn ISO to disc</h2>
+      <table>
+      <tr><td><img src="num2.png" /></td>
+        <td>Press Open
+        <br><b>Browse for justbrowsing_YYYYMMDD.iso</b>
+        <br>Select Optical Drive</td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td>Insert blank CD&plusmn;R, DVD&plusmn;R, or DVD-RW
+        <br><b>Press Burn</b></td>
+        <td><img src="freeisoburner.png" /></td>
+      </tr>
+      <tr><td><img src="num4.png" /></td>
+        <td>Reboot/Restart the computer</td>
+      </tr>
+      </table>
+
+      <h2>Boot from CD-ROM</h2>
+      <table>
+      <tr><td><img src="num5.png" /></td>
+        <td><b>Some computers: hold down key (varies) during boot to access boot menu</b>
+        <br>Common hotkeys are <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F12</font>,
+	<font class="kbd notranslate">TAB</font>, <font class="kbd notranslate">C</font>, <font class="kbd notranslate">Right-Click</font></td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td><br><b>Select CD-ROM to boot</b></td>
+      </tr>
+      <tr><td><br><h2>OR</h2><br></td></tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><br><b>All computers: hold down key (varies) during boot to enter BIOS setup</b>
+        <br>Common hotkeys are <font class="kbd notranslate">ESC</font>, <font class="kbd notranslate">F1</font>, 
+	<font class="kbd notranslate">F2</font>, <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F10</font>, 
+	<font class="kbd notranslate">F11</font>, <font class="kbd notranslate">F12</font>, <font class="kbd notranslate">DEL</font></td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td><br><br><b>Change Boot order/priority to CD-ROM 1st (top of the list) using on-screen instructions</b>
+        <br>Save and exit
+        </td>
+      </tr>
+      </table>
+
+      <h2>Bootloader</h2>
+      <table>
+      <tr><td><img src="num7.png" /></td>
+        <td>SYSLINUX boot menu
+        <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        and <font class="kbd notranslate">Enter</font></td>
+        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num8.png" /></td>
+        <td>Splash screen</td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="cd_win7"></a>
+    <div id="STARTcd_win7" class="START step2">
+      <h2>Burn ISO to disc</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td><u>Windows 8 Note</u>: click top left corner to access Desktop
+        <br><br><b>Open Downloads folder</b></td>
+      </tr>
+      <tr><td><img src="num2.png" /></td>
+        <td>Right-click on justbrowsing_YYYYMMDD.iso file
+        <br><b>Select Burn disc image</b></td>
+        <td><img src="winburn-menu.png" /></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td>Insert blank CD&plusmn;R, DVD&plusmn;R, or DVD-RW
+        <br><b>Press Burn</b></td>
+        <td><img src="winburn-dialog.png" /></td>
+      </tr>
+      <tr><td><img src="num4.png" /></td>
+        <td>Reboot/Restart the computer</td>
+      </tr>
+      </table>
+
+      <h2>Boot from CD-ROM</h2>
+      <table>
+      <tr><td><img src="num5.png" /></td>
+        <td><u>Windows 8 Note</u>: newer computers come with UEFI and "Secure Boot" may cause problems
+        <br><b>Some computers: hold down key (varies) during boot to access boot menu</b>
+        <br>Common hotkeys are <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F12</font>,
+	<font class="kbd notranslate">TAB</font>, <font class="kbd notranslate">C</font>, <font class="kbd notranslate">Right-Click</font></td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td><br><b>Select CD-ROM to boot</b></td>
+      </tr>
+      <tr><td><br><h2>OR</h2><br></td></tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><br><b>All computers: hold down key (varies) during boot to enter BIOS setup</b>
+        <br>Common hotkeys are <font class="kbd notranslate">ESC</font>, <font class="kbd notranslate">F1</font>, 
+	<font class="kbd notranslate">F2</font>, <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F10</font>, 
+	<font class="kbd notranslate">F11</font>, <font class="kbd notranslate">F12</font>, <font class="kbd notranslate">DEL</font></td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td><br><br><b>Change Boot order/priority to CD-ROM 1st (top of the list) using on-screen instructions</b>
+        <br>Save and exit
+        </td>
+      </tr>
+      </table>
+
+      <h2>Bootloader</h2>
+      <table>
+      <tr><td><img src="num7.png" /></td>
+        <td>SYSLINUX boot menu
+        <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        and <font class="kbd notranslate">Enter</font></td>
+        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num8.png" /></td>
+        <td>Splash screen</td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="cd_gnome"></a>
+    <div id="STARTcd_gnome" class="START step2">
+      <h2>Burn ISO to disc</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td><b>Open Downloads folder</b></td>
+      </tr>
+      <tr><td><img src="num2.png" /></td>
+        <td>Right-click on justbrowsing_YYYYMMDD.iso file
+        <br><b>Select Write to Disc...</b></td>
+        <td><img src="nautilus-menu.png" /></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td>Insert blank CD&plusmn;R, DVD&plusmn;R, or DVD-RW
+        <br><b>Press Burn</b></td>
+        <td><img src="brasero-dialog.png" /></td>
+      </tr>
+      <tr><td><img src="num4.png" /></td>
+        <td>Reboot/Restart the computer</td>
+      </tr>
+      </table>
+
+      <h2>Boot from CD-ROM</h2>
+      <table>
+      <tr><td><img src="num5.png" /></td>
+        <td><b>Some computers: hold down key (varies) during boot to access boot menu</b>
+        <br>Common hotkeys are <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F12</font>,
+	<font class="kbd notranslate">TAB</font>, <font class="kbd notranslate">C</font>, <font class="kbd notranslate">Right-Click</font></td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td><br><b>Select CD-ROM to boot</b></td>
+      </tr>
+      <tr><td><br><h2>OR</h2><br></td></tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><br><b>All computers: hold down key (varies) during boot to enter BIOS setup</b>
+        <br>Common hotkeys are <font class="kbd notranslate">ESC</font>, <font class="kbd notranslate">F1</font>, 
+	<font class="kbd notranslate">F2</font>, <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F10</font>, 
+	<font class="kbd notranslate">F11</font>, <font class="kbd notranslate">F12</font>, <font class="kbd notranslate">DEL</font></td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td><br><br><b>Change Boot order/priority to CD-ROM 1st (top of the list) using on-screen instructions</b>
+        <br>Save and exit
+        </td>
+      </tr>
+      </table>
+
+      <h2>Bootloader</h2>
+      <table>
+      <tr><td><img src="num7.png" /></td>
+        <td>SYSLINUX boot menu
+        <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        and <font class="kbd notranslate">Enter</font></td>
+        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num8.png" /></td>
+        <td>Splash screen</td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="cd_kde"></a>
+    <div id="STARTcd_kde" class="START step2">
+      <h2>Burn ISO to disc</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td><b>Open K3B program</b></td>
+      </tr>
+      <tr><td><img src="num2.png" /></td>
+        <td>Select Burn Image
+        <br><b>Open justbrowsing_YYYYMMDD.iso in Downloads folder</b></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td>Insert blank CD&plusmn;R, DVD&plusmn;R, or DVD-RW
+        <br><b>Press Start</b></td>
+        <td><img src="k3b-dialog.png" /></td>
+      </tr>
+      <tr><td><img src="num4.png" /></td>
+        <td>Reboot/Restart the computer</td>
+      </tr>
+      </table>
+
+      <h2>Boot from CD-ROM</h2>
+      <table>
+      <tr><td><img src="num5.png" /></td>
+        <td><b>Some computers: hold down key (varies) during boot to access boot menu</b>
+        <br>Common hotkeys are <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F12</font>,
+	<font class="kbd notranslate">TAB</font>, <font class="kbd notranslate">C</font>, <font class="kbd notranslate">Right-Click</font></td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td><br><b>Select CD-ROM to boot</b></td>
+      </tr>
+      <tr><td><br><h2>OR</h2><br></td></tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><br><b>All computers: hold down key (varies) during boot to enter BIOS setup</b>
+        <br>Common hotkeys are <font class="kbd notranslate">ESC</font>, <font class="kbd notranslate">F1</font>, 
+	<font class="kbd notranslate">F2</font>, <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F10</font>, 
+	<font class="kbd notranslate">F11</font>, <font class="kbd notranslate">F12</font>, <font class="kbd notranslate">DEL</font></td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td><br><br><b>Change Boot order/priority to CD-ROM 1st (top of the list) using on-screen instructions</b>
+        <br>Save and exit
+        </td>
+      </tr>
+      </table>
+
+      <h2>Bootloader</h2>
+      <table>
+      <tr><td><img src="num7.png" /></td>
+        <td>SYSLINUX boot menu
+        <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        and <font class="kbd notranslate">Enter</font></td>
+        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num8.png" /></td>
+        <td>Splash screen</td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="cd_osx"></a>
+    <div id="STARTcd_osx" class="START step2">
+    Mac OSX CD burning instructions coming soon...
+
+      <h2>Boot from CD-ROM</h2>
+      <table>
+      <tr><td><img src="num6.png" /></td>
+        <td>Hold <font class="kbd notranslate">C</font> or <font class="kbd notranslate">option</font> during boot</td>
+      </tr>
+      </table>
+
+      <h2>Bootloader</h2>
+      <table>
+      <tr><td><img src="num7.png" /></td>
+        <td>SYSLINUX boot menu
+        <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        and <font class="kbd notranslate">Enter</font></td>
+        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num8.png" /></td>
+        <td>Splash screen</td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- USB -->
+  <a name="usb"></a>
+  <div id="STARTusb" class="START step2">
+  <font style="font-size:x-large">Step 2. Select your OS</font>
+  <br>
+  <a id="chooseUSB_WIN" class="choice" href="#usb_win">
+	<img src="panel-2000.png" />
+	<img src="panel-xp.png" /><br>
+	<img src="panel-vista.png" />
+	<img src="panel-win7.png" /><br>
+	<img src="panel-win8.png" /><br>
+	Windows 2000, XP, Vista, 7, 8</a>
+
+  <a id="chooseUSB_LINUX" class="choice" href="#usb_linux">
+	<img src="panel-gnome2.png" /><br>
+	<img src="panel-gnome3.png" /><br>
+	<img src="panel-kde.png" /><br>
+	Linux (GUI)</a>
+  <a id="chooseUSB_CLI" class="choice" href="#usb_cli"><img src="panel-cli.png" /><br>Linux (CLI)</a>
+<!--  <a id="chooseUSB_OSX" class="choice" href="#usb_osx"><img src="panel-osx.png" /><br>Mac OSX</a>-->
+
+    <a name="usb_win"></a>
+    <div id="STARTusb_win" class="START step2">
+      <h2>Download Win32 Disk Imager</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td><a href="http://sourceforge.net/projects/win32diskimager/files/latest/download">Download Win32 Disk Imager</a>
+        <br><b>Right-click win32diskimager.zip, Extract All</b>
+        <br>Open extracted folder, double-click Win32DiskImager.exe</td>
+        <td><img src="win-extract.png" /></td>
+      </tr></table>
+        
+      <h2>Clone ISO to USB drive</h2>
+      <table><tr><td><img src="num2.png" /></td>
+        <td><b><br>Browse for justbrowsing_YYYYMMDD.iso</b>
+        <br>Select USB Device
+        <br><b>Press Write</b></td>
+        <td><img src="win32diskimager.png" />
+        <br><h3><u>WARNING</u>: This will DELETE ALL CONTENTS of selected drive</h3></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td>Reboot/Restart the computer</td>
+      </tr>
+      </table>
+
+      <h2>Boot from USB</h2>
+      <table>
+      <tr><td><img src="num4.png" /></td>
+        <td><b>Some computers: hold down key (varies) during boot to access boot menu</b>
+        <br>Common hotkeys are <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F12</font>,
+	<font class="kbd notranslate">TAB</font>, <font class="kbd notranslate">C</font>, <font class="kbd notranslate">Right-Click</font></td>
+      </tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><br><b>Select USB to boot</b></td>
+      </tr>
+      <tr><td><br><h2>OR</h2><br></td></tr>
+      <tr><td><img src="num4.png" /></td>
+        <td><br><b>All computers: hold down key (varies) during boot to enter BIOS setup</b>
+        <br>Common hotkeys are <font class="kbd notranslate">ESC</font>, <font class="kbd notranslate">F1</font>, 
+	<font class="kbd notranslate">F2</font>, <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F10</font>, 
+	<font class="kbd notranslate">F11</font>, <font class="kbd notranslate">F12</font>, <font class="kbd notranslate">DEL</font></td>
+      </tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><br><br><b>Change Boot order/priority to USB 1st (top of the list) using on-screen instructions</b>
+        <br>Save and exit
+        </td>
+      </tr>
+      </table>
+
+      <h2>Bootloader</h2>
+      <table>
+      <tr><td><img src="num6.png" /></td>
+        <td>SYSLINUX boot menu
+        <br><b>Select entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        <b>and</b> <font class="kbd notranslate">Enter</font></td>
+        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num7.png" /></td>
+        <td>Splash screen</td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+
+      <h2>Additional notes</h2>
+      <table>
+      <tr><td><img src="num8.png" /></td>
+        <td><ul>
+        <li>This method utilizes a <a href="http://www.syslinux.org/wiki/index.php/Doc/isolinux#HYBRID_CD-ROM.2FHARD_DISK_MODE">hybridized ISO</a></li>
+        <li>To <a href="https://wiki.archlinux.org/index.php/USB_Flash_Installation_Media#How_to_restore_the_USB_drive">restore the drive</a> to full capacity, the first 512 bytes must be zeroed out</li>
+        </ul></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="usb_linux"></a>
+    <div id="STARTusb_linux" class="START step2">
+      <h2>Clone ISO to USB drive</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td>Download helper script<br><br>
+        <div class="codeblock notranslate">
+        <table class="codeblock notranslate">
+          <tr><td>git clone https://github.com/justbrowsing/justboot</td></tr>
+          <tr><td>cd justboot</td></tr>
+          <tr><td>./drivedetect --color</td></tr>
+        </table>
+        <table class="codeblock notranslate">
+          <tr><td>Device</td><td>Drive Model</td><td>Vendor</td><td>Capacity</td><td>USB</td></tr>
+          <tr><td>======</td><td>===========</td><td>======</td><td>========</td><td>===</td></tr>
+          <tr><td>/dev/sda</td><td>Hitachi</td><td>HDS101</td><td>931.51 GB</td><td>no</td></tr>
+          <tr><td>/dev/sdb</td><td>Generic</td><td>USB DISK 20X</td><td>119.00 MB</td><td>yes</td></tr>
+          <tr style="background:#000; color:#FFF;"><td>/dev/sdc</td><td>Corsair</td><td>Voyager</td><td>15.12 GB</td><td>yes</td></tr>
+          <tr><td>/dev/sdd</td><td>Toshiba</td><td>DT888</td><td>298.09 GB</td><td>no</td></tr>
+          <tr style="background:#000; color:#FFF;"><td>/dev/sde</td><td>Kingston</td><td>USB FlashDisk</td><td>3.71 GB</td><td>yes</td></tr>
+        </table></div><br>
+        <br>Select a USB drive at least 1 GB in capacity.</td>
+      </tr></table>
+      <table><tr><td><img src="num2.png" /></td>
+        <td><br>Open UNetbootin
+        <br><b>Select DiskImage</b>
+        <br>Browse for justbrowsing_YYYYMMDD.iso
+        <br><b>Select Drive</b>
+        <br>Press OK</td>
+        <td><img src="unetbootin.png" />
+        <br><h3><u>WARNING</u>: This will DELETE ALL CONTENTS of selected drive</h3></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td>Reboot/Restart the computer</td>
+      </tr>
+      </table>
+
+      <h2>Boot from USB</h2>
+      <table>
+      <tr><td><img src="num4.png" /></td>
+        <td><b>Some computers: hold down key (varies) during boot to access boot menu</b>
+        <br>Common hotkeys are <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F12</font>,
+	<font class="kbd notranslate">TAB</font>, <font class="kbd notranslate">C</font>, <font class="kbd notranslate">Right-Click</font></td>
+      </tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><br><b>Select USB to boot</b></td>
+      </tr>
+      <tr><td><br><h2>OR</h2><br></td></tr>
+      <tr><td><img src="num4.png" /></td>
+        <td><br><b>All computers: hold down key (varies) during boot to enter BIOS setup</b>
+        <br>Common hotkeys are <font class="kbd notranslate">ESC</font>, <font class="kbd notranslate">F1</font>, 
+	<font class="kbd notranslate">F2</font>, <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F10</font>, 
+	<font class="kbd notranslate">F11</font>, <font class="kbd notranslate">F12</font>, <font class="kbd notranslate">DEL</font></td>
+      </tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><br><br><b>Change Boot order/priority to USB 1st (top of the list) using on-screen instructions</b>
+        <br>Save and exit
+        </td>
+      </tr>
+      </table>
+
+      <h2>Bootloader</h2>
+      <table>
+      <tr><td><img src="num6.png" /></td>
+        <td>SYSLINUX boot menu
+        <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        and <font class="kbd notranslate">Enter</font></td>
+        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num7.png" /></td>
+        <td>Splash screen</td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+
+      <h2>Additional notes</h2>
+      <table>
+      <tr><td><img src="num8.png" /></td>
+        <td><ul>
+        <li>This method utilizes a <a href="http://www.syslinux.org/wiki/index.php/Doc/isolinux#HYBRID_CD-ROM.2FHARD_DISK_MODE">hybridized ISO</a></li>
+        <li>To <a href="https://wiki.archlinux.org/index.php/USB_Flash_Installation_Media#How_to_restore_the_USB_drive">restore the drive</a> to full capacity, the first 512 bytes must be zeroed out</li>
+        </ul></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="usb_cli"></a>
+    <div id="STARTusb_cli" class="START step2">
+      <h2>Clone ISO to USB drive</h2>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td>Download helper script<br><br>
+        <div class="codeblock notranslate">
+        <table class="codeblock notranslate">
+          <tr><td>git clone https://github.com/justbrowsing/justboot</td></tr>
+          <tr><td>cd justboot</td></tr>
+          <tr><td>./drivedetect --color</td></tr>
+        </table>
+        <table class="codeblock notranslate">
+          <tr><td>Device</td><td>Drive Model</td><td>Vendor</td><td>Capacity</td><td>USB</td></tr>
+          <tr><td>======</td><td>===========</td><td>======</td><td>========</td><td>===</td></tr>
+          <tr><td>/dev/sda</td><td>Hitachi</td><td>HDS101</td><td>931.51 GB</td><td>no</td></tr>
+          <tr><td>/dev/sdb</td><td>Generic</td><td>USB DISK 20X</td><td>119.00 MB</td><td>yes</td></tr>
+          <tr style="background:#000; color:#FFF;"><td>/dev/sdc</td><td>Corsair</td><td>Voyager</td><td>15.12 GB</td><td>yes</td></tr>
+          <tr><td>/dev/sdd</td><td>Toshiba</td><td>DT888</td><td>298.09 GB</td><td>no</td></tr>
+          <tr style="background:#000; color:#FFF;"><td>/dev/sde</td><td>Kingston</td><td>USB FlashDisk</td><td>3.71 GB</td><td>yes</td></tr>
+        </table></div><br>
+        Select a USB drive at least 1 GB in capacity.</td>
+      </tr>
+      <tr><td><img src="num2.png" /></td>
+        <td><h3><u>WARNING</u>: This will DELETE ALL CONTENTS of selected drive</h3>
+        <div class="codeblock notranslate">
+        <table class="codeblock notranslate">
+          <tr><td>cd ~/Downloads</td></tr>
+          <tr><td>sudo dd if=justbrowsing_YYYYMMDD.iso of=/dev/sdX bs=4M</td></tr>
+          <tr><td>sync</td></tr>
+        </table>
+        </div></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td>Reboot/Restart the computer</td>
+      </tr>
+      </table>
+
+      <h2>Boot from USB</h2>
+      <table>
+      <tr><td><img src="num4.png" /></td>
+        <td><b>Some computers: hold down key (varies) during boot to access boot menu</b>
+        <br>Common hotkeys are <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F12</font>,
+	<font class="kbd notranslate">TAB</font>, <font class="kbd notranslate">C</font>, <font class="kbd notranslate">Right-Click</font></td>
+      </tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><br><b>Select USB to boot</b></td>
+      </tr>
+      <tr><td><br><h2>OR</h2><br></td></tr>
+      <tr><td><img src="num4.png" /></td>
+        <td><br><b>All computers: hold down key (varies) during boot to enter BIOS setup</b>
+        <br>Common hotkeys are <font class="kbd notranslate">ESC</font>, <font class="kbd notranslate">F1</font>, 
+	<font class="kbd notranslate">F2</font>, <font class="kbd notranslate">F8</font>, <font class="kbd notranslate">F10</font>, 
+	<font class="kbd notranslate">F11</font>, <font class="kbd notranslate">F12</font>, <font class="kbd notranslate">DEL</font></td>
+      </tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><br><br><b>Change Boot order/priority to USB 1st (top of the list) using on-screen instructions</b>
+        <br>Save and exit
+        </td>
+      </tr>
+      </table>
+
+      <h2>Bootloader</h2>
+      <table>
+      <tr><td><img src="num6.png" /></td>
+        <td>SYSLINUX boot menu
+        <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        and <font class="kbd notranslate">Enter</font></td>
+        <td><a href="syslinux.png"><img class="resize" src="syslinux.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num7.png" /></td>
+        <td>Splash screen</td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+
+      <h2>Additional notes</h2>
+      <table>
+      <tr><td><img src="num8.png" /></td>
+        <td><ul>
+        <li>This method utilizes a <a href="http://www.syslinux.org/wiki/index.php/Doc/isolinux#HYBRID_CD-ROM.2FHARD_DISK_MODE">hybridized ISO</a></li>
+        <li>To <a href="https://wiki.archlinux.org/index.php/USB_Flash_Installation_Media#How_to_restore_the_USB_drive">restore the drive</a> to full capacity, the first 512 bytes must be zeroed out</li>
+        </ul></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="usb_osx"></a>
+    <div id="STARTusb_osx" class="START step2">
+    Mac OSX USB instructions coming soon...
+    </div>
+  </div>
+
+  <!-- VM -->
+  <a name="vm"></a>
+  <div id="STARTvm" class="START step2">
+  <font style="font-size:x-large">Step 2. Select Emulator</font>
+  <br>
+  <a id="chooseVM_QEMU" class="choice" href="#vm_qemu"><img src="panel-qemu.png" alt="QEMU" /></a>
+  <a id="chooseVM_VIRTUALBOX" class="choice" href="#vm_virtualbox"><img src="panel-virtualbox.png" alt="VirtualBox" /></a>
+  <a id="chooseVM_CREATEVBOX" class="choice" href="#vm_virtualbox_alt"><img src="panel-virtualbox-alt.png" alt="VirtualBox Alt" /></a>
+  <!--<a id="chooseVM_VMWARE" class="choice" href="#vm_vmware"><img src="panel-vmware.png" /><br>VMware</a>-->
+
+    <a name="vm_qemu"></a>
+    <div id="STARTvm_qemu" class="START step2">
+      <h2>QEMU Script</h2><br>
+      <table>
+      <tr><td><img src="num1.png" /></td>
+      <td><b>Run commands</b></td>
+      <td><div class="codeblock notranslate">
+        <table class="codeblock notranslate">
+          <tr><td>git clone https://github.com/justbrowsing/justbrowsing-remaster
+          <br>cd justbrowsing-remaster
+          <br>./qemu-iso ~/Downloads/justbrowsing_YYYYMMDD.iso</td></tr>
+        </table></div><br></td></tr>
+      <tr><td><img src="num2.png" /></td>
+        <td>Note: For resolutions greater than 1024x768 pass <font class="codeinline">-vga vmware</font> to QEMU
+        <br><b>Select entry with </b><font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        <b>and</b> <font class="kbd notranslate">Enter</font>
+        <br>Choose virtual machine (QEMU + VMware)</td>
+        <td><a href="vmware-driver.png"><img class="resize" src="vmware-driver.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td><b>Select a screen resolution entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        <br>OR edit entry with <font class="kbd notranslate">TAB</font> and set <font class="codeinline notranslate">display=</font> to desired resolution
+        <br><b>Press</b> <font class="kbd notranslate">Enter</font> to boot</td>
+        <td><a href="vbox-resolution.png"><img class="resize" src="vbox-resolution.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num4.png" /></td>
+        <td>Splash screen
+        <br><b>(note: bootsplash not displayed with VMware driver)</b></td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+
+      <h2>Full QEMU command</h2><br>
+        <div class="codeblock notranslate">
+        <script notranslate src="https://gist.github.com/justbrowsing/9896d86b2f6be7f39b24.js"></script>
+        </div><br>
+
+      <h2>Parameter breakdown</h2><br>
+        <table class="codeinline notranslate">
+          <tr><td>QEMU_AUDIO_DRV=alsa</td><td>environmental variable to enable audio</td></tr>
+          <tr><td>qemu-system-x86_64</td><td>QEMU executable</td></tr>
+          <tr><td>-enable-kvm</td><td>enable KVM</td></tr>
+          <tr><td>-m 2000</td><td>set RAM to 2GB</td></tr>
+          <tr><td>-machine type=pc,accel=kvm</td><td>force KVM</td></tr>
+          <tr><td>-cpu host</td><td>match emulated CPU to host system</td></tr>
+          <tr><td>-vga vmware</td><td>set GPU hardware to vmware driver</td></tr>
+          <tr><td>-soundhw ac97</td><td>set audio hardware to AC97</td></tr>
+          <tr><td>-cdrom justbrowsing_YYYYMMDD.iso</td><td>set ISO to boot</td></tr>
+      </table>
+    </div>
+
+    <a name="vm_virtualbox"></a>
+    <div id="STARTvm_virtualbox" class="START step2">
+      <h2>Recommended: Use OVA Virtual Appliance</h2>
+      <p>Open Virtualization Archive (OVA) is a portable Virtual Appliance bundle containing a Virtual Machine.
+      <br>JustBrowsing .ova files make it easy to test JustBrowsing or distribute across a computer lab.</p><br>
+
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td><a href="https://sourceforge.net/projects/justbrowsing/files/Virtual/"><b>Download OVA file</b></a></td>
+      </tr>
+      <tr><td><h2>OR</h2></td></tr>
+      <tr><td><img src="num1.png" /></td>
+        <td>Convert ISO to OVA</td>
+        <td><div class="codeblock notranslate">
+          <table class="codeblock notranslate">
+            <tr><td>git clone https://github.com/justbrowsing/justbrowsing-remaster
+            <br>cd justbrowsing-remaster
+            <br>./iso2ova ~/Downloads/justbrowsing_YYYYMMDD.iso</td></tr>
+          </table>
+        </div></td>
+      </tr>
+
+      <tr><td><br><br><img src="num2.png" /></td>
+        <td><b>Open Downloads folder</b>
+        <br><font class="kbd notranslate">Double-click</font> OVA file</td>
+        <td><img src="vbox-ova.png" /></td>
+      </tr>
+
+      <tr><td><img src="num3.png" /></td>
+        <td><u>Note</u>: may need to run <font class="codeinline">modprobe vboxdrv</font>
+        <br><b>Press Import</b></td>
+        <td><img src="vbox-import.png" /></td>
+      </tr>      
+      <tr><td><img src="num4.png" /></td>
+        <td><b>Press Start</b>
+        <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        and <font class="kbd notranslate">Enter</font>
+        <br><b>Choose virtual machine (VirtualBox)</b></td>
+        <td><a href="vbox-driver.png"><img class="resize" src="vbox-driver.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><b>Select a screen resolution entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        <br>OR edit entry with <font class="kbd notranslate">TAB</font> and set <font class="codeinline notranslate">display=</font> to desired resolution
+        <br><b>Press</b> <font class="kbd notranslate">Enter</font> to boot</td>
+        <td><a href="vbox-resolution.png"><img class="resize" src="vbox-resolution.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td>Splash screen</td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="vm_virtualbox_alt"></a>
+    <div id="STARTvm_virtualbox_alt" class="START step2">
+      <h2>Alternate: Create Virtual Machine</h2>
+      <p>Note: The <a href="#vm_virtualbox">OVA bundles</a> a <b>JUSTDATA</b> labeled harddrive for the config file, use that instead.<br>
+
+      <table>
+      <tr><td><img src="num1.png" /></td>
+        <td><u>Note</u>: may need to run <font class="codeinline">modprobe vboxdrv</font>
+        <br><b>Open VirtualBox</b>
+        <br>Press New</td>
+        <td><img src="vbox-new.png" /></td>
+      </tr>
+      <tr><td><img src="num2.png" /></td>
+        <td><b>Set name (Just Browsing), type (Linux), version (Arch Linux)</b>
+        <br>Set RAM to allocate (not more than half host system's RAM)
+        <br><b>Select Do not add a virtual hard drive</b>
+        <br>Press Continue on the warning</td>
+        <td><img src="virtualbox.gif" /></td>
+      </tr>
+      <tr><td><img src="num3.png" /></td>
+        <td><b>Press Settings</b>
+        <br>Select Storage
+        <br><b>Empty CD/DVD drive</b>
+        <br>Browse for justbrowsing_YYYYMMDD.iso
+        <br><b>Check the Live CD/DVD box</b></td>
+        <td><a href="vbox-settings.png"><img class="resize" src="vbox-settings.resized.png" /></a>
+      </tr>
+      <tr><td><img src="num4.png" /></td>
+        <td><b>Press Start</b>
+        <br>Select entry with <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        and <font class="kbd notranslate">Enter</font>
+        <br><b>Choose virtual machine (VirtualBox)</b></td>
+        <td><a href="vbox-driver.png"><img class="resize" src="vbox-driver.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num5.png" /></td>
+        <td><b>Select a screen resolution entry with</b> <font class="kbd notranslate">&uarr;</font> <font class="kbd notranslate">&darr;</font>
+        <br>OR edit entry with <font class="kbd notranslate">TAB</font> and set <font class="codeinline notranslate">display=</font> to desired resolution
+        <br><b>Press</b> <font class="kbd notranslate">Enter</font> to boot</td>
+        <td><a href="vbox-resolution.png"><img class="resize" src="vbox-resolution.resized.png" /></a></td>
+      </tr>
+      <tr><td><img src="num6.png" /></td>
+        <td>Splash screen</td>
+        <td><a href="splash.png"><img class="resize" src="splash.resized.png" /></a></td>
+      </tr>
+      </table>
+    </div>
+
+    <a name="vm_vmware"></a>
+    <div id="STARTvm_vmware" class="START step2">
+    VMware install...
+    </div>
+  </div>
+
+  <!-- PXE -->
+  <a name="pxe"></a>
+  <div id="STARTpxe" class="START step2">
+  <font style="font-size:x-large">Step 2. Select PXE method</font>
+  <br>
+  <a id="choosePXE_IPXE" class="choice" href="#pxe_ipxe"><img src="panel-qemu.png" /><br>iPXE</a>
+  <a id="choosePXE_HTTP" class="choice" href="#pxe_http"><img src="panel-qemu.png" /><br>HTTP</a>
+  <a id="choosePXE_NFS" class="choice" href="#pxe_nfs"><img src="panel-qemu.png" /><br>NFS</a>
+  <a id="choosePXE_NBD" class="choice" href="#pxe_nbd"><img src="panel-qemu.png" /><br>NBD</a>
+
+    <a name="pxe_ipxe"></a>
+    <div id="STARTpxe_ipxe" class="START step2">
+      <h2>iPXE Server</h2><br>
+      <h2>iPXE Client</h2><br>
+    </div>
+
+    <a name="pxe_http"></a>
+    <div id="STARTpxe_http" class="START step2">
+      <h2>PXE HTTP Server</h2><br>
+      <h2>PXE HTTP Client</h2><br>
+    </div>
+
+    <a name="pxe_nfs"></a>
+    <div id="STARTpxe_nfs" class="START step2">
+      <h2>PXE NFS Server</h2><br>
+      <h2>PXE NFS Client</h2><br>
+    </div>
+
+    <a name="pxe_nbd"></a>
+    <div id="STARTpxe_nbd" class="START step2">
+      <h2>PXE NBD Server</h2><br>
+      <h2>PXE NBD Client</h2><br>
+    </div>
+
+  </div>
+
+</div>
+<br><br>
+
+<div align="center">
+<a href="/oldstart">old page</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://justbrowsinglinux.com/old/#quickstart">old site</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<script type="text/javascript">
+var sc_project=8731705;
+var sc_invisible=0;
+var sc_security="238c831f";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter">
+<a alt="web analytics" href="http://statcounter.com/" target="_blank">
+<img class="statcounter" src="https://c.statcounter.com/12125591/0/b5be2374/1/" alt="web analytics"></a></div>
+</noscript>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-40026407-1', 'justbrowsing.info');
+  ga('send', 'pageview');
+</script>
+</div>
+<br><br><br>
+<!-- end content -->
+
+<!-- begin footer -->
+<div id="footer">
+  <div id="adeskbar" class="panel">
+    <table width="100%"><tr>
+      <td class="browser" align="left">
+        <table><tr>
+        <td><a href="https://github.com/justbrowsing/justbrowsing-chrome-profile" title="Google Chrome">
+        <img class="browsers sprite-chrome24" src="/includes/sprite.png" alt="Google Chrome icon" /></a></td>
+        <td><a href="https://github.com/justbrowsing/justbrowsing-firefox-profile" title="Mozilla Firefox">
+        <img class="browsers sprite-firefox24" src="/includes/sprite.png" alt="Mozilla Firefox icon" /></a></td>
+        <td><a href="https://github.com/justbrowsing/jb-config" title="Settings">
+        <img class="browsers sprite-gears24" src="/includes/sprite.png" alt="gears icon" /></a></td>
+        </tr></table>
+      </td>
+
+      <td class="webapps" align="right">
+        <table><tr>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-notes/" title="Notes web-app">
+        <img class="webapps sprite-notes24" src="/includes/sprite.png" alt="Note icon" /></a></td>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-calculator/" title="Calculator web-app">
+        <img class="webapps sprite-calc24" src="/includes/sprite.png" alt="Calc icon" /></a></td>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-timers/" title="Timers web-app">
+        <img class="webapps sprite-timer24" src="/includes/sprite.png" alt="Timer icon" /></a></td>
+        <td><a href="https://github.com/justbrowsing/justbrowsing-email" title="Email web-app">
+        <img class="webapps sprite-email24" src="/includes/sprite.png" alt="Email icon" /></a></td>
+        <td><a href="http://justbrowsing.github.com/justbrowsing-wageclock/" title="Wageclock web-app">
+        <img class="webapps sprite-wageclock24" src="/includes/sprite.png" alt="Wageclock icon" /></a></td>
+        </tr></table>
+      </td>
+
+      <td class="applets" align="right">
+        <table><tr>
+        <td><a href="https://aur.archlinux.org/packages/network-manager-applet-gtk2/" title="network applet">
+        <img class="applets sprite-nmapplet24" src="/includes/sprite.png" alt="NetworkManager icon" /></a></td>
+        <td><a href="https://aur.archlinux.org/packages/pnmixer/" title="volume applet">
+        <img class="applets sprite-pnmixer24" src="/includes/sprite.png" alt="volume icon" /></a></td>
+        <td><a href="https://github.com/justbrowsing/jbxkb" id="language" title="Unknown locale">
+        <img class="applets" src="/flags/zz.png" id="flag" alt="jbxkb" /></a></td>
+        <td id="date" class="applets" title="Date">Sat Dec 28, 2013</td>
+        <td id="clock" class="applets" title="Clock">7:36 PM</td>
+        </tr></table>
+      </td>
+
+      <td class="power" align="right">
+        <table><tr>
+        <td><a href="http://justbrowsinglinux.com/advanced/#lockscreen" title="Lock Screen">
+        <img class="power sprite-lock24" src="/includes/sprite.png" alt="lock icon" /></a></td>
+        <td><a href="#home" title="Reboot">
+        <img class="power sprite-reboot24" src="/includes/sprite.png" alt="reboot icon" /></a></td>
+        <td><a href="http://justbrowsinglinux.com/#home" title="Shutdown">
+        <img class="power sprite-shutdown24" src="/includes/sprite.png" alt="shutdown icon" /></a></td>
+        </tr></table>
+      </td>
+    </tr></table>
+  </div>
+</div>
+<!-- end footer -->
+
+<!-- begin scripts -->
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, gaTrack: true, gaId: 'UA-40026407-1'}, 'google_translate_element'); }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript" src="/includes/date-en-US.min.js"></script>
+<script type="text/javascript" src="/includes/clockapplet.js"></script>
+<script type="text/javascript" src="/includes/jb-locale.js"></script>
+<script type="text/javascript">timedate();</script>
+<script type="text/javascript">locale();</script>
+<!-- end scripts -->
+</body>
 </html>
